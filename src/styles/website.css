@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  /* position: relative; */
+  align-items: center;
+  /* flex-wrap: wrap; */
+  width: 100%;
+  height: 50px;
+  min-height: 100px;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 0 7px #707070;
+  align-self: center;
+}
+.logo-img {
+  width: 25%;
+  margin-right: 40px;
+  height: 100px;
+}
+.logo {
+  font-size: 30px;
+  color: rgb(255, 0, 0);
+  margin-right: 30px;
+  font-family: "Georgia", serif;
+  padding-top: 3px;
+}
+
+.search-box {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.search-box input {
+  padding: 12px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  width: 380px;
+  border: #404040;
+  box-shadow: 0 0 10px #707070;
+}
+
+.search-box :hover {
+  box-shadow: 0 0 10px color(white);
+}
+
+/* .button-Logout {
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 20px;
+  padding: 7px 12px;
+  border: 1px solid #d5d5d5;
+  background-image: linear-gradient(#eee, #ddd);
+  font:
+    700 13px/18px Helvetica,
+    arial;
+}
+.button-Logout:active {
+  opacity: 0.8;
+} */
+.button-search {
+  margin-left: 5px;
+  border-radius: 25px;
+  font-weight: bold;
+  padding: 7px 12px;
+}
+.movie-card__image {
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: fill;
+  border-color: rgb(184, 174, 174);
+  border-style: solid;
+  background-color: rgb(94, 94, 94);
+  border-width: 4px;
+  border-radius: 15px;
+  margin-top: 0.4%;
+}
+.movie-card__title {
+  font-family: serif;
+  font-size: 15px;
+  text-align: start;
+  color: #d4d4d4;
+}
+
+.movie-card__year {
+  font-size: 13px;
+  text-align: start;
+  margin-bottom: 80px;
+  color: #d4d4d4;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #d4d4d4;
+  background-color: black;
+  padding: 10px 20px;
+}
+
+.title:hover {
+  text-decoration: underline;
+}
+
+.title:active {
+  opacity: 0.8;
+}
+
+div.movie-card {
+  background-color: #000000;
+  overflow-y: hidden;
+  white-space: nowrap;
+  height: 415px;
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+div.movie-card a {
+  display: inline-block;
+  height: auto;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+div.movie-card a:hover {
+  background-color: #1a1717;
+  border-radius: 20px;
+}
+
+.ul {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+ul a {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  height: 25px;
+  width: 90px;
+  font-size: 20px;
+  padding: 10px 20px;
+  display: block;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.4s all;
+}
+ul a:hover {
+  background-color: rgb(211, 38, 38);
+}
+section {
+  float: left;
+}
+section img {
+  width: 300px;
+  height: 300px;
+  display: none;
+  margin: 10px;
+  float: left;
+}
+section :target img {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+  }
+  .navbar {
+    display: flex;
+    padding: 15px;
+  }
+  .movie-card__image {
+    width: 200px;
+    height: 270px;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .logo {
+    font-size: 18px;
+  }
+}

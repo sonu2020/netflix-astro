@@ -1,0 +1,452 @@
+---
+import "../styles/website.css";
+import Header from "../components/Header.astro";
+import MovieCard from "../components/MovieCard.astro";
+import { Classic_malayalam_Movies } from "../data/movies";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MalluFlix</title>
+  </head>
+  <Header />
+  <div class="movie-card">
+    {
+      Classic_malayalam_Movies.map((movie) => (
+        <MovieCard
+          image={movie.image}
+          title={movie.title}
+          year={movie.year}
+          link={movie.link}
+        />
+      ))
+    }
+  </div>
+  <h1 class="title">Popular Malayalam movies&#xBB;</h1>
+  <div class="movie-card">
+    <MovieCard
+      image="/thumbnails/narasimham.jpg"
+      title="Narasimham"
+      year="2000"
+      link="https://www.youtube.com/results?search_query=Narasimham+Malayalam+full+movie"
+    />
+
+    <MovieCard
+      image="/thumbnails/ravanaprabhu.jpg"
+      title="Ravanaprabhu"
+      year="2001"
+      link="https://www.youtube.com/results?search_query=Ravanaprabhu+Malayalam+full+movie"
+    />
+
+    <MovieCard
+      image="/thumbnails/meeshamadhavan.jpg"
+      title="Meesha Madhavan"
+      year="2002"
+      link="https://www.youtube.com/results?search_query=Meesha+Madhavan+Malayalam+full+movie"
+    />
+
+    <MovieCard
+      image="/thumbnails/nandanam.jpg"
+      title="Nandanam"
+      year="2002"
+      link="https://www.youtube.com/results?search_query=Nandanam+Malayalam+full+movie"
+    />
+
+    <MovieCard
+      image="/thumbnails/cid-moosa.jpg"
+      title="CID Moosa"
+      year="2003"
+      link="https://www.youtube.com/results?search_query=CID+Moosa+Malayalam+full+movie"
+    />
+
+    <MovieCard
+      image="/thumbnails/balettan.jpg"
+      title="Balettan"
+      year="2003"
+      link="https://www.youtube.com/results?search_query=Balettan+Malayalam+full+movie"
+    />
+
+    <MovieCard
+      image="/thumbnails/udayananu-tharam.jpg"
+      title="Udayananu Tharam"
+      year="2005"
+      link="https://www.youtube.com/results?search_query=Udayananu+Tharam+Malayalam+full+movie"
+    />
+
+    <MovieCard
+      image="/thumbnails/classmates.jpg"
+      title="Classmates"
+      year="2006"
+      link="https://www.youtube.com/results?search_query=Classmates+Malayalam+full+movie"
+    />
+  </div>
+  <h1 class="title">Malayalam Full Movies &#xBB;</h1>
+
+  <div class="movie-card">
+    <MovieCard
+      image="/thumbnails/summer-in-bethlehem.jpg"
+      title="Summer in Bethlehem"
+      year="1998"
+      link="https://www.youtube.com/results?search_query=Summer+in+Bethlehem+full+movie"
+    />
+
+    <MovieCard
+      image="/thumbnails/manjupoloru-penkutti.jpg"
+      title="Manjupoloru Penkutti"
+      year="2004"
+      link="https://www.youtube.com/results?search_query=Manjupoloru+Penkutti+full+movie"
+    />
+
+    <MovieCard
+      image="/thumbnails/mayilpeelikkavu.jpg"
+      title="Mayilpeelikkavu"
+      year="1998"
+      link="https://www.youtube.com/results?search_query=Mayilpeelikkavu+full+movie"
+    />
+
+    <MovieCard
+      image="/thumbnails/orkkapurathu.jpg"
+      title="Orkkapurathu"
+      year="1988"
+      link="https://www.youtube.com/results?search_query=Orkkapurathu+full+movie"
+    />
+
+    <MovieCard
+      image="/thumbnails/vazhiyorakkazhchakal.jpg"
+      title="Vazhiyorakkazhchakal"
+      year="1987"
+      link="https://www.youtube.com/results?search_query=Vazhiyorakkazhchakal+full+movie"
+    />
+
+    <MovieCard
+      image="/thumbnails/vilakku-vangiya-veena.jpg"
+      title="Vilakku Vangiya Veena"
+      year="1971"
+      link="https://www.youtube.com/results?search_query=Vilakku+Vangiya+Veena+full+movie"
+    />
+  </div>
+  <h1 class="title">Top Tamil Movies &#xBB;</h1>
+  <div class="movie-card">
+    <MovieCard
+      image="/thumbnails/sivaji.jpg"
+      title="Sivaji: The Boss"
+      year="2007"
+      link="https://www.youtube.com/results?search_query=Sivaji+The+Boss+full+movie+AP+International"
+    />
+
+    <MovieCard
+      image="/thumbnails/enthiran.jpg"
+      title="Enthiran (Robot)"
+      year="2010"
+      link="https://www.youtube.com/results?search_query=Enthiran+full+movie+AP+International"
+    />
+
+    <MovieCard
+      image="/thumbnails/baasha.jpg"
+      title="Baasha"
+      year="1995"
+      link="https://www.youtube.com/results?search_query=Baasha+full+movie+official"
+    />
+
+    <MovieCard
+      image="/thumbnails/velayudham.jpg"
+      title="Velayudham"
+      year="2011"
+      link="https://www.youtube.com/results?search_query=Velayudham+full+movie+official"
+    />
+
+    <MovieCard
+      image="/thumbnails/aadhavan.jpg"
+      title="Aadhavan"
+      year="2009"
+      link="https://www.youtube.com/results?search_query=Aadhavan+full+movie+official"
+    />
+
+    <MovieCard
+      image="/thumbnails/sathuranga-vettai.jpg"
+      title="Sathuranga Vettai"
+      year="2014"
+      link="https://www.youtube.com/results?search_query=Sathuranga+Vettai+full+movie+official"
+    />
+
+    <MovieCard
+      image="/thumbnails/kaadhal.jpg"
+      title="Kaadhal"
+      year="2004"
+      link="https://www.youtube.com/results?search_query=Kaadhal+2004+full+movie+official"
+    />
+
+    <MovieCard
+      image="/thumbnails/anbe-sivam.jpg"
+      title="Anbe Sivam"
+      year="2003"
+      link="https://www.youtube.com/results?search_query=Anbe+Sivam+full+movie+official"
+    />
+
+    <MovieCard
+      image="/thumbnails/pariyerum-perumal.jpg"
+      title="Pariyerum Perumal"
+      year="2018"
+      link="https://www.youtube.com/results?search_query=Pariyerum+Perumal+full+movie+official"
+    />
+  </div>
+
+  <!-- <h1 class="title">Latest Malayalam &#xBB;</h1>
+
+<div class="movie-card">
+  <MovieCard
+    image="/thumbnails/kurup.jpg"
+    title="Kurupp"
+    year="2022"
+    link="https://www.youtube.com/watch?v=L13AUL0HkDk"
+  />
+
+  <MovieCard
+    image="/thumbnails/oremam.jpg"
+    title="Premam"
+    year="2015"
+    link="https://www.youtube.com/watch?v=pbgvTikmIMk"
+  />
+
+  <MovieCard
+    image="/thumbnails/ajagaja.jpg"
+    title="Ajagajantharam"
+    year="2022"
+    link="https://www.youtube.com/watch?v=zAGVQLHvwOY"
+  />
+
+  <MovieCard
+    image="/thumbnails/carbon movie.jpg"
+    title="Carbon"
+    year="2020"
+    link="https://www.youtube.com/watch?v=UISTDTV-PI4"
+  />
+
+  <MovieCard
+    image="/thumbnails/underworld.png"
+    title="Underworld"
+    year="2023"
+    link="https://www.youtube.com/watch?v=Af3cjNPhM4o"
+  />
+
+  <MovieCard
+    image="/thumbnails/kaduva.png"
+    title="Kaduva"
+    year="2022"
+    link="https://www.youtube.com/watch?v=Af3cjNPhM4o"
+  />
+
+  <MovieCard
+    image="/thumbnails/mayanadhi.png"
+    title="Mayanadhi"
+    year="2019"
+    link="https://www.youtube.com/watch?v=zAGVQLHvwOY"
+  />
+</div> -->
+  <h1 class="title">Top Hindi Movies &#xBB;</h1>
+
+  <div class="movie-card">
+    <MovieCard
+      image="/thumbnails/hindi.jpg"
+      title="Tiger 3"
+      year="2023"
+      link="https://www.youtube.com/watch?v=vEjTUDjjU6A"
+    />
+
+    <MovieCard
+      image="/thumbnails/hindi2.jpg"
+      title="Dangal"
+      year="2015"
+      link="https://www.youtube.com/watch?v=vEjTUDjjU6A"
+    />
+
+    <MovieCard
+      image="/thumbnails/hindi3.jpg"
+      title="Padmavat"
+      year="2022"
+      link="https://www.youtube.com/watch?v=vEjTUDjjU6A"
+    />
+
+    <MovieCard
+      image="/thumbnails/hindi4.jpg"
+      title="Uri"
+      year="2020"
+      link="https://www.youtube.com/watch?v=AdwGOloQcAs"
+    />
+
+    <MovieCard
+      image="/thumbnails/hindi5.jpg"
+      title="Padmavat Tamil"
+      year="2022"
+      link="https://www.youtube.com/watch?v=Af3cjNPhM4o"
+    />
+
+    <MovieCard
+      image="/thumbnails/hindi6.jpg"
+      title="Kaabil"
+      year="2017"
+      link="https://www.youtube.com/watch?v=bROIs4zMgjo"
+    />
+  </div>
+
+  <h1 class="title">Top English Movies &#xBB;</h1>
+
+  <div class="movie-card">
+    <MovieCard
+      image="/thumbnails/eng1.jpg"
+      title="Joker"
+      year="2019"
+      link="https://www.youtube.com/watch?v=zAGVQLHvwOY"
+    />
+
+    <MovieCard
+      image="/thumbnails/eng2.jpg"
+      title="Monster"
+      year="2021"
+      link="https://www.youtube.com/watch?v=zAGVQLHvwOY"
+    />
+
+    <MovieCard
+      image="/thumbnails/eng3.jpg"
+      title="John Wick"
+      year="2019"
+      link="https://www.youtube.com/watch?v=zAGVQLHvwOY"
+    />
+
+    <MovieCard
+      image="/thumbnails/eng4.jpg"
+      title="The Conjuring 2"
+      year="2022"
+      link="https://www.youtube.com/watch?v=zAGVQLHvwOY"
+    />
+
+    <MovieCard
+      image="/thumbnails/eng5.jpg"
+      title="Body Of Files"
+      year="2023"
+      link="https://www.youtube.com/watch?v=zAGVQLHvwOY"
+    />
+
+    <MovieCard
+      image="/thumbnails/eng6.jpg"
+      title="Captain America"
+      year="2012"
+      link="https://www.youtube.com/watch?v=zAGVQLHvwOY"
+    />
+
+    <MovieCard
+      image="/thumbnails/eng7.jpg"
+      title="Tenet"
+      year="2024"
+      link="https://www.youtube.com/watch?v=zAGVQLHvwOY"
+    />
+  </div>
+
+  <!-- <h1 class="title">Old Movies &#xBB;</h1>
+<div class="movie-card">
+  <MovieCard
+    image="/thumbnails/images-2.jpg"
+    title="Sakhav"
+    year="2019"
+    link="https://www.youtube.com/watch?v=zAGVQLHvwOY"
+  />
+
+  <MovieCard
+    image="/thumbnails/images.jpg"
+    title="Kaamuki"
+    year="2018"
+    link="https://www.youtube.com/watch?v=zAGVQLHvwOY"
+  />
+
+  <MovieCard
+    image="/thumbnails/koothara.jpg"
+    title="Koothara"
+    year="2016"
+    link="https://www.youtube.com/watch?v=zAGVQLHvwOY"
+  />
+
+  <MovieCard
+    image="/thumbnails/iyyob.jpg"
+    title="Iyobinte Pusthakam"
+    year="2014"
+    link="https://www.youtube.com/watch?v=zAGVQLHvwOY"
+  />
+
+  <MovieCard
+    image="/thumbnails/vaaya.jpg"
+    title="Vazha 2"
+    year="2022"
+    link="https://www.youtube.com/watch?v=zAGVQLHvwOY"
+  />
+
+  <MovieCard
+    image="/thumbnails/neelakasham.jpg"
+    title="Neelakasham Pachakadal Chuvanna Bhoomi"
+    year="2013"
+    link="https://www.youtube.com/watch?v=6XruBxAL4ek"
+  />
+
+  <MovieCard
+    image="/thumbnails/padayotam.jpg"
+    title="Padayottam"
+    year="2019"
+    link="https://www.youtube.com/watch?v=v0-J9V6bZS8"
+  />
+</div> -->
+
+  <h1 class="title">Latest Tamil Movies &#xBB;</h1>
+
+  <div class="movie-card">
+    <MovieCard
+      image="/thumbnails/leo.jpg"
+      title="Leo"
+      year="2023"
+      link="https://www.youtube.com/watch?v=Po3jStA673E"
+    />
+
+    <MovieCard
+      image="/thumbnails/vikram.jpg"
+      title="Vikram"
+      year="2022"
+      link="https://www.youtube.com/watch?v=OKBMCL-frPU"
+    />
+
+    <MovieCard
+      image="/thumbnails/jailer.jpg"
+      title="Jailer"
+      year="2023"
+      link="https://www.youtube.com/watch?v=Y5BeWdODPqo"
+    />
+
+    <MovieCard
+      image="/thumbnails/master.jpg"
+      title="Master"
+      year="2021"
+      link="https://www.youtube.com/watch?v=UTiXQcrLlv4"
+    />
+
+    <MovieCard
+      image="/thumbnails/ponniyin-selvan.jpg"
+      title="Ponniyin Selvan: Part 1"
+      year="2022"
+      link="https://www.youtube.com/watch?v=D4qAQYlgZQs"
+    />
+
+    <MovieCard
+      image="/thumbnails/kaithi.jpg"
+      title="Kaithi"
+      year="2019"
+      link="https://www.youtube.com/watch?v=3g3qHyqdn4E"
+    />
+
+    <MovieCard
+      image="/thumbnails/thunivu.jpg"
+      title="Thunivu"
+      year="2023"
+      link="https://www.youtube.com/watch?v=jnBZboK17_A"
+    />
+  </div>
+
+
+</html>

@@ -1,0 +1,12 @@
+---
+const { image, title, year, link } = Astro.props;
+---
+
+<a href={link} target="_blank">
+  <img class="movie-card__image" src={image} alt={title} />
+
+  <div class="body">
+    <h3 class="movie-card__title">{title}</h3>
+    <p class="movie-card__year">{year}</p>
+  </div>
+</a>
