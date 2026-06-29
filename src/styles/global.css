@@ -1,54 +1,49 @@
 body {
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
-  /* width: 500px; */
-  background-color: #000;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  background: #0b0b0b;
+  color: #f5f5f5;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
 }
 .navbar {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  flex-wrap: wrap;
-  padding: 15px;
-  flex-wrap: wrap;
-}
-.logo-img {
-  width: 25%;
-  margin-right: 40px;
-  height: 100px;
-}
-.logo {
-  font-size: 30px;
-  color: rgb(255, 0, 0);
-  margin-right: 30px;
-  font-family: "Georgia", serif;
-  padding-top: 3px;
+  padding: 15px 25px;
+  background: rgba(0, 0, 0, 0.9);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(10px);
 }
 
 .search-box input {
   padding: 12px;
-  background-color: rgb(255, 255, 255);
+  background: #1a1a1a;
   border-radius: 25px;
   width: 380px;
-  border: #404040;
-  box-shadow: 0 0 10px #707070;
+  color: white;
+  border: #fdfdfd;
+  margin-left: 30px;
+  margin-top: 15px;
+  box-shadow: 0 0 10px #ececec;
 }
 
 .search-box :hover {
   box-shadow: 0 0 10px color(white);
 }
+
 .search-results {
   position: absolute;
   top: 80px;
   left: 0;
   width: 100%;
   background: #000000;
-  z-index: 100;
+  /* z-index: 100; */
   padding: 16px;
   min-height: 100vh;
-
+  margin-top: 50px;
   cursor: pointer;
 }
 .search-input {
@@ -61,6 +56,8 @@ body {
 .search-button {
   margin-left: 20px;
   border-radius: 25px;
+  background: #1a1a1a;
+  color: rgb(118, 118, 118);
   font-weight: bold;
   padding: 12px;
 }
@@ -68,7 +65,6 @@ body {
   width: 300px;
   height: 300px;
   border-radius: 15px;
-
   transition: all 0.3s ease;
   cursor: pointer;
 }
@@ -87,15 +83,14 @@ body {
   font-size: 13px;
   text-align: start;
   margin-bottom: 80px;
-  color: #d4d4d4;
+  color: #b3b3b3;
 }
 
 .title {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  color: #d4d4d4;
-  background-color: black;
+  font-size: 26px;
+  font-weight: 700;
+  margin: 20px;
+  color: white;
   padding: 10px 20px;
 }
 
@@ -118,9 +113,11 @@ div.movie-card {
 }
 
 div.movie-card a {
+  font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
+
   height: auto;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 20px;
   margin-bottom: 20px;
@@ -165,6 +162,42 @@ section img {
 }
 section :target img {
   display: block;
+}
+.footer {
+  background-color: #111;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 50px;
+  border-top: 1px solid #333;
+}
+
+.footer-logo {
+  color: #e50914;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  color: #cccccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #e50914;
+}
+
+.footer-copy {
+  color: #777;
+  font-size: 14px;
 }
 @media (max-width: 768px) {
   .navbar {

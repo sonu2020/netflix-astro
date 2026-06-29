@@ -23,7 +23,7 @@ export default function MovieSearchBar({ movies }) {
 
   return (
     <div>
-      <div className="search-box">
+      <div className="search-box input">
         <input
           type="text"
           placeholder="Search movies..."
@@ -38,7 +38,7 @@ export default function MovieSearchBar({ movies }) {
 
       {submitted && (
         <div className="search-results">
-          <h2>
+          <h2 class="title">
             {filteredMovies.length > 0
               ? `Results for "${search}"`
               : `No results found for "${search}"`}
@@ -49,7 +49,7 @@ export default function MovieSearchBar({ movies }) {
                 key={movie.title}
                 href={movie.link}
                 target="_blank"
-                rel="noopener noreferrer"
+                
                 style={{ textDecoration: "none" }}
               >
                 <div className="card">

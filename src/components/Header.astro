@@ -7,7 +7,6 @@ import { Top_Hindi_Movies } from "../data/movies";
 import { Top_English_Movies } from "../data/movies";
 import { Latest_Tamil_Movies } from "../data/movies";
 import { Latest_Malayalam_Movies } from "../data/movies";
-
 const allMovies = [
   ...Classic_malayalam_Movies,
   ...Popular_Malayalam_movies,
@@ -20,6 +19,6 @@ const allMovies = [
 ---
 
 <div class="navbar">
-  <img class="logo-img" src="/thumbnails/malluflixlog.png" />
+  <h2 class="footer-logo">MALLUFLIX</h2>
   <MovieSearchBar movies={allMovies} client:load />
 </div>
