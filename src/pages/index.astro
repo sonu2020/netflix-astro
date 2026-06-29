@@ -1,8 +1,10 @@
 ---
-import "../styles/website.css";
+import "../styles/global.css";
+import MovieSearch from "../components/MovieSearchBar.jsx";
+// import { malayalamMovies } from "../data/movies";
+
 import Header from "../components/Header.astro";
 import MovieCard from "../components/MovieCard.astro";
-
 import { Classic_malayalam_Movies } from "../data/movies";
 import { Popular_Malayalam_movies } from "../data/movies";
 import { Top_Tamil_Movies } from "../data/movies";
@@ -18,6 +20,7 @@ import { Latest_Malayalam_Movies } from "../data/movies";
     <title>MalluFlix</title>
   </head>
   <Header />
+
   <h1 class="title">Classic Malayalam Movies &#xBB;</h1>
   <div class="movie-card">
     {
