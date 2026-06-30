@@ -231,11 +231,17 @@ section :target img {
     height: 240px;
   }
   .title {
-    font-size: 18px;
+    font-size: 25px;
   }
   .movie-card__image:hover {
     transform: scale(1.05);
     box-shadow: 0 0 8px rgb(250, 248, 248);
+  }
+  .movie-card__title {
+    font-size: 20px;
+  }
+  .movie-card__year {
+    font-size: 17px;
   }
 }
 
