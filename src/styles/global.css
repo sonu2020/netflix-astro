@@ -8,7 +8,7 @@ body {
 }
 .navbar {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   padding: 15px 25px;
   background: rgba(0, 0, 0, 0.9);
@@ -40,7 +40,6 @@ body {
   left: 0;
   width: 100%;
   background: #000000;
-  /* z-index: 100; */
   padding: 16px;
   min-height: 100vh;
   margin-top: 50px;
@@ -54,12 +53,24 @@ body {
   outline: none;
 }
 .search-button {
-  margin-left: 20px;
+  background: #e50914;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
   border-radius: 25px;
-  background: #1a1a1a;
-  color: rgb(118, 118, 118);
   font-weight: bold;
-  padding: 12px;
+  transition: all 0.3s ease;
+  margin-left: 15px;
+  display: inline-block;
+}
+.search-button:hover {
+  background: #b20710;
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgba(229, 9, 20, 0.8);
+}
+
+.search-button:active {
+  transform: scale(0.98);
 }
 .movie-card__image {
   width: 300px;
@@ -199,36 +210,110 @@ section :target img {
   color: #777;
   font-size: 14px;
 }
+
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
     align-items: center;
     gap: 15px;
   }
-
   .logo-img {
     width: 120px;
   }
-
   .search-box {
     width: 100%;
   }
-
   .search-box input {
     width: 100%;
   }
-
   .movie-card__image {
     width: 160px;
     height: 240px;
   }
-
   .title {
     font-size: 18px;
   }
-
   .movie-card__image:hover {
     transform: scale(1.05);
     box-shadow: 0 0 8px rgb(250, 248, 248);
   }
+}
+
+.about {
+  max-width: 900px;
+
+  margin: auto;
+
+  padding: 50px 20px;
+}
+
+.about h1 {
+  color: #e50914;
+
+  font-size: 40px;
+}
+
+.about h2 {
+  margin-top: 30px;
+
+  color: white;
+}
+
+.about p {
+  color: #cccccc;
+
+  line-height: 1.8;
+}
+
+.about ul {
+  padding-left: 20px;
+}
+
+.about li {
+  margin-bottom: 10px;
+}
+
+.github-btn {
+  display: inline-block;
+
+  margin-top: 25px;
+
+  background: #e50914;
+
+  color: white;
+
+  padding: 12px 24px;
+
+  border-radius: 8px;
+
+  text-decoration: none;
+
+  transition: 0.3s;
+}
+
+.github-btn:hover {
+  background: #b20710;
+}
+
+.about-btn {
+  background: #e50914;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  margin-left: 15px;
+  display: inline-block;
+  margin-top: 12px;
+}
+
+.about-btn:hover {
+  background: #b20710;
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgba(229, 9, 20, 0.8);
+}
+
+.about-btn:active {
+  transform: scale(0.98);
 }
