@@ -1,3 +1,59 @@
+export const Top_Malayalam_Movies = [
+  {
+    image: "/thumbnails/take-off.jpg",
+    title: "Take Off",
+    year: "2017",
+    link: "https://www.youtube.com/results?search_query=Take+Off+Malayalam+full+movie+official",
+  },
+
+  {
+    image: "/thumbnails/queen.jpg",
+    title: "Queen",
+    year: "2018",
+    link: "https://www.youtube.com/results?search_query=Queen+Malayalam+full+movie+official",
+  },
+
+  {
+    image: "/thumbnails/joseph.jpg",
+    title: "Joseph",
+    year: "2018",
+    link: "https://www.youtube.com/results?search_query=Joseph+Malayalam+full+movie+official",
+  },
+
+  {
+    image: "/thumbnails/android-kunjappan.jpg",
+    title: "Android Kunjappan Version 5.25",
+    year: "2019",
+    link: "https://www.youtube.com/results?search_query=Android+Kunjappan+Version+5.25+full+movie+official",
+  },
+
+  {
+    image: "/thumbnails/helen.jpg",
+    title: "Helen",
+    year: "2019",
+    link: "https://www.youtube.com/results?search_query=Helen+Malayalam+full+movie+official",
+  },
+
+  {
+    image: "/thumbnails/vijay-superum-pournamiyum.jpg",
+    title: "Vijay Superum Pournamiyum",
+    year: "2019",
+    link: "https://www.youtube.com/results?search_query=Vijay+Superum+Pournamiyum+full+movie+official",
+  },
+
+  {
+    image: "/thumbnails/udaharanam-sujatha.jpg",
+    title: "Udaharanam Sujatha",
+    year: "2017",
+    link: "https://www.youtube.com/results?search_query=Udaharanam+Sujatha+full+movie+official",
+  },
+  {
+    image: "/thumbnails/sunday-holiday.jpg",
+    title: "Sunday Holiday",
+    year: "2017",
+    link: "https://www.youtube.com/results?search_query=Sunday+Holiday+Malayalam+full+movie+official",
+  },
+];
 export const Classic_malayalam_Movies = [
   {
     image: "/thumbnails/spadikam.jpg",
