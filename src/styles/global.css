@@ -94,6 +94,7 @@ body {
   font-size: 13px;
   text-align: start;
   margin-bottom: 80px;
+  font-weight: bold;
   color: #b3b3b3;
 }
 
@@ -247,56 +248,38 @@ section :target img {
 
 .about {
   max-width: 900px;
-
   margin: auto;
-
   padding: 50px 20px;
 }
 
 .about h1 {
   color: #e50914;
-
   font-size: 40px;
 }
-
 .about h2 {
   margin-top: 30px;
-
   color: white;
 }
-
 .about p {
   color: #cccccc;
-
   line-height: 1.8;
 }
-
 .about ul {
   padding-left: 20px;
 }
-
 .about li {
   margin-bottom: 10px;
 }
-
 .github-btn {
   display: inline-block;
-
   margin-top: 25px;
-
   background: #e50914;
-
   color: white;
-
   padding: 12px 24px;
-
   border-radius: 8px;
-
   text-decoration: none;
-
   transition: 0.3s;
 }
-
 .github-btn:hover {
   background: #b20710;
 }
@@ -316,7 +299,7 @@ section :target img {
 
 .about-btn:hover {
   background: #b20710;
-  transform: scale(1.05);
+  transform: translateY(-3px);
   box-shadow: 0 0 12px rgba(229, 9, 20, 0.8);
 }
 
@@ -330,4 +313,23 @@ section :target img {
   gap: 30px;
   padding: 20px;
   justify-items: center;
+}
+
+.movie-details {
+  max-width: 1100px;
+  margin: 60px auto;
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.movie-poster {
+  width: 250px;
+  border-radius: 15px;
+}
+
+.movie-info h1 {
+  font-size: 3rem;
+  color: #ff0000;
 }

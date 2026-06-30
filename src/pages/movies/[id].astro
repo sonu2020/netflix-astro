@@ -1,0 +1,68 @@
+---
+import {
+  Top_Malayalam_Movies,
+  Trending_Movies,
+  Classic_malayalam_Movies,
+  Popular_Malayalam_movies,
+  Top_Tamil_Movies,
+  Top_Hindi_Movies,
+  Top_English_Movies,
+  Latest_Tamil_Movies,
+} from "../../data/movies";
+import "../../styles/global.css";
+const allMovies = [
+  ...Top_Malayalam_Movies,
+  ...Trending_Movies,
+  ...Classic_malayalam_Movies,
+  ...Popular_Malayalam_movies,
+  ...Top_Tamil_Movies,
+  ...Top_Hindi_Movies,
+  ...Top_English_Movies,
+  ...Latest_Tamil_Movies,
+];
+
+export async function getStaticPaths() {
+  const allMovies = [
+    ...Top_Malayalam_Movies,
+    ...Trending_Movies,
+    ...Classic_malayalam_Movies,
+    ...Popular_Malayalam_movies,
+    ...Top_Tamil_Movies,
+    ...Top_Hindi_Movies,
+    ...Top_English_Movies,
+    ...Latest_Tamil_Movies,
+  ];
+  return allMovies.map((movie) => ({
+    params: {
+      id: movie.id,
+    },
+    props: {
+      movie,
+    },
+  }));
+}
+const { movie } = Astro.props;
+---
+
+<div class="movie-details">
+  <img class="movie-poster" src={movie.image} alt={movie.title} />
+  <div class="movie-info">
+    <h1>{movie.title}</h1>
+    <p><strong>Year:</strong> {movie.year}</p>
+    <p><strong>Genre:</strong> {movie.genre}</p>
+    <p><strong>Language:</strong> {movie.language}</p>
+    <p><strong>Duration:</strong> {movie.duration}</p>
+    <p class="description">
+      {movie.description}
+    </p>
+
+    <a
+      href={movie.youtube}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="about-btn"
+    >
+      Watch Movie
+    </a>
+  </div>
+</div>
