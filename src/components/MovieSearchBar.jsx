@@ -31,10 +31,11 @@ export default function MovieSearchBar({ movies }) {
           onChange={handleChange}
           onKeyDown={handleKeyDown}
         />
-        <button className="search-button" onClick={handleSearch}>
+          <button class="about-btn" onClick={handleSearch}>
           Search
         </button>
       </div>
+    
 
       {submitted && (
         <div className="search-results">

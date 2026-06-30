@@ -80,6 +80,55 @@ export const Top_Malayalam_Movies = [
     link: "https://www.youtube.com/results?search_query=Sunday+Holiday+Malayalam+full+movie+official",
   },
 ];
+export const Trending_Movies = [
+  {
+    image: "/thumbnails/maheshinte-prathikaram.jpg",
+    title: "Maheshinte Prathikaram",
+    year: "2016",
+    link: "https://www.youtube.com/results?search_query=Maheshinte+Prathikaram+full+movie+official",
+  },
+
+  {
+    image: "/thumbnails/ezra.jpg",
+    title: "Ezra",
+    year: "2017",
+    link: "https://www.youtube.com/results?search_query=Ezra+Malayalam+full+movie+official",
+  },
+
+  {
+    image: "/thumbnails/aadu-2.jpg",
+    title: "Aadu 2",
+    year: "2017",
+    link: "https://www.youtube.com/results?search_query=Aadu+2+Malayalam+full+movie+official",
+  },
+
+  {
+    image: "/thumbnails/theevandi.jpg",
+    title: "Theevandi",
+    year: "2018",
+    link: "https://www.youtube.com/results?search_query=Theevandi+Malayalam+full+movie+official",
+  },
+
+  {
+    image: "/thumbnails/uyare.jpg",
+    title: "Uyare",
+    year: "2019",
+    link: "https://www.youtube.com/results?search_query=Uyare+Malayalam+full+movie+official",
+  },
+
+  {
+    image: "/thumbnails/romancham.jpg",
+    title: "Romancham",
+    year: "2023",
+    link: "https://www.youtube.com/results?search_query=Romancham+Malayalam+full+movie+official",
+  },
+  {
+    image: "/thumbnails/kali.jpg",
+    title: "Kali",
+    year: "2016",
+    link: "https://www.youtube.com/results?search_query=Kali+Malayalam+full+movie+official",
+  },
+];
 export const Classic_malayalam_Movies = [
   {
     image: "/thumbnails/spadikam.jpg",

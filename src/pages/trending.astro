@@ -1,0 +1,73 @@
+---
+import "../styles/global.css";
+import MovieCard from "../components/MovieCard.astro";
+
+const trendingMovies = [
+  {
+    image: "/thumbnails/operation-java.jpg",
+    title: "Operation Java",
+    year: "2021",
+    link: "https://www.youtube.com/results?search_query=Operation+Java+Malayalam+full+movie+official",
+  },
+  {
+    image: "/thumbnails/home.jpg",
+    title: "#Home",
+    year: "2021",
+    link: "https://www.youtube.com/results?search_query=Home+Malayalam+full+movie+official",
+  },
+  {
+    image: "/thumbnails/pariyerum-perumal.jpg",
+    title: "Pariyerum Perumal",
+    year: "2018",
+    link: "https://www.youtube.com/results?search_query=Pariyerum+Perumal+full+movie+official",
+  },
+
+  {
+    image: "/thumbnails/joseph.jpg",
+    title: "Joseph",
+    year: "2018",
+    link: "https://www.youtube.com/results?search_query=Joseph+Malayalam+full+movie+official",
+  },
+
+  {
+    image: "/thumbnails/android-kunjappan.jpg",
+    title: "Android Kunjappan Version 5.25",
+    year: "2019",
+    link: "https://www.youtube.com/results?search_query=Android+Kunjappan+Version+5.25+full+movie+official",
+  },
+  {
+    image: "/thumbnails/theevandi.jpg",
+    title: "Theevandi",
+    year: "2018",
+    link: "https://www.youtube.com/results?search_query=Theevandi+Malayalam+full+movie+official",
+  },
+
+  {
+    image: "/thumbnails/uyare.jpg",
+    title: "Uyare",
+    year: "2019",
+    link: "https://www.youtube.com/results?search_query=Uyare+Malayalam+full+movie+official",
+  },
+
+  {
+    image: "/thumbnails/romancham.jpg",
+    title: "Romancham",
+    year: "2023",
+    link: "https://www.youtube.com/results?search_query=Romancham+Malayalam+full+movie+official",
+  },
+];
+---
+
+<h1 class="title">Trending Movies</h1>
+<div class="trending-grid">
+  {
+    trendingMovies.map((movie) => (
+      <MovieCard
+        image={movie.image}
+        title={movie.title}
+        year={movie.year}
+        link={movie.link}
+      />
+    ))
+  }
+</div>
