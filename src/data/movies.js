@@ -48,6 +48,32 @@ export const Top_Malayalam_Movies = [
     link: "https://www.youtube.com/results?search_query=Udaharanam+Sujatha+full+movie+official",
   },
   {
+    image: "/thumbnails/forensic.jpg",
+    title: "Forensic",
+    year: "2020",
+    link: "https://www.youtube.com/results?search_query=Forensic+Malayalam+full+movie+official",
+  },
+
+  {
+    image: "/thumbnails/home.jpg",
+    title: "#Home",
+    year: "2021",
+    link: "https://www.youtube.com/results?search_query=Home+Malayalam+full+movie+official",
+  },
+
+  {
+    image: "/thumbnails/irupathiyonnaam-noottaandu.jpg",
+    title: "Irupathiyonnaam Noottaandu",
+    year: "2019",
+    link: "https://www.youtube.com/results?search_query=Irupathiyonnaam+Noottaandu+Malayalam+full+movie+official",
+  },
+  {
+    image: "/thumbnails/operation-java.jpg",
+    title: "Operation Java",
+    year: "2021",
+    link: "https://www.youtube.com/results?search_query=Operation+Java+Malayalam+full+movie+official",
+  },
+  {
     image: "/thumbnails/sunday-holiday.jpg",
     title: "Sunday Holiday",
     year: "2017",

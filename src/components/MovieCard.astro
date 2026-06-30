@@ -2,7 +2,7 @@
 const { image, title, year, link } = Astro.props;
 ---
 
-<a href={link} target="_blank">
+<a href={link} target="_blank" rel="noopener noreferrer">
   <img class="movie-card__image" src={image} alt={title} />
 
   <div class="body">
