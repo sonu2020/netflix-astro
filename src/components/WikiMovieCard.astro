@@ -1,0 +1,19 @@
+---
+const { movie } = Astro.props;
+---
+
+<div class="movie-card01">
+  <h2>{movie.itemLabel}</h2>
+  <p>
+    <strong>Year:</strong>
+    {new Date(movie.pubdate).getFullYear()}
+  </p>
+  <p>
+    <strong>Director:</strong>
+    {movie.directorLabel}
+  </p>
+  <p>
+    <strong>Cast:</strong>
+    {movie.actors}
+  </p>
+</div>

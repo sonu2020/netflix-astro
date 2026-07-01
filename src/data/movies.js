@@ -1,17 +1,17 @@
 export const Top_Malayalam_Movies = [
   {
-    id: "takeoff",
-    image: "/thumbnails/take-off.jpg",
-    title: "Take Off",
-    year: "2017",
-    genre: "Thriller / Drama",
+    id: "kumbalangi-nights",
+    image: "/thumbnails/kumbalangi-nights.jpg",
+    title: "Kumbalangi Nights",
+    year: "2019",
+    genre: "Drama / Family",
     language: "Malayalam",
-    duration: "139 min",
+    duration: "135 min",
     description:
-      "A group of Indian nurses become trapped in Iraq during a war and fight for survival.",
+      "Four brothers living in Kumbalangi navigate love, family conflicts, and personal growth while discovering the true meaning of home and relationships.",
     youtube:
-      "https://www.youtube.com/results?search_query=Take+Off+Malayalam+full+movie",
-    link: "/movies/takeoff",
+      "https://www.youtube.com/watch?v=bNyKd0PUx04&list=PLtfg_o4HEN_N-G709GXFoVt-Iw1MMSQ64&index=2",
+    link: "/movies/kumbalangi-nights",
   },
   {
     id: "premam",
@@ -23,23 +23,8 @@ export const Top_Malayalam_Movies = [
     duration: "156 min",
     description:
       "George experiences different stages of love from his teenage years to adulthood.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Premam+Malayalam+full+movie",
+    youtube: "https://www.youtube.com/watch?v=yjaFvFuQ-QM",
     link: "/movies/premam",
-  },
-  {
-    id: "uyare",
-    image: "/thumbnails/uyare.jpg",
-    title: "Uyare",
-    year: "2019",
-    genre: "Drama",
-    language: "Malayalam",
-    duration: "125 min",
-    description:
-      "An aspiring pilot rebuilds her life after surviving an acid attack.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Uyare+Malayalam+full+movie",
-    link: "/movies/uyare",
   },
 
   {
@@ -53,7 +38,7 @@ export const Top_Malayalam_Movies = [
     description:
       "A retired police officer investigates a mysterious death that uncovers a series of shocking crimes.",
     youtube:
-      "https://www.youtube.com/results?search_query=Joseph+Malayalam+full+movie+official",
+      "https://www.youtube.com/watch?v=Zhrau8ZfEr0&list=PLtfg_o4HEN_N-G709GXFoVt-Iw1MMSQ64",
     link: "/movies/joseph",
   },
   {
@@ -66,8 +51,7 @@ export const Top_Malayalam_Movies = [
     duration: "140 min",
     description:
       "A stubborn elderly man unexpectedly forms a close bond with a humanoid robot brought home by his son.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Android+Kunjappan+Version+5.25+Malayalam+full+movie+official",
+    youtube: "https://www.youtube.com/watch?v=i-d771eWwcA",
     link: "/movies/android-kunjappan",
   },
   {
@@ -80,38 +64,37 @@ export const Top_Malayalam_Movies = [
     duration: "117 min",
     description:
       "A young woman accidentally gets trapped inside a freezer and struggles to survive the freezing night.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Helen+Malayalam+full+movie+official",
+    youtube: "https://www.youtube.com/watch?v=VQtZqe4r2nU",
     link: "/movies/helen",
   },
   {
-    id: "vijay-superum-pournamiyum",
-    image: "/thumbnails/vijay-superum-pournamiyum.jpg",
-    title: "Vijay Superum Pournamiyum",
-    year: "2019",
-    genre: "Romance / Comedy",
+    id: "ee-ma-yau",
+    image: "/thumbnails/ee-ma-yau.jpg",
+    title: "Ee.Ma.Yau",
+    year: "2018",
+    genre: "Drama / Dark Comedy",
     language: "Malayalam",
-    duration: "135 min",
+    duration: "120 min",
     description:
-      "An unemployed young man meets an independent woman who inspires him to rediscover his confidence and purpose.",
+      "A son's desperate attempts to fulfill his late father's final wish lead to a series of unexpected and darkly humorous events.",
     youtube:
-      "https://www.youtube.com/results?search_query=Vijay+Superum+Pournamiyum+Malayalam+full+movie+official",
-    link: "/movies/vijay-superum-pournamiyum",
+      "https://www.youtube.com/results?search_query=Ee.Ma.Yau+Malayalam+full+movie",
+    link: "/movies/ee-ma-yau",
   },
   {
-    id: "udaharanam-sujatha",
-    image: "/thumbnails/udaharanam-sujatha.jpg",
-    title: "Udaharanam Sujatha",
-    year: "2017",
+    id: "uyare",
+    image: "/thumbnails/uyare.jpg",
+    title: "Uyare",
+    year: "2019",
     genre: "Drama",
     language: "Malayalam",
-    duration: "137 min",
+    duration: "125 min",
     description:
-      "A single mother works tirelessly to educate her daughter and encourage her to pursue a better future.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Udaharanam+Sujatha+Malayalam+full+movie+official",
-    link: "/movies/udaharanam-sujatha",
+      "An aspiring pilot rebuilds her life after surviving an acid attack.",
+    youtube: "https://www.youtube.com/watch?v=TSDwS8f8rI8",
+    link: "/movies/uyare",
   },
+
   {
     id: "forensic",
     image: "/thumbnails/forensic.jpg",
@@ -122,14 +105,13 @@ export const Top_Malayalam_Movies = [
     duration: "134 min",
     description:
       "A forensic expert joins forces with the police to track down a dangerous serial killer.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Forensic+Malayalam+full+movie+official",
+    youtube: "https://www.youtube.com/watch?v=DiKXCkx8Srw",
     link: "/movies/forensic",
   },
   {
     id: "home",
     image: "/thumbnails/home.jpg",
-    title: "#Home",
+    title: "Home",
     year: "2021",
     genre: "Family / Drama",
     language: "Malayalam",
@@ -143,60 +125,17 @@ export const Top_Malayalam_Movies = [
 ];
 export const Trending_Movies = [
   {
-    id: "maheshinte-prathikaram",
-    image: "/thumbnails/maheshinte-prathikaram.jpg",
-    title: "Maheshinte Prathikaram",
-    year: "2016",
-    genre: "Comedy / Drama",
-    language: "Malayalam",
-    duration: "120 min",
-    description:
-      "A mild-mannered photographer vows to take revenge after being publicly humiliated.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Maheshinte+Prathikaram+Malayalam+full+movie+official",
-    link: "/movies/maheshinte-prathikaram",
-  },
-  {
-    id: "irupathiyonnaam-noottaandu",
-    image: "/thumbnails/irupathiyonnaam-noottaandu.jpg",
-    title: "Irupathiyonnaam Noottaandu",
+    id: "kettyolaanu-ente-malakha",
+    image: "/thumbnails/kettyolaanu-ente-malakha.jpg",
+    title: "Kettyolaanu Ente Malakha",
     year: "2019",
-    genre: "Action / Adventure",
-    language: "Malayalam",
-    duration: "163 min",
-    description:
-      "A carefree young man embarks on an adventurous journey that changes his life forever.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Irupathiyonnaam+Noottaandu+Malayalam+full+movie+official",
-    link: "/movies/irupathiyonnaam-noottaandu",
-  },
-  {
-    id: "operation-java",
-    image: "/thumbnails/operation-java.jpg",
-    title: "Operation Java",
-    year: "2021",
-    genre: "Crime / Thriller",
-    language: "Malayalam",
-    duration: "146 min",
-    description:
-      "Two engineering graduates assist the cybercrime police in solving complex criminal investigations.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Operation+Java+Malayalam+full+movie+official",
-    link: "/movies/operation-java",
-  },
-  {
-    id: "sunday-holiday",
-    image: "/thumbnails/sunday-holiday.jpg",
-    title: "Sunday Holiday",
-    year: "2017",
-    genre: "Romance / Comedy",
+    genre: "Comedy / Drama",
     language: "Malayalam",
     duration: "135 min",
     description:
-      "A young man unexpectedly falls in love while pursuing his dream of becoming a filmmaker.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Sunday+Holiday+Malayalam+full+movie+official",
-    link: "/movies/sunday-holiday",
+      "A timid bachelor marries a confident young woman, and their relationship challenges his traditional views about marriage, masculinity, and love.",
+    youtube: "https://www.youtube.com/watch?v=NT4hNdADHgU",
+    link: "/movies/kettyolaanu-ente-malakha",
   },
   {
     id: "ezra",
@@ -208,10 +147,51 @@ export const Trending_Movies = [
     duration: "147 min",
     description:
       "A mysterious antique box unleashes terrifying supernatural events in a newly married couple's life.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Ezra+Malayalam+full+movie+official",
+    youtube: "https://www.youtube.com/watch?v=3C5aMGoevuw",
     link: "/movies/ezra",
   },
+  {
+    id: "nalla-nilavulla-rathri",
+    image: "/thumbnails/nalla-nilavulla-rathri.jpg",
+    title: "Nalla Nilavulla Rathri",
+    year: "2023",
+    genre: "Thriller / Crime / Drama",
+    language: "Malayalam",
+    duration: "144 min",
+    description:
+      "A group of close friends reunite for a trip that takes a dark turn, forcing them to confront hidden secrets, betrayal, and a dangerous fight for survival.",
+    youtube:
+      "https://www.youtube.com/results?search_query=Nalla+Nilavulla+Rathri+Malayalam+full+movie",
+    link: "/movies/nalla-nilavulla-rathri",
+  },
+  {
+    id: "operation-java",
+    image: "/thumbnails/operation-java.jpg",
+    title: "Operation Java",
+    year: "2021",
+    genre: "Crime / Thriller",
+    language: "Malayalam",
+    duration: "146 min",
+    description:
+      "Two engineering graduates assist the cybercrime police in solving complex criminal investigations.",
+    youtube: "https://www.youtube.com/watch?v=a1oJIFH6rmM",
+    link: "/movies/operation-java",
+  },
+  {
+    id: "mandharam",
+    image: "/thumbnails/mandharam.jpg",
+    title: "Mandharam",
+    year: "2018",
+    genre: "Romance / Drama",
+    language: "Malayalam",
+    duration: "136 min",
+    description:
+      "The life of Rajesh, a shy young man with premature balding, unfolds through different stages as he experiences love, heartbreak, and self-discovery.",
+    youtube:
+      "https://www.youtube.com/results?search_query=Mandharam+Malayalam+full+movie",
+    link: "/movies/mandharam",
+  },
+
   {
     id: "aadu-2",
     image: "/thumbnails/aadu-2.jpg",
@@ -222,52 +202,23 @@ export const Trending_Movies = [
     duration: "132 min",
     description:
       "Shaji Pappan returns with another hilarious adventure full of unexpected twists and chaos.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Aadu+2+Malayalam+full+movie+official",
+    youtube: "https://www.youtube.com/watch?v=ibw3-fIrgbY",
     link: "/movies/aadu-2",
   },
   {
-    id: "theevandi",
-    image: "/thumbnails/theevandi.jpg",
-    title: "Theevandi",
-    year: "2018",
-    genre: "Romance / Drama",
+    id: "memories",
+    image: "/thumbnails/memories.jpg",
+    title: "Memories",
+    year: "2013",
+    genre: "Crime / Thriller",
     language: "Malayalam",
-    duration: "144 min",
+    duration: "143 min",
     description:
-      "A chain smoker's life takes an unexpected turn after he falls in love.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Theevandi+Malayalam+full+movie+official",
-    link: "/movies/theevandi",
+      "Sam Alex, a police officer who drowns his personal tragedies in alcohol after losing his wife and daughter, is pulled back into duty to crack the case of a serial killer haunting the city.",
+    youtube: "https://www.youtube.com/watch?v=SzwStt19vtw",
+    link: "/movies/memories",
   },
-  {
-    id: "queen",
-    image: "/thumbnails/queen.jpg",
-    title: "Queen",
-    year: "2018",
-    genre: "Comedy / Drama",
-    language: "Malayalam",
-    duration: "146 min",
-    description:
-      "Engineering students unite to support a courageous young woman who joins their all-male college.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Queen+Malayalam+full+movie+official",
-    link: "/movies/queen",
-  },
-  {
-    id: "romancham",
-    image: "/thumbnails/romancham.jpg",
-    title: "Romancham",
-    year: "2023",
-    genre: "Comedy / Horror",
-    language: "Malayalam",
-    duration: "130 min",
-    description:
-      "Seven friends accidentally invite supernatural forces into their home after playing with a Ouija board.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Romancham+Malayalam+full+movie+official",
-    link: "/movies/romancham",
-  },
+
   {
     id: "kali",
     image: "/thumbnails/kali.jpg",
@@ -278,8 +229,7 @@ export const Trending_Movies = [
     duration: "125 min",
     description:
       "A man's uncontrollable anger places him and his wife in a life-threatening situation.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Kali+Malayalam+full+movie+official",
+    youtube: "https://www.youtube.com/watch?v=xEuRPDECjnk",
     link: "/movies/kali",
   },
 ];
@@ -295,24 +245,10 @@ export const Classic_malayalam_Movies = [
     duration: "150 min",
     description:
       "The troubled relationship between a strict father and his rebellious son leads to a life of violence and redemption.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Spadikam+Malayalam+full+movie",
+    youtube: "https://www.youtube.com/watch?v=349z-tk5RUM",
     link: "/movies/spadikam",
   },
-  {
-    id: "kireedam",
-    image: "/thumbnails/kireedam.jpg",
-    title: "Kireedam",
-    year: "1989",
-    genre: "Drama",
-    language: "Malayalam",
-    duration: "127 min",
-    description:
-      "A young man's dream of becoming a police officer is shattered after an unexpected act of bravery changes his life.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Kireedam+Malayalam+full+movie",
-    link: "/movies/kireedam",
-  },
+
   {
     id: "manichitrathazhu",
     image: "/thumbnails/manichitrathazhu.jpg",
@@ -323,8 +259,7 @@ export const Classic_malayalam_Movies = [
     duration: "169 min",
     description:
       "A married couple moves into an ancestral mansion where mysterious supernatural events begin to unfold.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Manichitrathazhu+Malayalam+full+movie",
+    youtube: "https://www.youtube.com/watch?v=MLmT2Bbu1d0",
     link: "/movies/manichitrathazhu",
   },
   {
@@ -337,23 +272,8 @@ export const Classic_malayalam_Movies = [
     duration: "167 min",
     description:
       "A powerful feudal lord transforms himself after falling in love and confronting his own flaws.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Devasuram+Malayalam+full+movie",
+    youtube: "https://www.youtube.com/watch?v=F7Tkih49SGw",
     link: "/movies/devasuram",
-  },
-  {
-    id: "thenmavin-kombath",
-    image: "/thumbnails/thenmavin-kombath.jpg",
-    title: "Thenmavin Kombath",
-    year: "1994",
-    genre: "Romance / Comedy",
-    language: "Malayalam",
-    duration: "164 min",
-    description:
-      "Two men fall in love with the same woman, leading to a heartfelt and humorous rivalry.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Thenmavin+Kombath+Malayalam+full+movie",
-    link: "/movies/thenmavin-kombath",
   },
   {
     id: "commissioner",
@@ -365,10 +285,23 @@ export const Classic_malayalam_Movies = [
     duration: "160 min",
     description:
       "An honest police commissioner wages war against corruption, crime, and political power.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Commissioner+Malayalam+full+movie",
+    youtube: "https://www.youtube.com/watch?v=DhWOt5ZI7kY",
     link: "/movies/commissioner",
   },
+  {
+    id: "thenmavin-kombath",
+    image: "/thumbnails/thenmavin-kombath.jpg",
+    title: "Thenmavin Kombath",
+    year: "1994",
+    genre: "Romance / Comedy",
+    language: "Malayalam",
+    duration: "164 min",
+    description:
+      "Two men fall in love with the same woman, leading to a heartfelt and humorous rivalry.",
+    youtube: "https://www.youtube.com/watch?v=IrXWUs-coIg",
+    link: "/movies/thenmavin-kombath",
+  },
+
   {
     id: "ramji-rao-speaking",
     image: "/thumbnails/ramji-rao-speaking.jpg",
@@ -379,9 +312,21 @@ export const Classic_malayalam_Movies = [
     duration: "150 min",
     description:
       "Three unemployed men become involved in a hilarious kidnapping mix-up after receiving a wrong phone call.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Ramji+Rao+Speaking+Malayalam+full+movie",
+    youtube: "https://www.youtube.com/watch?v=aUgN8AZQoPo",
     link: "/movies/ramji-rao-speaking",
+  },
+  {
+    id: "kireedam",
+    image: "/thumbnails/kireedam.jpg",
+    title: "Kireedam",
+    year: "1989",
+    genre: "Drama",
+    language: "Malayalam",
+    duration: "127 min",
+    description:
+      "A young man's dream of becoming a police officer is shattered after an unexpected act of bravery changes his life.",
+    youtube: "https://www.youtube.com/watch?v=KnHPMjv2ajM",
+    link: "/movies/kireedam",
   },
 ];
 export const Popular_Malayalam_movies = [
@@ -395,8 +340,7 @@ export const Popular_Malayalam_movies = [
     duration: "175 min",
     description:
       "A fearless professor with a troubled past returns to his village to confront powerful enemies and protect his family.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Narasimham+Malayalam+full+movie",
+    youtube: "https://www.youtube.com/watch?v=Z3g5qGQK7eI",
     link: "/movies/narasimham",
   },
   {
@@ -409,8 +353,7 @@ export const Popular_Malayalam_movies = [
     duration: "152 min",
     description:
       "The son of a respected feudal lord returns to restore his family's honor and fight injustice.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Ravanaprabhu+Malayalam+full+movie",
+    youtube: "https://www.youtube.com/watch?v=Bdq8_o0Wk2c",
     link: "/movies/ravanaprabhu",
   },
   {
@@ -423,38 +366,23 @@ export const Popular_Malayalam_movies = [
     duration: "165 min",
     description:
       "A lovable village thief falls in love while getting caught in humorous adventures.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Meesha+Madhavan+Malayalam+full+movie",
+    youtube: "https://www.youtube.com/watch?v=6U89t0c5TBQ",
     link: "/movies/meesha-madhavan",
   },
   {
-    id: "nandanam",
-    image: "/thumbnails/nandanam.jpg",
-    title: "Nandanam",
-    year: "2002",
-    genre: "Drama / Romance",
+    id: "vettam",
+    image: "/thumbnails/vettam.jpg",
+    title: "Vettam",
+    year: "2004",
+    genre: "Comedy / Romance",
     language: "Malayalam",
-    duration: "145 min",
+    duration: "163 min",
     description:
-      "A kind-hearted housemaid finds strength through her devotion and hope while facing life's hardships.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Nandanam+Malayalam+full+movie",
-    link: "/movies/nandanam",
+      "Gopi, a small-time thief on the run after stealing a precious chain, crosses paths with Veena, a girl chasing down her lover's wedding, and their reluctant journey together turns into an unexpected love story.",
+    youtube: "https://www.youtube.com/watch?v=40nfhLC7i84",
+    link: "/movies/vettam",
   },
-  {
-    id: "cid-moosa",
-    image: "/thumbnails/cid-moosa.jpg",
-    title: "CID Moosa",
-    year: "2003",
-    genre: "Comedy / Action",
-    language: "Malayalam",
-    duration: "160 min",
-    description:
-      "An enthusiastic detective gets involved in hilarious investigations while chasing dangerous criminals.",
-    youtube:
-      "https://www.youtube.com/results?search_query=CID+Moosa+Malayalam+full+movie",
-    link: "/movies/cid-moosa",
-  },
+
   {
     id: "balettan",
     image: "/thumbnails/balettan.jpg",
@@ -465,27 +393,13 @@ export const Popular_Malayalam_movies = [
     duration: "168 min",
     description:
       "A devoted elder brother struggles to keep his family united while facing unexpected challenges.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Balettan+Malayalam+full+movie",
+    youtube: "https://www.youtube.com/watch?v=7_SAVpD1t4I",
     link: "/movies/balettan",
   },
-  {
-    id: "udayananu-tharam",
-    image: "/thumbnails/udayananu-tharam.jpg",
-    title: "Udayananu Tharam",
-    year: "2005",
-    genre: "Comedy / Drama",
-    language: "Malayalam",
-    duration: "162 min",
-    description:
-      "An aspiring filmmaker's story is stolen by a superstar, leading to a humorous battle for recognition.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Udayananu+Tharam+Malayalam+full+movie",
-    link: "/movies/udayananu-tharam",
-  },
+
   {
     id: "classmates",
-    image: "/thumbnails/classmates.jpg",
+    image: "/thumbnails/classmate2.jpg",
     title: "Classmates",
     year: "2006",
     genre: "Drama / Romance",
@@ -493,57 +407,80 @@ export const Popular_Malayalam_movies = [
     duration: "150 min",
     description:
       "Old college friends reunite years later, bringing back memories, love, and long-buried secrets.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Classmates+Malayalam+full+movie",
+    youtube: "https://www.youtube.com/watch?v=xuQOJtrkiZU",
     link: "/movies/classmates",
   },
 ];
 export const Top_Tamil_Movies = [
   {
-    id: "enthiran",
-    image: "/thumbnails/enthiran.jpg",
-    title: "Enthiran (Robot)",
+    id: "96",
+    image: "/thumbnails/96.jpg",
+    title: "96",
+    year: "2018",
+    genre: "Romance / Drama",
+    language: "Tamil",
+    duration: "158 min",
+    description:
+      "Ram, a travel photographer, and Jaanu, his high school sweetheart, reunite twenty-two years after graduation at a school reunion, revisiting the love they never got to complete.",
+    youtube: "https://www.youtube.com/watch?v=HDLh5kEGB_w",
+    link: "/movies/96",
+  },
+  {
+    id: "paiyaa",
+    image: "/thumbnails/paiyaa.jpg",
+    title: "Paiyaa",
     year: "2010",
-    genre: "Sci-Fi / Action",
+    genre: "Action / Romance",
     language: "Tamil",
-    duration: "177 min",
+    duration: "146 min",
     description:
-      "A brilliant scientist creates a humanoid robot whose emotions lead to unexpected consequences.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Enthiran+full+movie+AP+International",
-    link: "/movies/enthiran",
+      "Shiva, a carefree jobless young man, falls for a girl he spots at a bus stop and offers to drive her from Bangalore to Mumbai, turning their road trip into a romance while a gang of goons trails them.",
+    youtube: "https://www.youtube.com/watch?v=0QkDdt1xjl4",
+    link: "/movies/paiyaa",
   },
   {
-    id: "baasha",
-    image: "/thumbnails/baasha.jpg",
-    title: "Baasha",
-    year: "1995",
-    genre: "Action / Crime",
+    id: "vaaranam-aayiram",
+    image: "/thumbnails/vaaranam-aayiram.jpg",
+    title: "Vaaranam Aayiram",
+    year: "2008",
+    genre: "Drama / Romance",
     language: "Tamil",
-    duration: "145 min",
+    duration: "169 min",
     description:
-      "A humble auto driver hides a powerful past as an underworld don until circumstances force him to reveal his true identity.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Baasha+full+movie+official",
-    link: "/movies/baasha",
+      "Major Suriya, on a rescue mission when he learns of his father Krishnan's death, reminisces about their bond and the moments that shaped his life, from his father's own love story to his own journey through heartbreak and self-discovery.",
+    youtube: "https://www.youtube.com/watch?v=ViXzw0xrtoU",
+    link: "/movies/vaaranam-aayiram",
   },
   {
-    id: "velayudham",
-    image: "/thumbnails/velayudham.jpg",
-    title: "Velayudham",
-    year: "2011",
+    id: "sketch",
+    image: "/thumbnails/sketch.jpg",
+    title: "Sketch",
+    year: "2018",
     genre: "Action / Thriller",
     language: "Tamil",
-    duration: "160 min",
+    duration: "138 min",
     description:
-      "An ordinary milkman transforms into a fearless vigilante to protect innocent people from corruption.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Velayudham+full+movie+official",
-    link: "/movies/velayudham",
+      "Jeeva, aka Sketch, a vehicle repo man working for a local loan shark in North Chennai, lands in serious trouble after seizing a car belonging to a dangerous gangster.",
+    youtube: "https://www.youtube.com/watch?v=JiVLSWeiIFs",
+    link: "/movies/sketch",
   },
   {
+    id: "imaikkaa-nodigal",
+    image: "/thumbnails/imaikkaa-nodigal.jpg",
+    title: "Imaikkaa Nodigal",
+    year: "2018",
+    genre: "Action / Thriller",
+    language: "Tamil",
+    duration: "170 min",
+    description:
+      "CBI officer Anjali races against time to catch Rudra, a notorious serial killer thought to have died five years ago, as the cat-and-mouse hunt pulls in an unlikely cast of allies and suspects.",
+    youtube: "https://www.youtube.com/watch?v=IlQXD3ABVpw",
+    link: "/movies/imaikkaa-nodigal",
+  },
+
+  {
     id: "aadhavan",
-    image: "/thumbnails/aadhavan.jpg",
+    image: "/thumbnails/aadhavan2.jpg",
     title: "Aadhavan",
     year: "2009",
     genre: "Action / Comedy",
@@ -551,13 +488,12 @@ export const Top_Tamil_Movies = [
     duration: "168 min",
     description:
       "A skilled assassin falls in love while trying to complete a dangerous mission against powerful enemies.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Aadhavan+full+movie+official",
+    youtube: "https://www.youtube.com/watch?v=ooY-SMww3-0",
     link: "/movies/aadhavan",
   },
   {
     id: "sathuranga-vettai",
-    image: "/thumbnails/sathuranga-vettai.jpg",
+    image: "/thumbnails/sathuranga-vettai2.jpg",
     title: "Sathuranga Vettai",
     year: "2014",
     genre: "Crime / Thriller",
@@ -565,293 +501,141 @@ export const Top_Tamil_Movies = [
     duration: "145 min",
     description:
       "A clever con artist carries out sophisticated scams before finding himself trapped in his own game.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Sathuranga+Vettai+full+movie+official",
+    youtube: "outube.com/watch?v=3QGzJr_137I",
     link: "/movies/sathuranga-vettai",
   },
   {
-    id: "kaadhal",
-    image: "/thumbnails/kaadhal.jpg",
-    title: "Kaadhal",
-    year: "2004",
-    genre: "Romance / Drama",
+    id: "thalaivaa",
+    image: "/thumbnails/thalaivaa.jpg",
+    title: "Thalaivaa",
+    year: "2013",
+    genre: "Action / Drama",
     language: "Tamil",
-    duration: "150 min",
+    duration: "182 min",
     description:
-      "A young couple from different social backgrounds fight against family opposition to stay together.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Kaadhal+2004+full+movie+official",
-    link: "/movies/kaadhal",
+      "Vishwa, a carefree dancer in Australia, travels to Mumbai to visit his estranged father, only to discover he is a powerful crime boss, and after his father's death, steps into his shoes to become 'Thalaivaa,' the new leader.",
+    youtube: "https://www.youtube.com/watch?v=b-ucI0du180",
+    link: "/movies/thalaivaa",
   },
   {
-    id: "anbe-sivam",
-    image: "/thumbnails/anbe-sivam.jpg",
-    title: "Anbe Sivam",
-    year: "2003",
-    genre: "Drama / Comedy",
+    id: "anjaan",
+    image: "/thumbnails/anjaan.jpg",
+    title: "Anjaan",
+    year: "2014",
+    genre: "Action / Crime",
     language: "Tamil",
-    duration: "160 min",
+    duration: "166 min",
     description:
-      "A life-changing journey teaches two strangers the true meaning of love, humanity, and compassion.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Anbe+Sivam+full+movie+official",
-    link: "/movies/anbe-sivam",
-  },
-  {
-    id: "pariyerum-perumal",
-    image: "/thumbnails/pariyerum-perumal.jpg",
-    title: "Pariyerum Perumal",
-    year: "2018",
-    genre: "Drama",
-    language: "Tamil",
-    duration: "155 min",
-    description:
-      "A law student faces caste discrimination while striving to achieve his dreams and protect his dignity.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Pariyerum+Perumal+full+movie+official",
-    link: "/movies/pariyerum-perumal",
+      "Krishna, a disabled man, arrives in Mumbai from Kanyakumari searching for his elder brother Raju, a feared gangster, and uncovers the dark truth behind his disappearance amid the city's criminal underworld.",
+    youtube: "https://www.youtube.com/watch?v=fSPMq94D6rA",
+    link: "/movies/anjaan",
   },
 ];
 
 export const Top_Hindi_Movies = [
   {
-    id: "dangal",
-    image: "/thumbnails/hindi2.jpg",
-    title: "Dangal",
-    year: "2016",
-    genre: "Biography / Sports / Drama",
+    id: "cocktail",
+    image: "/thumbnails/cocktail.jpg",
+    title: "Cocktail",
+    year: "2012",
+    genre: "Romance / Comedy",
     language: "Hindi",
-    duration: "161 min",
+    duration: "144 min",
     description:
-      "A former wrestler trains his daughters to become world-class wrestlers despite facing social obstacles.",
-    youtube: "https://www.youtube.com/watch?v=vEjTUDjjU6A",
-    link: "/movies/dangal",
+      "Gautam, an incorrigible flirt in London, finds himself torn between Veronica, a free-spirited party girl, and Meera, a traditional girl finding her footing abroad, as friendship and love collide among the three.",
+    youtube: "https://www.youtube.com/watch?v=cD-TLEshy5g",
+    link: "/movies/cocktail",
   },
   {
-    id: "padmaavat",
-    image: "/thumbnails/hindi3.jpg",
-    title: "Padmaavat",
-    year: "2018",
-    genre: "Historical / Drama",
-    language: "Hindi",
-    duration: "164 min",
-    description:
-      "Queen Padmavati's courage and honor are tested when Sultan Alauddin Khilji becomes obsessed with capturing her kingdom.",
-    youtube: "https://www.youtube.com/watch?v=vEjTUDjjU6A",
-    link: "/movies/padmaavat",
-  },
-  {
-    id: "uri",
-    image: "/thumbnails/hindi4.jpg",
-    title: "Uri: The Surgical Strike",
-    year: "2019",
-    genre: "Action / War",
-    language: "Hindi",
-    duration: "138 min",
-    description:
-      "Indian special forces carry out a covert mission following the deadly Uri military base attack.",
-    youtube: "https://www.youtube.com/watch?v=AdwGOloQcAs",
-    link: "/movies/uri",
-  },
-  {
-    id: "padmaavat-tamil",
-    image: "/thumbnails/hindi5.jpg",
-    title: "Padmaavat (Tamil Dubbed)",
-    year: "2018",
-    genre: "Historical / Drama",
-    language: "Tamil",
-    duration: "164 min",
-    description:
-      "The Tamil dubbed version of the epic historical drama based on Queen Padmavati and the siege of Chittor.",
-    youtube: "https://www.youtube.com/watch?v=Af3cjNPhM4o",
-    link: "/movies/padmaavat-tamil",
-  },
-  {
-    id: "kaabil",
-    image: "/thumbnails/hindi6.jpg",
-    title: "Kaabil",
+    id: "hindi-medium",
+    image: "/thumbnails/hindi-medium.jpg",
+    title: "Hindi Medium",
     year: "2017",
-    genre: "Action / Thriller",
+    genre: "Comedy / Drama",
     language: "Hindi",
-    duration: "139 min",
+    duration: "132 min",
     description:
-      "A visually impaired man seeks justice after a tragic incident changes his life forever.",
-    youtube: "https://www.youtube.com/watch?v=bROIs4zMgjo",
-    link: "/movies/kaabil",
-  },
-];
-
-export const Top_English_Movies = [
-  {
-    id: "monster",
-    image: "/thumbnails/eng2.jpg",
-    title: "Monster",
-    year: "2021",
-    genre: "Drama / Crime",
-    language: "English",
-    duration: "98 min",
-    description:
-      "A woman rebuilds her life after prison while struggling to reconnect with her young daughter.",
-    youtube: "https://www.youtube.com/watch?v=zAGVQLHvwOY",
-    link: "/movies/monster",
+      "Raj and Mita Batra, an affluent couple from Delhi's Chandni Chowk who studied in Hindi-medium schools, go to increasingly desperate lengths to get their young daughter admitted into one of the city's top English-medium schools.",
+    youtube: "https://www.youtube.com/watch?v=6M191qGTZA4",
+    link: "/movies/hindi-medium",
   },
   {
-    id: "john-wick",
-    image: "/thumbnails/eng3.jpg",
-    title: "John Wick: Chapter 3 – Parabellum",
-    year: "2019",
-    genre: "Action / Thriller",
-    language: "English",
-    duration: "131 min",
-    description:
-      "Legendary assassin John Wick fights for survival after becoming the world's most wanted hitman.",
-    youtube: "https://www.youtube.com/watch?v=zAGVQLHvwOY",
-    link: "/movies/john-wick",
-  },
-  {
-    id: "the-conjuring-2",
-    image: "/thumbnails/eng4.jpg",
-    title: "The Conjuring 2",
+    id: "ki-and-ka",
+    image: "/thumbnails/ki-and-ka.jpg",
+    title: "Ki & Ka",
     year: "2016",
-    genre: "Horror / Mystery",
-    language: "English",
-    duration: "134 min",
+    genre: "Comedy / Romance",
+    language: "Hindi",
+    duration: "126 min",
     description:
-      "Paranormal investigators Ed and Lorraine Warren travel to England to confront a terrifying haunting.",
-    youtube: "https://www.youtube.com/watch?v=zAGVQLHvwOY",
-    link: "/movies/the-conjuring-2",
+      "Kabir, content being a stay-at-home husband, and Kia, an ambitious career woman chasing the corner office, build a marriage on reversed gender roles, only to find society and their own insecurities putting it to the test.",
+    youtube: "https://www.youtube.com/watch?v=svJaA8NhjCg",
+    link: "/movies/ki-and-ka",
   },
   {
-    id: "body-of-lies",
-    image: "/thumbnails/eng5.jpg",
-    title: "Body of Lies",
-    year: "2008",
-    genre: "Action / Thriller",
-    language: "English",
-    duration: "128 min",
+    id: "raabta",
+    image: "/thumbnails/raabta.jpg",
+    title: "Raabta",
+    year: "2017",
+    genre: "Romance / Fantasy",
+    language: "Hindi",
+    duration: "148 min",
     description:
-      "A CIA operative works with intelligence agencies to hunt down a dangerous terrorist leader.",
-    youtube: "https://www.youtube.com/watch?v=zAGVQLHvwOY",
-    link: "/movies/body-of-lies",
+      "Shiv and Saira are drawn to each other like long-lost lovers in Budapest, only to discover their bond stretches back centuries, as a mysterious stranger claiming to be Saira's reincarnated lover threatens to tear them apart.",
+    youtube: "https://www.youtube.com/watch?v=wRKh0-BoyTA",
+    link: "/movies/raabta",
   },
   {
-    id: "captain-america-the-first-avenger",
-    image: "/thumbnails/eng6.jpg",
-    title: "Captain America: The First Avenger",
-    year: "2011",
-    genre: "Action / Adventure / Sci-Fi",
-    language: "English",
-    duration: "124 min",
+    id: "yeh-jawaani-hai-deewani",
+    image: "/thumbnails/yeh-jawaani-hai-deewani.jpg",
+    title: "Yeh Jawaani Hai Deewani",
+    year: "2013",
+    genre: "Romance / Comedy",
+    language: "Hindi",
+    duration: "160 min",
     description:
-      "Steve Rogers becomes Captain America after receiving a super-soldier serum during World War II.",
-    youtube: "https://www.youtube.com/watch?v=zAGVQLHvwOY",
-    link: "/movies/captain-america-the-first-avenger",
+      "Naina, a shy medical student, falls for Bunny, a free-spirited adventurer, during a college trek, but their paths diverge as he chases his dreams around the world, only to reunite years later at a friend's wedding.",
+    youtube: "https://www.youtube.com/watch?v=TVB920h0u4g",
+    link: "/movies/yeh-jawaani-hai-deewani",
   },
   {
-    id: "tenet",
-    image: "/thumbnails/eng7.jpg",
-    title: "Tenet",
-    year: "2020",
-    genre: "Action / Sci-Fi / Thriller",
-    language: "English",
-    duration: "150 min",
+    id: "ajab-prem-ki-ghazab-kahani",
+    image: "/thumbnails/ajab-prem-ki-ghazab-kahani.jpg",
+    title: "Ajab Prem Ki Ghazab Kahani",
+    year: "2009",
+    genre: "Comedy / Romance",
+    language: "Hindi",
+    duration: "155 min",
     description:
-      "A secret agent manipulates time to stop a global catastrophe that threatens the future of humanity.",
-    youtube: "https://www.youtube.com/watch?v=zAGVQLHvwOY",
-    link: "/movies/tenet",
+      "Prem, a happy-go-lucky small-town guy, falls head over heels for Jenny, but she's already in love with someone else, so he selflessly sets out to help her win the man of her dreams instead.",
+    youtube: "https://www.youtube.com/watch?v=dbTkItiju1w",
+    link: "/movies/ajab-prem-ki-ghazab-kahani",
   },
-];
 
-export const Latest_Tamil_Movies = [
   {
-    id: "leo",
-    image: "/thumbnails/leo.jpg",
-    title: "Leo",
-    year: "2023",
-    genre: "Action / Thriller",
-    language: "Tamil",
-    duration: "164 min",
+    id: "housefull",
+    image: "/thumbnails/housefull.jpg",
+    title: "Housefull",
+    year: "2010",
+    genre: "Comedy / Drama",
+    language: "Hindi",
+    duration: "144 min",
     description:
-      "A peaceful café owner is forced to confront his mysterious past when dangerous criminals identify him as a notorious gangster.",
-    youtube: "https://www.youtube.com/watch?v=Po3jStA673E",
-    link: "/movies/leo",
+      "Aarush, a self-proclaimed jinx who believes true love is his only cure, moves in with his best friend Bob in London, and one lie about his love life spirals into a web of mistaken identities and total chaos.",
+    youtube: "https://www.youtube.com/watch?v=iCtWBMzEGsU",
+    link: "/movies/housefull",
   },
   {
-    id: "vikram",
-    image: "/thumbnails/vikram.jpg",
-    title: "Vikram",
-    year: "2022",
-    genre: "Action / Thriller",
-    language: "Tamil",
-    duration: "174 min",
-    description:
-      "A black-ops squad investigates a series of murders that uncover a massive drug syndicate.",
-    youtube: "https://www.youtube.com/watch?v=OKBMCL-frPU",
-    link: "/movies/vikram",
-  },
-  {
-    id: "jailer",
-    image: "/thumbnails/jailer.jpg",
-    title: "Jailer",
-    year: "2023",
-    genre: "Action / Crime",
-    language: "Tamil",
-    duration: "168 min",
-    description:
-      "A retired jailer returns to his violent past to rescue his family and confront dangerous criminals.",
-    youtube: "https://www.youtube.com/watch?v=Y5BeWdODPqo",
-    link: "/movies/jailer",
-  },
-  {
-    id: "master",
-    image: "/thumbnails/master.jpg",
-    title: "Master",
-    year: "2021",
-    genre: "Action / Drama",
-    language: "Tamil",
-    duration: "179 min",
-    description:
-      "An alcoholic professor is assigned to a juvenile correctional facility where he clashes with a ruthless gangster.",
-    youtube: "https://www.youtube.com/watch?v=UTiXQcrLlv4",
-    link: "/movies/master",
-  },
-  {
-    id: "ponniyin-selvan-part-1",
-    image: "/thumbnails/ponniyin-selvan.jpg",
-    title: "Ponniyin Selvan: Part 1",
-    year: "2022",
-    genre: "Historical / Action",
-    language: "Tamil",
-    duration: "167 min",
-    description:
-      "A young messenger embarks on a dangerous mission that could change the future of the Chola Empire.",
-    youtube: "https://www.youtube.com/watch?v=D4qAQYlgZQs",
-    link: "/movies/ponniyin-selvan-part-1",
-  },
-  {
-    id: "kaithi",
-    image: "/thumbnails/kaithi.jpg",
-    title: "Kaithi",
-    year: "2019",
-    genre: "Action / Thriller",
-    language: "Tamil",
+    id: "ready",
+    image: "/thumbnails/ready.jpg",
+    title: "Ready",
+    year: "2011",
+    genre: "Action / Comedy",
+    language: "Hindi",
     duration: "145 min",
     description:
-      "A recently released prisoner joins a police officer in a desperate overnight mission against drug traffickers.",
-    youtube: "https://www.youtube.com/watch?v=3g3qHyqdn4E",
-    link: "/movies/kaithi",
-  },
-  {
-    id: "thunivu",
-    image: "/thumbnails/thunivu.jpg",
-    title: "Thunivu",
-    year: "2023",
-    genre: "Action / Heist",
-    language: "Tamil",
-    duration: "146 min",
-    description:
-      "A mysterious mastermind takes control of a bank robbery while exposing financial corruption and hidden secrets.",
-    youtube: "https://www.youtube.com/watch?v=jnBZboK17_A",
-    link: "/movies/thunivu",
+      "Prem, a carefree heir to his family's business empire, falls for Sanjana, a runaway bride fleeing her greedy uncles who are scheming to seize her inheritance, leading to a chaotic battle between the two families.",
+    youtube: "https://www.youtube.com/watch?v=BQ7qwFkvIMQ",
+    link: "/movies/ready",
   },
 ];
