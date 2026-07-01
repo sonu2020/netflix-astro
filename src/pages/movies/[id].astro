@@ -6,8 +6,6 @@ import {
   Popular_Malayalam_movies,
   Top_Tamil_Movies,
   Top_Hindi_Movies,
-  Top_English_Movies,
-  Latest_Tamil_Movies,
 } from "../../data/movies";
 import "../../styles/global.css";
 const allMovies = [
@@ -17,8 +15,6 @@ const allMovies = [
   ...Popular_Malayalam_movies,
   ...Top_Tamil_Movies,
   ...Top_Hindi_Movies,
-  ...Top_English_Movies,
-  ...Latest_Tamil_Movies,
 ];
 
 export async function getStaticPaths() {
@@ -29,8 +25,6 @@ export async function getStaticPaths() {
     ...Popular_Malayalam_movies,
     ...Top_Tamil_Movies,
     ...Top_Hindi_Movies,
-    ...Top_English_Movies,
-    ...Latest_Tamil_Movies,
   ];
   return allMovies.map((movie) => ({
     params: {
