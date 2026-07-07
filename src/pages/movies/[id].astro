@@ -6,6 +6,10 @@ import {
   Popular_Malayalam_movies,
   Top_Tamil_Movies,
   Top_Hindi_Movies,
+  New_Release_Malayalam_Movies,
+  Malayalam_Dubbed_Movies,
+  Malayalam_Comedy_Movies,
+  Malayalam_Romantic_Movies,
 } from "../../data/movies";
 import "../../styles/global.css";
 const allMovies = [
@@ -15,6 +19,10 @@ const allMovies = [
   ...Popular_Malayalam_movies,
   ...Top_Tamil_Movies,
   ...Top_Hindi_Movies,
+  ...New_Release_Malayalam_Movies,
+  ...Malayalam_Dubbed_Movies,
+  ...Malayalam_Comedy_Movies,
+  ...Malayalam_Romantic_Movies,
 ];
 
 export async function getStaticPaths() {
@@ -25,6 +33,10 @@ export async function getStaticPaths() {
     ...Popular_Malayalam_movies,
     ...Top_Tamil_Movies,
     ...Top_Hindi_Movies,
+    ...New_Release_Malayalam_Movies,
+    ...Malayalam_Dubbed_Movies,
+    ...Malayalam_Comedy_Movies,
+    ...Malayalam_Romantic_Movies,
   ];
   return allMovies.map((movie) => ({
     params: {

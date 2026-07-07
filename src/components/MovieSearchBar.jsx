@@ -4,9 +4,16 @@ export default function MovieSearchBar({ movies }) {
   const [search, setSearch] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
-  const filteredMovies = movies.filter((movie) =>
-    movie.title.toLowerCase().includes(search.toLowerCase())
+  const filteredMovies = (movies || []).filter((movie) => {
+  const query = search.toLowerCase();
+
+  return (
+    movie.title?.toLowerCase().includes(query) ||
+    movie.genre?.toLowerCase().includes(query) ||
+    movie.language?.toLowerCase().includes(query) ||
+    movie.year?.toLowerCase().includes(query)
   );
+});
 
   const handleSearch = () => {
     if (search.trim()) setSubmitted(true);
@@ -57,9 +64,10 @@ export default function MovieSearchBar({ movies }) {
                   <img
                     src={movie.image}
                     alt={movie.title}
-                    width="200"
+                    width="300"
                     height="300"
                     loading="lazy"
+                    
                     decoding="async"
                   />
                   <h3>{movie.title}</h3>

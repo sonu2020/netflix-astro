@@ -123,6 +123,528 @@ export const Top_Malayalam_Movies = [
     link: "/movies/home",
   },
 ];
+export const New_Release_Malayalam_Movies = [
+  {
+    id: "kappela",
+    image: "/thumbnails/kappela.jpg",
+    title: "Kappela",
+    year: "2020",
+    genre: "Drama / Thriller",
+    language: "Malayalam",
+    duration: "113 min",
+    description:
+      "A young woman's unexpected phone friendship leads her into a gripping journey filled with twists, danger, and self-discovery.",
+    youtube:
+      "https://www.youtube.com/watch?v=oF4bboKCJf8&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=7",
+    link: "/movies/kappela",
+  },
+  {
+    id: "ayyappanum-koshiyum",
+    image: "/thumbnails/ayyappanum-koshiyum.jpg",
+    title: "Ayyappanum Koshiyum",
+    year: "2020",
+    genre: "Action / Drama",
+    language: "Malayalam",
+    duration: "177 min",
+    description:
+      "A powerful clash of ego and pride unfolds between a retired army officer and an uncompromising police officer in a rural village.",
+    youtube:
+      "https://www.youtube.com/watch?v=Z-bIQY2loEk&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=9",
+    link: "/movies/ayyappanum-koshiyum",
+  },
+  {
+    id: "trance",
+    image: "/thumbnails/trance.jpg",
+    title: "Trance",
+    year: "2020",
+    genre: "Psychological Drama",
+    language: "Malayalam",
+    duration: "170 min",
+    description:
+      "A motivational speaker's life changes dramatically as he rises to fame in the world of faith healing, exposing manipulation and ambition.",
+    youtube:
+      "https://www.youtube.com/watch?v=idwRqmXn1kc&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=27",
+    link: "/movies/trance",
+  },
+  {
+    id: "jana-gana-mana",
+    image: "/thumbnails/jana-gana-mana.jpg",
+    title: "Jana Gana Mana",
+    year: "2022",
+    genre: "Thriller / Drama",
+    language: "Malayalam",
+    duration: "162 min",
+    description:
+      "An intense courtroom and investigative thriller that explores justice, politics, media influence, and the pursuit of truth.",
+    youtube:
+      "https://www.youtube.com/watch?v=Wf9JIaHlU7w&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=6",
+    link: "/movies/jana-gana-mana",
+  },
+  {
+    id: "mr-fraud",
+    image: "/thumbnails/mr-fraud.jpg",
+    title: "Mr. Fraud",
+    year: "2014",
+    genre: "Action / Thriller",
+    language: "Malayalam",
+    duration: "138 min",
+    description:
+      "A clever con artist becomes entangled in a dangerous game of deception, hidden treasures, and powerful enemies.",
+    youtube:
+      "https://www.youtube.com/watch?v=Ci3c-4S55b4&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=18",
+    link: "/movies/mr-fraud",
+  },
+  {
+    id: "ullozhukku",
+    image: "/thumbnails/ullozhukku.jpg",
+    title: "Ullozhukku",
+    year: "2024",
+    genre: "Drama",
+    language: "Malayalam",
+    duration: "123 min",
+    description:
+      "A deeply emotional family drama that follows two women as hidden truths, grief, and complex relationships surface during a time of loss.",
+    youtube:
+      "https://www.youtube.com/watch?v=7axyeqFZSU8&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=1",
+    link: "/movies/ullozhukku",
+  },
+  {
+    id: "rdx-robert-dony-xavier",
+    image: "/thumbnails/rdx-robert-dony-xavier.jpg",
+    title: "RDX: Robert Dony Xavier",
+    year: "2023",
+    genre: "Action",
+    language: "Malayalam",
+    duration: "150 min",
+    description:
+      "Three friends reunite to protect their loved ones, delivering explosive action, emotional moments, and high-energy fight sequences.",
+    youtube:
+      "https://www.youtube.com/watch?v=OLQsFON9yrk&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=32",
+    link: "/movies/rdx-robert-dony-xavier",
+  },
+];
+export const Malayalam_Dubbed_Movies = [
+  {
+    id: "miss-shetty-mr-polishetty",
+    image: "/thumbnails/miss-shetty-mr-polishetty.jpg",
+    title: "Miss Shetty Mr Polishetty",
+    year: "2023",
+    genre: "Romantic Comedy",
+    language: "Malayalam Dubbed",
+    duration: "149 min",
+    description:
+      "A successful chef and an aspiring stand-up comedian form an unusual relationship that challenges their views on love, marriage, and family.",
+    youtube:
+      "https://www.youtube.com/watch?v=TrJ5sIKxgcI&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=8",
+    link: "/movies/miss-shetty-mr-polishetty",
+  },
+  {
+    id: "dasara",
+    image: "/thumbnails/dasara.jpg",
+    title: "Dasara",
+    year: "2023",
+    genre: "Action / Drama",
+    language: "Malayalam Dubbed",
+    duration: "156 min",
+    description:
+      "Set in a coal mining village, a fearless young man rises against injustice, political rivalry, and violence while protecting the people he loves.",
+    youtube:
+      "https://www.youtube.com/watch?v=ouj8DRWnskk&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=55",
+    link: "/movies/dasara",
+  },
+  {
+    id: "vaathi",
+    image: "/thumbnails/vaathi.jpg",
+    title: "Vaathi",
+    year: "2023",
+    genre: "Action / Drama",
+    language: "Malayalam Dubbed",
+    duration: "137 min",
+    description:
+      "A passionate teacher fights against the commercialization of education while inspiring students to achieve their dreams through knowledge and determination.",
+    youtube:
+      "https://www.youtube.com/watch?v=FK6JWb4Cj9w&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=22",
+    link: "/movies/vaathi",
+  },
+  {
+    id: "lucky-the-racer",
+    image: "/thumbnails/lucky-the-racer.jpg",
+    title: "Lucky The Racer",
+    year: "2018",
+    genre: "Action / Comedy",
+    language: "Malayalam Dubbed",
+    duration: "165 min",
+    description:
+      "A carefree young man unexpectedly becomes involved in a dangerous conflict, leading to action-packed adventures, family drama, and comedy.",
+    youtube:
+      "https://www.youtube.com/watch?v=nAyyhGSo1bM&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=33",
+    link: "/movies/lucky-the-racer",
+  },
+  {
+    id: "mersal",
+    image: "/thumbnails/mersal.jpg",
+    title: "Mersal",
+    year: "2017",
+    genre: "Action / Thriller",
+    language: "Malayalam Dubbed",
+    duration: "169 min",
+    description:
+      "A skilled doctor and a mysterious magician become entangled in a gripping tale of corruption, justice, and revenge against a powerful medical mafia.",
+    youtube:
+      "https://www.youtube.com/watch?v=-qAQM1_i-Ew&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=38",
+    link: "/movies/mersal",
+  },
+
+  {
+    id: "gajapokkiri",
+    image: "/thumbnails/gajapokkiri.jpg",
+    title: "Gajapokkiri",
+    year: "2015",
+    genre: "Action / Comedy",
+    language: "Malayalam Dubbed",
+    duration: "161 min",
+    description:
+      "A fearless police officer takes on ruthless criminals while balancing family relationships, romance, and plenty of action-packed comedy.",
+    youtube:
+      "https://www.youtube.com/watch?v=7LRjIlODUMo&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=49",
+    link: "/movies/gajapokkiri",
+  },
+  {
+    id: "valimai",
+    image: "/thumbnails/valimai.jpg",
+    title: "Valimai",
+    year: "2022",
+    genre: "Action / Thriller",
+    language: "Malayalam Dubbed",
+    duration: "179 min",
+    description:
+      "A determined police officer investigates a dangerous biker gang involved in a series of brutal crimes while battling personal challenges and powerful enemies.",
+    youtube:
+      "https://www.youtube.com/watch?v=mJrp-1Pz7uE&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=53",
+    link: "/movies/valimai",
+  },
+
+  {
+    id: "aadhavan",
+    image: "/thumbnails/aadhavan2.jpg",
+    title: "Aadhavan",
+    year: "2009",
+    genre: "Action / Comedy",
+    language: "Malayalam Dubbed",
+    duration: "168 min",
+    description:
+      "A fearless professional assassin finds his life turned upside down when he falls in love while completing a dangerous mission involving a powerful family.",
+    youtube:
+      "https://www.youtube.com/watch?v=52RfzjR18Ro&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=42",
+    link: "/movies/aadhavan",
+  },
+];
+export const Malayalam_Romantic_Movies = [
+  {
+    id: "thattathin-marayathu",
+    image: "/thumbnails/thattathin-marayathu.jpg",
+    title: "Thattathin Marayathu",
+    year: "2012",
+    genre: "Romance / Drama",
+    language: "Malayalam",
+    duration: "126 min",
+    description:
+      "A young Hindu man's heartfelt love for a Muslim girl leads him through emotional challenges, family traditions, and unforgettable moments.",
+    youtube: "https://www.youtube.com/watch?v=BNVAgg0zltM",
+    link: "/movies/thattathin-marayathu",
+  },
+
+  {
+    id: "mandharam",
+    image: "/thumbnails/mandharam.jpg",
+    title: "Mandharam",
+    year: "2018",
+    genre: "Romance / Drama",
+    language: "Malayalam",
+    duration: "136 min",
+    description:
+      "A touching love story that follows a young man's journey through heartbreak, hope, and the changing seasons of life.",
+    youtube: "https://www.youtube.com/watch?v=0VK2tLWwDaQ",
+    link: "/movies/mandharam",
+  },
+  {
+    id: "bobby",
+    image: "/thumbnails/bobby.jpg",
+    title: "Bobby",
+    year: "2017",
+    genre: "Romance / Drama",
+    language: "Malayalam",
+    duration: "145 min",
+    description:
+      "A romantic drama that follows a carefree young man's emotional journey as he discovers love, friendship, and responsibility.",
+    youtube: "https://www.youtube.com/watch?v=eidg7BDYUYc",
+    link: "/movies/bobby",
+  },
+  {
+    id: "paippin-chuvattile-pranayam",
+    image: "/thumbnails/paippin-chuvattile-pranayam.jpg",
+    title: "Paippin Chuvattile Pranayam",
+    year: "2017",
+    genre: "Romance / Comedy",
+    language: "Malayalam",
+    duration: "134 min",
+    description:
+      "A delightful romantic comedy that revolves around friendship, love, and the colorful lives of youngsters in a small town.",
+    youtube: "https://www.youtube.com/watch?v=Sa31GsUdtq0",
+    link: "/movies/paippin-chuvattile-pranayam",
+  },
+  {
+    id: "narayaneente-moonnaanmakkal",
+    image: "/thumbnails/arayaneente-moonnaanmakkal2.jpg",
+    title: "Narayaneente Moonnaanmakkal",
+    year: "2025",
+    genre: "Family / Drama",
+    language: "Malayalam",
+    duration: "140 min",
+    description:
+      "A family drama that follows three siblings as they reunite to face long-buried emotions, conflicts, and the enduring strength of family bonds.",
+    youtube: "https://www.youtube.com/watch?v=pfNV33U03hI",
+    link: "/movies/narayaneente-moonnaanmakkal",
+  },
+  {
+    id: "anuragam",
+    image: "/thumbnails/anuragam.jpg",
+    title: "Anuragam",
+    year: "2023",
+    genre: "Romance / Family",
+    language: "Malayalam",
+    duration: "126 min",
+    description:
+      "An emotional romantic drama that beautifully explores love across generations, family bonds, and meaningful relationships.",
+    youtube: "https://www.youtube.com/watch?v=fOfjs171JDg",
+    link: "/movies/anuragam",
+  },
+  {
+    id: "hey-jude",
+    image: "/thumbnails/hey-jude.jpg",
+    title: "Hey Jude",
+    year: "2018",
+    genre: "Romance / Drama",
+    language: "Malayalam",
+    duration: "146 min",
+    description:
+      "A socially awkward young man finds new hope and confidence after meeting a free-spirited woman who changes his perspective on life.",
+    youtube: "https://www.youtube.com/watch?v=99LEGcE-_yA",
+    link: "/movies/hey-jude",
+  },
+
+  {
+    id: "honey-bee-2-5",
+    image: "/thumbnails/honey-bee-2-5.jpg",
+    title: "Honey Bee 2.5",
+    year: "2017",
+    genre: "Comedy / Romance",
+    language: "Malayalam",
+    duration: "128 min",
+    description:
+      "A fun-filled spin-off from the Honey Bee series that follows friendship, romance, and humorous adventures among a lively group of youngsters.",
+    youtube: "https://www.youtube.com/watch?v=114-DIhKHMM",
+    link: "/movies/honey-bee-2-5",
+  },
+  {
+    id: "pranaya-vilasam",
+    image: "/thumbnails/pranaya-vilasam.jpg",
+    title: "Pranaya Vilasam",
+    year: "2023",
+    genre: "Romance / Family",
+    language: "Malayalam",
+    duration: "123 min",
+    description:
+      "A heartwarming romantic drama that explores love, family relationships, and second chances through multiple generations.",
+    youtube: "https://www.youtube.com/watch?v=BB2JvmkCEt8",
+    link: "/movies/pranaya-vilasam",
+  },
+  {
+    id: "mr-and-miss",
+    image: "/thumbnails/mr-and-miss.jpg",
+    title: "Mr & Miss",
+    year: "2023",
+    genre: "Romance / Comedy",
+    language: "Malayalam",
+    duration: "121 min",
+    description:
+      "Two individuals with contrasting personalities unexpectedly cross paths, leading to romance, comedy, and life-changing experiences.",
+    youtube: "https://www.youtube.com/watch?v=2SgZmNhTTVc",
+    link: "/movies/mr-and-miss",
+  },
+];
+export const Malayalam_Comedy_Movies = [
+  {
+    id: "bharathanatyam",
+    image: "/thumbnails/bharathanatyam.jpg",
+    title: "Bharathanatyam",
+    year: "2024",
+    genre: "Comedy / Family",
+    language: "Malayalam",
+    duration: "121 min",
+    description:
+      "A fun-filled family entertainer that follows a young man whose life turns upside down when long-hidden family secrets create a series of hilarious and emotional situations.",
+    youtube: "https://www.youtube.com/watch?v=f6aOMUH2Pqg&t=6618s",
+    link: "/movies/bharathanatyam",
+  },
+  {
+    id: "madhura-manohara-moham",
+    image: "/thumbnails/madhura-manohara-moham.jpg",
+    title: "Madhura Manohara Moham",
+    year: "2023",
+    genre: "Comedy / Family",
+    language: "Malayalam",
+    duration: "119 min",
+    description:
+      "A light-hearted family comedy where a wedding celebration takes an unexpected turn, leading to hilarious misunderstandings and emotional moments.",
+    youtube: "https://www.youtube.com/watch?v=9ozjpYQdSTE",
+    link: "/movies/madhura-manohara-moham",
+  },
+  {
+    id: "oru-marubhoomikkadha",
+    image: "/thumbnails/oru-marubhoomikkadha.jpg",
+    title: "Oru Marubhoomikkadha",
+    year: "2011",
+    genre: "Comedy / Romance",
+    language: "Malayalam",
+    duration: "150 min",
+    description:
+      "A carefree young man working in the Middle East gets caught in a series of humorous adventures after meeting a spirited young woman.",
+    youtube: "https://www.youtube.com/watch?v=OifxZ3Xg258 ",
+    link: "/movies/oru-marubhoomikkadha",
+  },
+
+  {
+    id: "kallan-dsouza",
+    image: "/thumbnails/kallan-dsouza.jpg",
+    title: "Kallan D'Souza",
+    year: "2022",
+    genre: "Comedy / Thriller",
+    language: "Malayalam",
+    duration: "121 min",
+    description:
+      "A small-time thief's life takes an unexpected turn when he becomes entangled in a mysterious crime filled with twists, humor, and suspense.",
+    youtube: "https://www.youtube.com/watch?v=B02dLwAI0Sw",
+    link: "/movies/kallan-dsouza",
+  },
+  {
+    id: "anpodu-kanmani",
+    image: "/thumbnails/anpodu-kanmani.jpg",
+    title: "Anpodu Kanmani",
+    year: "2025",
+    genre: "Family / Drama",
+    language: "Malayalam",
+    duration: "125 min",
+    description:
+      "A heartwarming family drama that explores love, relationships, and the emotional bonds that bring people together through life's challenges.",
+    youtube: "https://www.youtube.com/watch?v=JmBgmhReR1Q",
+    link: "/movies/anpodu-kanmani",
+  },
+  {
+    id: "oru-yamandan-premakadha",
+    image: "/thumbnails/oru-yamandan-premakadha.jpg",
+    title: "Oru Yamandan Premakadha",
+    year: "2019",
+    genre: "Comedy / Romance",
+    language: "Malayalam",
+    duration: "165 min",
+    description:
+      "A carefree young man finds himself caught between love, family expectations, and hilarious misunderstandings in this entertaining romantic comedy.",
+    youtube: "https://www.youtube.com/watch?v=DgjfZyz0HIM",
+    link: "/movies/oru-yamandan-premakadha",
+  },
+  {
+    id: "ulsaha-committee",
+    image: "/thumbnails/ulsaha-committee.jpg",
+    title: "Ulsaha Committee",
+    year: "2014",
+    genre: "Comedy",
+    language: "Malayalam",
+    duration: "143 min",
+    description:
+      "A group of enthusiastic villagers forms a local committee, leading to a series of humorous events, friendships, and unexpected adventures.",
+    youtube: "https://www.youtube.com/watch?v=qHB75CwPCDA",
+    link: "/movies/ulsaha-committee",
+  },
+  {
+    id: "thanneer-mathan-dinangal",
+    image: "/thumbnails/thanneer-mathan-dinangal.jpg",
+    title: "Thanneer Mathan Dinangal",
+    year: "2019",
+    genre: "Comedy / Romance",
+    language: "Malayalam",
+    duration: "133 min",
+    description:
+      "A charming coming-of-age story that follows school students as they experience friendship, first love, and unforgettable teenage memories.",
+    youtube: "https://www.youtube.com/watch?v=asffbk9CSI8",
+    link: "/movies/thanneer-mathan-dinangal",
+  },
+  {
+    id: "mariyam-vannu-vilakkoothi",
+    image: "/thumbnails/mariyam-vannu-vilakkoothi.jpg",
+    title: "Mariyam Vannu Vilakkoothi",
+    year: "2020",
+    genre: "Comedy",
+    language: "Malayalam",
+    duration: "123 min",
+    description:
+      "Three friends find themselves trapped in a hilarious situation after an unexpected incident turns an ordinary day into complete chaos.",
+    youtube: "https://www.youtube.com/watch?v=MOyGnDmzJG4",
+    link: "/movies/mariyam-vannu-vilakkoothi",
+  },
+  {
+    id: "jo-and-jo",
+    image: "/thumbnails/jo-and-jo.jpg",
+    title: "Jo and Jo",
+    year: "2022",
+    genre: "Comedy / Family",
+    language: "Malayalam",
+    duration: "134 min",
+    description:
+      "A fun-filled family comedy that revolves around siblings, friendships, and the humorous challenges of everyday life during lockdown.",
+    youtube: "https://www.youtube.com/watch?v=HpSdp56GWh8",
+    link: "/movies/jo-and-jo",
+  },
+  {
+    id: "pullipulikalum-attinkuttiyum",
+    image: "/thumbnails/pullipulikalum-attinkuttiyum.jpg",
+    title: "Pullipulikalum Attinkuttiyum",
+    year: "2013",
+    genre: "Comedy / Family",
+    language: "Malayalam",
+    duration: "155 min",
+    description:
+      "A light-hearted village entertainer that follows the amusing lives, romances, and rivalries of a group of friends.",
+    youtube: "https://www.youtube.com/watch?v=P9JdCi3bhK0",
+    link: "/movies/pullipulikalum-attinkuttiyum",
+  },
+  {
+    id: "oru-vadakkan-selfie",
+    image: "/thumbnails/oru-vadakkan-selfie.jpg",
+    title: "Oru Vadakkan Selfie",
+    year: "2015",
+    genre: "Comedy / Thriller",
+    language: "Malayalam",
+    duration: "141 min",
+    description:
+      "A college graduate's life takes an unexpected turn after a selfie goes viral, leading to an adventurous and hilarious journey.",
+    youtube: "https://www.youtube.com/watch?v=Wea0yLSdyGM",
+    link: "/movies/oru-vadakkan-selfie",
+  },
+  {
+    id: "upacharapoorvam-gunda-jayan",
+    image: "/thumbnails/upacharapoorvam-gunda-jayan.jpg",
+    title: "Upacharapoorvam Gunda Jayan",
+    year: "2022",
+    genre: "Comedy",
+    language: "Malayalam",
+    duration: "129 min",
+    description:
+      "A lovable local goon unexpectedly becomes the center of attention, resulting in a series of hilarious misunderstandings and heartwarming moments.",
+    youtube: "https://www.youtube.com/watch?v=c1t9UfvQp3s",
+    link: "/movies/upacharapoorvam-gunda-jayan",
+  },
+];
 export const Trending_Movies = [
   {
     id: "kettyolaanu-ente-malakha",
@@ -176,20 +698,6 @@ export const Trending_Movies = [
       "Two engineering graduates assist the cybercrime police in solving complex criminal investigations.",
     youtube: "https://www.youtube.com/watch?v=a1oJIFH6rmM",
     link: "/movies/operation-java",
-  },
-  {
-    id: "mandharam",
-    image: "/thumbnails/mandharam.jpg",
-    title: "Mandharam",
-    year: "2018",
-    genre: "Romance / Drama",
-    language: "Malayalam",
-    duration: "136 min",
-    description:
-      "The life of Rajesh, a shy young man with premature balding, unfolds through different stages as he experiences love, heartbreak, and self-discovery.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Mandharam+Malayalam+full+movie",
-    link: "/movies/mandharam",
   },
 
   {
