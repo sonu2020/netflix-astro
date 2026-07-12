@@ -1,0 +1,44 @@
+---
+export const prerender = false;
+
+import "../../styles/trendingDetails.css";
+
+import { getMovieDetails } from "../../scripts/tmdb";
+
+const id = Astro.params.id;
+const movie = await getMovieDetails(id);
+
+const image = `https://image.tmdb.org/t/p/w500${movie.poster_path}`;
+---
+
+<link rel="stylesheet" href="/styles/trendig.css" />
+
+<div class="details-container">
+  <img src={image} alt={movie.title} class="poster" />
+
+  <div class="info">
+    <h1>{movie.title}</h1>
+
+    <div class="meta">
+      <span>Rating : {movie.vote_average.toFixed(1)}</span>
+      <span>Release Date :{movie.release_date}</span>
+      <span>Run Time :{movie.runtime} min</span>
+    </div>
+    <!-- 
+    <div class="genres">
+      {movie.genres.map((genre) => <span class="genre">{genre.name}</span>)}
+    </div> -->
+
+    <p class="overview">{movie.overview}</p>
+
+    <div class="buttons">
+      <a
+        href={`https://www.themoviedb.org/movie/${movie.id}`}
+        target="_blank"
+        class="btn"
+      >
+        View on TMDB
+      </a>
+    </div>
+  </div>
+</div>

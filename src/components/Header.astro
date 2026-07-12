@@ -8,7 +8,7 @@ import { New_Release_Malayalam_Movies } from "../data/movies";
 import { Malayalam_Dubbed_Movies } from "../data/movies";
 import { Malayalam_Comedy_Movies } from "../data/movies";
 import { Malayalam_Romantic_Movies } from "../data/movies";
-
+import { Info } from "lucide-react";
 const allMovies = [
   ...Classic_malayalam_Movies,
   ...Popular_Malayalam_movies,
@@ -26,7 +26,10 @@ const allMovies = [
 
   <MovieSearchBar movies={allMovies} client:load />
   <div>
-    <a href="/trending" class="about-btn">Trending</a>
-    <a href="/about" class="about-btn">About</a>
+    <a href="/news" class="btn">Movie Updates</a>
+
+    <a href="/trending" class="btn">Trending Movies</a>
+
+    <a href="/about" class="btn">About</a>
   </div>
 </div>

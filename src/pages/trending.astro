@@ -1,76 +1,44 @@
 ---
-import "../styles/global.css";
-import MovieCard from "../components/MovieCard.astro";
-import movies from "../data/movies.json";
-import WikiMovieCard from "../components/WikiMovieCard.astro";
-console.log(movies);
+import { getTrendingMovies } from "../scripts/tmdb";
+import "../styles/trending.css";
 
-const trendingMovies = [
-  // {
-  //   image: "/thumbnails/operation-java.jpg",
-  //   title: "Operation Java",
-  //   year: "2021",
-  //   link: "https://www.youtube.com/results?search_query=Operation+Java+Malayalam+full+movie+official",
-  // },
-  // {
-  //   image: "/thumbnails/home.jpg",
-  //   title: "#Home",
-  //   year: "2021",
-  //   link: "https://www.youtube.com/results?search_query=Home+Malayalam+full+movie+official",
-  // },
-  // {
-  //   image: "/thumbnails/pariyerum-perumal.jpg",
-  //   title: "Pariyerum Perumal",
-  //   year: "2018",
-  //   link: "https://www.youtube.com/results?search_query=Pariyerum+Perumal+full+movie+official",
-  // },
-  // {
-  //   image: "/thumbnails/joseph.jpg",
-  //   title: "Joseph",
-  //   year: "2018",
-  //   link: "https://www.youtube.com/results?search_query=Joseph+Malayalam+full+movie+official",
-  // },
-  // {
-  //   image: "/thumbnails/android-kunjappan.jpg",
-  //   title: "Android Kunjappan Version 5.25",
-  //   year: "2019",
-  //   link: "https://www.youtube.com/results?search_query=Android+Kunjappan+Version+5.25+full+movie+official",
-  // },
-  // {
-  //   image: "/thumbnails/theevandi.jpg",
-  //   title: "Theevandi",
-  //   year: "2018",
-  //   link: "https://www.youtube.com/results?search_query=Theevandi+Malayalam+full+movie+official",
-  // },
-  // {
-  //   image: "/thumbnails/uyare.jpg",
-  //   title: "Uyare",
-  //   year: "2019",
-  //   link: "https://www.youtube.com/results?search_query=Uyare+Malayalam+full+movie+official",
-  // },
-  // {
-  //   image: "/thumbnails/romancham.jpg",
-  //   title: "Romancham",
-  //   year: "2023",
-  //   link: "https://www.youtube.com/results?search_query=Romancham+Malayalam+full+movie+official",
-  // },
-];
+interface Movie {
+  id: number;
+  title: string;
+  poster_path: string;
+  vote_average: number;
+  release_date: string;
+  overview: string;
+}
+
+const movies: Movie[] = await getTrendingMovies();
 ---
 
-<h1>Total Movies: {movies.length}</h1>
+<h1>Trending Movies</h1>
+
 <div class="movie-grid">
-  {movies.map((movie) => <WikiMovieCard movie={movie} />)}
-</div>
-<!-- <h1 class="title">Trending Movies</h1>
-<div class="trending-grid">
   {
-    trendingMovies.map((movie) => (
-      <MovieCard
-        image={movie.image}
-        title={movie.title}
-        year={movie.year}
-        link={movie.link}
-      />
+    movies.map((movie) => (
+      <div class="movie-card">
+        <img
+          src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
+          alt={movie.title}
+        />
+
+        <div class="movie-content">
+          <h2>{movie.title}</h2>
+
+          <p class="rating">Rating: {movie.vote_average}</p>
+
+          <p class="release">Release Date: {movie.release_date}</p>
+
+          <p class="overview">{movie.overview}</p>
+
+          <a class="details-btn" href={`/tmdb/${movie.id}`}>
+            View Details
+          </a>
+        </div>
+      </div>
     ))
   }
-</div> -->
+</div>

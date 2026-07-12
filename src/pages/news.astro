@@ -1,0 +1,55 @@
+---
+import { getMovieNews } from "../scripts/newsapi";
+
+import "../styles/news.css";
+
+interface NewsArticle {
+  title: string;
+  description: string;
+  url: string;
+  urlToImage: string;
+  publishedAt: string;
+  source: {
+    name: string;
+  };
+}
+
+const articles: NewsArticle[] = await getMovieNews();
+---
+
+<div class="news-container">
+  <h1 class="news-title">Latest Movie News</h1>
+
+  <div class="news-grid">
+    {
+      articles.map((article) => (
+        <article class="card">
+          {article.urlToImage && (
+            <img src={article.urlToImage} alt={article.title} />
+          )}
+
+          <div class="card-content">
+            <h2>{article.title}</h2>
+
+            <p>{article.description}</p>
+
+            <small>{article.source.name}</small>
+
+            <br />
+
+            <small>{new Date(article.publishedAt).toLocaleDateString()}</small>
+
+            <>
+              <br />
+              <br />
+            </>
+
+            <a href={article.url} target="_blank">
+              Read More →
+            </a>
+          </div>
+        </article>
+      ))
+    }
+  </div>
+</div>
