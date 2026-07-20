@@ -10,15 +10,19 @@ console.log(movies);
 
 import {
   Top_Malayalam_Movies,
+  Malayalam_Short_Movies,
   Trending_Movies,
   Classic_malayalam_Movies,
   Popular_Malayalam_movies,
-  Top_Tamil_Movies,
-  Top_Hindi_Movies,
+  // Top_Tamil_Movies,
+  // Top_Hindi_Movies,
   New_Release_Malayalam_Movies,
   Malayalam_Dubbed_Movies,
   Malayalam_Comedy_Movies,
   Malayalam_Romantic_Movies,
+  New_movies,
+  New_movies2,
+  Malayalam_Comedy_Movies2,
 } from "../data/movies";
 ---
 
@@ -53,23 +57,11 @@ import {
       ))
     }
   </div>
-  <h1 class="title">New Release Malayalam Movies &#xBB;</h1>
+
+  <h1 class="title">Malayalam Romantic Movies &#xBB;</h1>
   <div class="movie-card">
     {
-      New_Release_Malayalam_Movies.map((movie) => (
-        <MovieCard
-          image={movie.image}
-          title={movie.title}
-          year={movie.year}
-          link={movie.link}
-        />
-      ))
-    }
-  </div>
-  <h1 class="title">Malayalam Dubbed Movies &#xBB;</h1>
-  <div class="movie-card">
-    {
-      Malayalam_Dubbed_Movies.map((movie) => (
+      Malayalam_Romantic_Movies.map((movie) => (
         <MovieCard
           image={movie.image}
           title={movie.title}
@@ -92,10 +84,10 @@ import {
       ))
     }
   </div>
-  <h1 class="title">Malayalam Romantic Movies &#xBB;</h1>
+  <h1 class="title">Malayalam Comedy Movies &#xBB;</h1>
   <div class="movie-card">
     {
-      Malayalam_Romantic_Movies.map((movie) => (
+      Malayalam_Comedy_Movies2.map((movie) => (
         <MovieCard
           image={movie.image}
           title={movie.title}
@@ -105,10 +97,37 @@ import {
       ))
     }
   </div>
+
   <h1 class="title">Most Viewed Movies &#xBB;</h1>
   <div class="movie-card">
     {
       Trending_Movies.map((movie) => (
+        <MovieCard
+          image={movie.image}
+          title={movie.title}
+          year={movie.year}
+          link={movie.link}
+        />
+      ))
+    }
+  </div>
+  <h1 class="title">New Release Malayalam Movies &#xBB;</h1>
+  <div class="movie-card">
+    {
+      New_Release_Malayalam_Movies.map((movie) => (
+        <MovieCard
+          image={movie.image}
+          title={movie.title}
+          year={movie.year}
+          link={movie.link}
+        />
+      ))
+    }
+  </div>
+  <h1 class="title">Malayalam Dubbed Movies &#xBB;</h1>
+  <div class="movie-card">
+    {
+      Malayalam_Dubbed_Movies.map((movie) => (
         <MovieCard
           image={movie.image}
           title={movie.title}
@@ -145,8 +164,52 @@ import {
       ))
     }
   </div>
-  <h1 class="title">Top Tamil Movies &#xBB;</h1>
 
+  <h1 class="title">Old Hit Movies &#xBB;</h1>
+  <div class="movie-card">
+    {
+      New_movies2.map((movie) => (
+        <MovieCard
+          image={movie.image}
+          title={movie.title}
+          year={movie.year}
+          link={movie.link}
+        />
+      ))
+    }
+  </div>
+  <h1 class="title">Malayalam Movies &#xBB;</h1>
+  <div class="movie-card">
+    {
+      New_movies.map((movie) => (
+        <MovieCard
+          image={movie.image}
+          title={movie.title}
+          year={movie.year}
+          link={movie.link}
+        />
+      ))
+    }
+  </div>
+
+  <h1 class="title">Malayalam Short Filims &#xBB;</h1>
+  <div class="movie-card">
+    {
+      Malayalam_Short_Movies.map((movie) => (
+        <MovieCard
+          image={movie.image}
+          title={movie.title}
+          year={movie.year}
+          link={movie.link}
+        />
+      ))
+    }
+  </div>
+  <Footer />
+
+
+  <!-- <h1 class="title">Top Tamil Movies &#xBB;</h1> -->
+  <!-- 
   <div class="movie-card">
     {
       Top_Tamil_Movies.map((movie) => (
@@ -159,9 +222,9 @@ import {
       ))
     }
   </div>
-  <h1 class="title">Top Hindi Movies &#xBB;</h1>
+  <h1 class="title">Top Hindi Movies &#xBB;</h1> -->
 
-  <div class="movie-card">
+  <!-- <div class="movie-card">
     {
       Top_Hindi_Movies.map((movie) => (
         <MovieCard
@@ -172,9 +235,5 @@ import {
         />
       ))
     }
-  </div>
-
-  <Footer />
-
-
+  </div> -->
 </html>

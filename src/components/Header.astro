@@ -2,22 +2,32 @@
 import MovieSearchBar from "./MovieSearchBar.jsx";
 import { Classic_malayalam_Movies } from "../data/movies";
 import { Popular_Malayalam_movies } from "../data/movies";
-import { Top_Tamil_Movies } from "../data/movies";
-import { Top_Hindi_Movies } from "../data/movies";
+// import { Top_Tamil_Movies } from "../data/movies";
+// import { Top_Hindi_Movies } from "../data/movies";
 import { New_Release_Malayalam_Movies } from "../data/movies";
 import { Malayalam_Dubbed_Movies } from "../data/movies";
 import { Malayalam_Comedy_Movies } from "../data/movies";
+import { Malayalam_Comedy_Movies2 } from "../data/movies";
+
 import { Malayalam_Romantic_Movies } from "../data/movies";
+import { New_movies } from "../data/movies";
+import { New_movies2 } from "../data/movies";
+import { Malayalam_Short_Movies } from "../data/movies";
+
 import { Info } from "lucide-react";
 const allMovies = [
   ...Classic_malayalam_Movies,
   ...Popular_Malayalam_movies,
-  ...Top_Tamil_Movies,
-  ...Top_Hindi_Movies,
+  // ...Top_Tamil_Movies,
+  // ...Top_Hindi_Movies,
   ...New_Release_Malayalam_Movies,
   ...Malayalam_Dubbed_Movies,
   ...Malayalam_Comedy_Movies,
+  ...Malayalam_Comedy_Movies2,
   ...Malayalam_Romantic_Movies,
+  ...New_movies,
+  ...New_movies2,
+  ...Malayalam_Short_Movies,
 ];
 ---
 
@@ -26,10 +36,13 @@ const allMovies = [
 
   <MovieSearchBar movies={allMovies} client:load />
   <div>
+    <!-- <a href="/shortfilims" class="btn">Short Filims</a> -->
+
     <a href="/news" class="btn">Movie Updates</a>
 
     <a href="/trending" class="btn">Trending Movies</a>
 
     <a href="/about" class="btn">About</a>
+    <a href="/" class="btn">Home</a>
   </div>
 </div>

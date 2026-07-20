@@ -1,3 +1,539 @@
+export const New_movies2 = [
+  {
+    id: "oru-indian-pranayakadha",
+    image: "/thumbnails/oru-indian-pranayakadha.jpg",
+    title: "Oru Indian Pranayakadha",
+    year: "2013",
+    genre: "Romance / Comedy / Drama",
+    language: "Malayalam",
+    duration: "150 min",
+    rating: 6.8,
+    description:
+      "Ayyappan, a passionate politician, falls in love with Irene, an educated young woman from a different background. As their relationship blossoms, they must overcome cultural differences, family expectations, and personal challenges.",
+    youtube: "https://www.youtube.com/watch?v=i_6y1WExgSg",
+    trailer: "https://www.youtube.com/watch?v=OytK4yGAafw",
+    link: "/movies/oru-indian-pranayakadha",
+    mainActors: [
+      "Fahadh Faasil",
+      "Amala Paul",
+      "Innocent",
+      "Lakshmi Gopalaswamy",
+      "Isha Talwar",
+    ],
+  },
+  {
+    id: "salalah-mobiles",
+    image: "/thumbnails/salalah-mobiles.jpg",
+    title: "Salalah Mobiles",
+    year: "2014",
+    genre: "Comedy / Romance",
+    language: "Malayalam",
+    duration: "128 min",
+    rating: 5.2,
+    description:
+      "Afsal, the owner of a mobile phone shop in Malappuram, falls in love with a customer. As misunderstandings, family conflicts, and humorous situations unfold, he must find a way to win her heart.",
+    youtube: "https://www.youtube.com/watch?v=YALQwD5UEWE",
+    trailer: "https://www.youtube.com/watch?v=QDGu1I8FWWw",
+    link: "/movies/salalah-mobiles",
+    mainActors: [
+      "Dulquer Salmaan",
+      "Nazriya Nazim",
+      "Santhanam",
+      "Siddique",
+      "Jacob Gregory",
+    ],
+  },
+  {
+    id: "kunjiramayanam",
+    image: "/thumbnails/kunjiramayanam.jpg",
+    title: "Kunjiramayanam",
+    year: "2015",
+    genre: "Comedy / Family",
+    language: "Malayalam",
+    duration: "122 min",
+    rating: 7.8,
+    description:
+      "Kunjiraman's peaceful village life takes a hilarious turn when a long-standing family feud sparks a chain of misunderstandings, romance, and comic incidents that bring the entire village together.",
+    youtube: "https://www.youtube.com/watch?v=axDSnoZ2zIM",
+    trailer: "https://www.youtube.com/watch?v=wIE1iBDU7II",
+    link: "/movies/kunjiramayanam",
+    mainActors: [
+      "Vineeth Sreenivasan",
+      "Dhyan Sreenivasan",
+      "Aju Varghese",
+      "Neeraj Madhav",
+      "Mamukkoya",
+    ],
+  },
+  {
+    id: "spanish-masala",
+    image: "/thumbnails/spanish-masala.jpg",
+    title: "Spanish Masala",
+    year: "2012",
+    genre: "Romance / Comedy / Drama",
+    language: "Malayalam",
+    duration: "160 min",
+    rating: 6.8,
+    description:
+      "Rahul, a young man from Kerala, travels to Spain to teach Hindi to a visually impaired woman named Paula. As they grow closer, cultural differences, family expectations, and emotional challenges shape their unique love story.",
+    youtube: "https://www.youtube.com/watch?v=5wAYIvbcZxs",
+    trailer: "https://www.youtube.com/watch?v=torCGE71UD8",
+    link: "/movies/spanish-masala",
+    mainActors: [
+      "Dileep",
+      "Daniela Zacher",
+      "Kunchacko Boban",
+      "Biju Menon",
+      "Nelson",
+    ],
+  },
+  {
+    id: "sound-thoma",
+    image: "/thumbnails/sound-thoma.jpg",
+    title: "Sound Thoma",
+    year: "2013",
+    genre: "Comedy / Drama",
+    language: "Malayalam",
+    duration: "160 min",
+    rating: 6.6,
+    description:
+      "Thoma, the kind-hearted son of a wealthy rubber plantation owner, struggles with a speech impairment and constant ridicule from society. Despite the challenges, he proves his worth through courage, compassion, and determination while fighting for love and justice.",
+    youtube: "https://www.youtube.com/watch?v=vw6Fj_gV74I",
+    trailer: "https://www.youtube.com/watch?v=-zVkD6AMPT8",
+    link: "/movies/sound-thoma",
+    mainActors: [
+      "Dileep",
+      "Namitha Pramod",
+      "Mukesh",
+      "Saikumar",
+      "Nedumudi Venu",
+    ],
+  },
+  {
+    id: "pazhassi-raja",
+    image: "/thumbnails/pazhassi-raja.jpg",
+    title: "Pazhassi Raja",
+    year: "2009",
+    genre: "Historical / War / Drama",
+    language: "Malayalam",
+    duration: "197 min",
+    rating: 8.0,
+    description:
+      "Based on the life of Kerala Varma Pazhassi Raja, the film chronicles the legendary king's courageous resistance against the British East India Company in the late 18th century, leading his people in a fierce battle for freedom.",
+    youtube: "https://www.youtube.com/watch?v=YzXKzYn3Sqc",
+    trailer: "https://www.youtube.com/watch?v=S1YQP7tQruI",
+    link: "/movies/pazhassi-raja",
+    mainActors: [
+      "Mammootty",
+      "Sarath Kumar",
+      "Manoj K. Jayan",
+      "Padmapriya",
+      "Kanika",
+    ],
+  },
+  {
+    id: "traffic",
+    image: "/thumbnails/traffic.jpg",
+    title: "Traffic",
+    year: "2011",
+    genre: "Thriller / Drama",
+    language: "Malayalam",
+    duration: "117 min",
+    rating: 8.0,
+    description:
+      "Inspired by a true incident, the film follows an extraordinary mission to transport a donor heart across Kerala within a few hours. As police officers, doctors, and ordinary citizens race against time, their lives become unexpectedly intertwined.",
+    youtube: "https://www.youtube.com/watch?v=5vNCGl7J4nk",
+    trailer: "https://www.youtube.com/watch?v=ByMiwLbBNxw",
+    link: "/movies/traffic",
+    mainActors: [
+      "Sreenivasan",
+      "Kunchacko Boban",
+      "Rahman",
+      "Asif Ali",
+      "Vineeth Sreenivasan",
+      "Roma Asrani",
+      "Remya Nambeesan",
+    ],
+  },
+];
+export const New_movies = [
+  {
+    id: "jailer",
+    image: "/thumbnails/jailer.jpg",
+    title: "Jailer",
+    year: "2023",
+    genre: "Historical / Thriller / Drama",
+    language: "Malayalam",
+    duration: "122 min",
+    rating: 2.7,
+    description:
+      "Set in the 1950s, an idealistic jailer takes five hardened prisoners to a remote village as part of a bold rehabilitation experiment. As trust is tested and danger looms, he must prove that compassion can triumph over crime.",
+    youtube: "https://www.youtube.com/watch?v=F-lTuxNXy5s",
+    trailer: "https://www.youtube.com/watch?v=9dU8zW6q2nA",
+    link: "/movies/jailer",
+    mainActors: [
+      "Dhyan Sreenivasan",
+      "Divya Pillai",
+      "Manoj K. Jayan",
+      "Sreejith Ravi",
+      "Navas Vallikkunnu",
+    ],
+  },
+  {
+    id: "nonsense",
+    image: "/thumbnails/nonsense.jpg",
+    title: "Nonsense",
+    year: "2018",
+    genre: "Romance / Sports / Drama",
+    language: "Malayalam",
+    duration: "163 min",
+    rating: 6.2,
+    description:
+      "Arun, a talented BMX cyclist, falls in love with Diya, a deaf and mute girl. As he faces challenges in sports, family, and relationships, he learns valuable lessons about love, determination, and overcoming life's obstacles.",
+    youtube: "https://www.youtube.com/watch?v=r6AhlTn9w_M",
+    trailer: "https://www.youtube.com/watch?v=6xPtbmg2-WQ",
+    link: "/movies/nonsense",
+    mainActors: [
+      "Rinosh George",
+      "Shruthi Ramachandran",
+      "Vinay Forrt",
+      "Kalabhavan Shajohn",
+      "Lalu Alex",
+    ],
+  },
+  {
+    id: "kalki",
+    image: "/thumbnails/kalki.jpg",
+    title: "Kalki",
+    year: "2019",
+    genre: "Action / Thriller / Crime",
+    language: "Malayalam",
+    duration: "146 min",
+    rating: 6.7,
+    description:
+      "Inspector Kalki arrives in the troubled village of Nanchenkotta to restore law and order after a series of violent crimes. Facing ruthless criminals and corruption, he wages a relentless fight for justice.",
+    youtube: "https://www.youtube.com/watch?v=HTfTrB0M7BQ",
+    trailer: "https://www.youtube.com/watch?v=m1F5nan9MFk",
+    link: "/movies/kalki",
+    mainActors: [
+      "Tovino Thomas",
+      "Samyuktha Menon",
+      "Harish Uthaman",
+      "Shivajith Padmanabhan",
+      "Saiju Kurup",
+    ],
+  },
+  {
+    id: "pretham",
+    image: "/thumbnails/pretham2.jpg",
+    title: "Pretham",
+    year: "2016",
+    genre: "Comedy / Horror / Mystery",
+    language: "Malayalam",
+    duration: "127 min",
+    rating: 7.1,
+    description:
+      "Three friends visit a beach resort where they encounter mysterious supernatural events. They seek the help of a mentalist, who uncovers the truth behind a restless spirit and the secrets surrounding its past.",
+    youtube: "https://www.youtube.com/watch?v=TE4oQELEZI8",
+    trailer: "https://www.youtube.com/watch?v=PEFHZCo83Fs",
+    link: "/movies/pretham",
+    mainActors: [
+      "Jayasurya",
+      "Aju Varghese",
+      "Govind Padmasoorya",
+      "Sharaf U Dheen",
+      "Shruthi Ramachandran",
+    ],
+  },
+  {
+    id: "ennum-eppozhum",
+    image: "/thumbnails/ennum-eppozhum.jpg",
+    title: "Ennum Eppozhum",
+    year: "2015",
+    genre: "Drama / Family",
+    language: "Malayalam",
+    duration: "154 min",
+    rating: 7.0,
+    description:
+      "Vineeth, a carefree writer, is forced to work with Deepa, a dedicated social worker and single mother. Their contrasting personalities gradually give way to mutual respect, friendship, and an inspiring journey of self-discovery.",
+    youtube: "https://www.youtube.com/watch?v=yR0ffs_ea2Y",
+    trailer: "https://www.youtube.com/watch?v=bL5KBVY7lOw",
+    link: "/movies/ennum-eppozhum",
+    mainActors: [
+      "Mohanlal",
+      "Manju Warrier",
+      "Innocent",
+      "Reenu Mathews",
+      "Lenaa",
+    ],
+  },
+  {
+    id: "peruchazhi",
+    image: "/thumbnails/peruchazhi.jpg",
+    title: "Peruchazhi",
+    year: "2014",
+    genre: "Comedy / Political Satire",
+    language: "Malayalam",
+    duration: "154 min",
+    rating: 4.8,
+    description:
+      "Jagannathan, an Indian political strategist, travels to the United States to manage the election campaign of a gubernatorial candidate. His unconventional methods lead to hilarious situations and unexpected political twists.",
+    youtube: "https://www.youtube.com/watch?v=-hJLH1q4-lw",
+    trailer: "https://www.youtube.com/watch?v=eDQna8i46vo",
+    link: "/movies/peruchazhi",
+    mainActors: [
+      "Mohanlal",
+      "Mukesh",
+      "Ragini Nandwani",
+      "Aju Varghese",
+      "Baburaj",
+    ],
+  },
+  {
+    id: "spirit",
+    image: "/thumbnails/spirit.jpg",
+    title: "Spirit",
+    year: "2012",
+    genre: "Drama",
+    language: "Malayalam",
+    duration: "145 min",
+    rating: 8.0,
+    description:
+      "Raghunandan, a successful television personality struggling with alcoholism, undergoes a profound transformation after meeting ordinary people whose lives inspire him to overcome his addiction and rediscover the true meaning of life.",
+    youtube: "https://www.youtube.com/watch?v=qnumRvim-sA",
+    trailer: "https://www.youtube.com/watch?v=O7w9dplOtLk",
+    link: "/movies/spirit",
+    mainActors: [
+      "Mohanlal",
+      "Kaniha",
+      "Shankar Ramakrishnan",
+      "Madhu",
+      "Lenaa",
+    ],
+  },
+  {
+    id: "premasoothram",
+    image: "/thumbnails/premasoothram.jpg",
+    title: "Premasoothram",
+    year: "2018",
+    genre: "Romance / Comedy / Drama",
+    language: "Malayalam",
+    duration: "162 min",
+    rating: 5.7,
+    description:
+      "Prakashan has loved Ammukutty since childhood, but she remains unaware of his feelings. As another suitor enters her life, a humorous and emotional love triangle unfolds, testing friendship, love, and destiny.",
+
+    youtube: "https://www.youtube.com/watch?v=LVFhJdYrLlg&t=7563s",
+    trailer: "https://www.youtube.com/watch?v=QBvMAnJg-YM",
+
+    link: "/movies/premasoothram",
+
+    mainActors: [
+      "Balu Varghese",
+      "Chemban Vinod Jose",
+      "Lijomol Jose",
+      "Vishnu Govindhan",
+      "Dharmajan Bolgatty",
+    ],
+  },
+];
+export const Malayalam_Short_Movies = [
+  {
+    id: "colour-padam",
+    image: "/thumbnails/colour-padam.jpg",
+    title: "Colour Padam",
+    year: "2021",
+    genre: "Romance / Drama",
+    language: "Malayalam",
+    duration: "28 min",
+    rating: 8.2,
+    description:
+      "A talented photographer meets Shalini during her sister's engagement ceremony, and their chance encounter blossoms into a beautiful love story filled with humor, emotions, and memorable moments.",
+    youtube: "https://www.youtube.com/watch?v=j0uFcjHmxnY",
+    trailer: "https://www.youtube.com/watch?v=L42dMJS_27s",
+    link: "/movies/colour-padam",
+    mainActors: [
+      "Aswin Jose",
+      "Mamitha Baiju",
+      "Midhun Venugopal",
+      "Pranav Yesudas",
+      "Anju Mary Thomas",
+    ],
+  },
+  {
+    id: "oppees-chollan-varatte",
+    image: "/thumbnails/oppees-chollan-varatte.jpg",
+    title: "Oppees Chollan Varatte",
+    year: "2022",
+    genre: "Romance / Drama",
+    language: "Malayalam",
+    duration: "37 min",
+    rating: 8.7,
+    description:
+      "A heartwarming Malayalam romantic short film that follows two young individuals whose unexpected encounter blossoms into an emotional journey of love, hope, and second chances, while exploring relationships and life's simple moments.",
+    youtube: "https://www.youtube.com/watch?v=8u8fbIA2nmY",
+    trailer: "https://www.youtube.com/watch?v=dcErNfz1hSQ",
+    link: "/movies/oppees-chollan-varatte",
+    mainActors: [
+      "Unni Lalu",
+      "Deepa Thomas",
+      "Ram Kumar",
+      "Zhinz Shan",
+      "Jordi Poonjar",
+      "Adarsh Sukumaran",
+      "Aromal Devaraj",
+    ],
+  },
+  {
+    id: "trail",
+    image: "/thumbnails/trail.jpg",
+    title: "TRAIL",
+    year: "2025",
+    genre: "Thriller / Drama",
+    language: "Malayalam",
+    duration: "20 min",
+    rating: 8.4,
+    description:
+      "Three friends find themselves caught in an unexpected situation that tests their friendship, choices, and courage. As tension rises, every decision leads them deeper into uncertainty.",
+    youtube: "https://www.youtube.com/watch?v=GzfqFm8_bG8",
+    trailer: "https://www.youtube.com/watch?v=mDKupqUB_so",
+    link: "/movies/trail",
+    mainActors: [
+      "Vinayak Dinesh",
+      "Harikrishnan MS",
+      "Sreedersh",
+      "Akshay Gireesh",
+      "Mithun M",
+    ],
+  },
+  {
+    id: "palapoo",
+    image: "/thumbnails/palapoo2.jpg",
+    title: "Palapoo",
+    year: "2026",
+    genre: "Comedy / Drama",
+    language: "Malayalam",
+    duration: "29 min",
+    rating: 8.6,
+    description:
+      "A heartwarming Malayalam short film that blends humor and emotions while exploring relationships, family values, and everyday life through memorable characters.",
+    youtube: "https://www.youtube.com/watch?v=L1E5x0NU0gc",
+    trailer: "https://www.youtube.com/watch?v=SzJqSEeqAh8",
+    link: "/movies/palapoo",
+    mainActors: [
+      "Shiva Hariharan",
+      "Akshaya Vijayakumar",
+      "Najjah Abdul Kareem",
+      "Dileep Mohan",
+      "Arjun Chandran",
+      "Reghu Sopanam",
+    ],
+  },
+
+  {
+    id: "bumblinga",
+    image: "/thumbnails/bumblinga.jpg",
+    title: "Bumblinga",
+    year: "2025",
+    genre: "Romance / Comedy",
+    language: "Malayalam",
+    duration: "36 min",
+    rating: 8.4,
+    description:
+      "A heartwarming coming-of-age romantic comedy that follows Prahaladhan and Bhagya, two youngsters from Kochi who unexpectedly connect through a dating app, leading to a charming journey of love, self-discovery, and modern relationships.",
+    youtube: "https://www.youtube.com/watch?v=oHe_6-Q2MW4",
+    trailer: "https://www.youtube.com/watch?v=QQfwz1f1re8",
+    link: "/movies/bumblinga",
+    mainActors: [
+      "George Kora",
+      "Sheethal Joseph",
+      "Anju Joseph",
+      "Stany Steephen",
+      "Dhanil Krishna",
+      "Liz Mathews",
+    ],
+  },
+  {
+    id: "treasa",
+    image: "/thumbnails/treasa.jpg",
+    title: "TREASA",
+    year: "2025",
+    genre: "Drama / Thriller",
+    language: "Malayalam",
+    duration: "28 min",
+    rating: 8.5,
+    description:
+      "A Malayalam short film that follows Treasa as her life takes an unexpected turn, uncovering secrets, emotional conflicts, and difficult choices that challenge her resilience and relationships.",
+    youtube: "https://www.youtube.com/watch?v=mGcxdHGauUc",
+    trailer: "https://www.youtube.com/watch?v=5Y_MEtIW0ec",
+    link: "/movies/treasa",
+    mainActors: ["Unni Lalu", "Claire C. John", "Chithra Pradeep"],
+  },
+  {
+    id: "ithikarthavya-maran",
+    image: "/thumbnails/ithikarthavya-maran.jpg",
+    title: "Ithikarthavya Maran",
+    year: "2023",
+    genre: "Drama / Thriller",
+    language: "Malayalam",
+    duration: "34 min",
+    rating: 8.6,
+    description:
+      "A gripping Malayalam short film that follows ordinary lives thrown into extraordinary circumstances, where duty, sacrifice, and morality collide in an emotionally charged journey.",
+    youtube: "https://www.youtube.com/watch?v=Z-jqK9rniiE",
+    trailer: "https://www.youtube.com/watch?v=aX_jZ6G656U",
+    link: "/movies/ithikarthavya-maran",
+    mainActors: [
+      "Adhri Joe",
+      "Amrutha Vijai",
+      "Vivek Anirudh",
+      "Jishnu Mohan",
+      "Dhanil Krishna",
+    ],
+  },
+  {
+    id: "kadamuri-mel-sambandham",
+    image: "/thumbnails/kadamuri-mel-sambandham.jpg",
+    title: "Kadamuri Mel Sambandham",
+    year: "2025",
+    genre: "Comedy / Short",
+    language: "Malayalam",
+    duration: "28 min",
+    rating: 8.3,
+    description:
+      "A light-hearted Malayalam comedy short film that follows a series of unexpected events surrounding a unique relationship, leading to humorous situations and heartwarming moments.",
+    youtube: "https://www.youtube.com/watch?v=O60F2201Ld8",
+    trailer: "https://www.youtube.com/watch?v=hXjG5AAndU8",
+    link: "/movies/kadamuri-mel-sambandham",
+    mainActors: ["Raagu", "Zhinz Shan", "Sandra Nair"],
+  },
+  {
+    id: "kage-the-death-of-pride",
+    image: "/thumbnails/kage.jpg",
+    title: "KAGE  The Death Of Pride",
+    year: "2025",
+    genre: "Action / Thriller",
+    language: "Malayalam",
+    duration: "25 min",
+    rating: 8.7,
+    description:
+      "A gripping Malayalam action thriller that follows a group of young men whose pride, loyalty, and survival are put to the ultimate test. As hidden truths unfold, every decision pushes them closer to a deadly confrontation.",
+    youtube: "https://www.youtube.com/watch?v=IVnf2OOfUdE",
+    trailer: "https://www.youtube.com/watch?v=9ZPLlH7-4ng",
+    link: "/movies/kage-the-death-of-pride",
+    mainActors: [
+      "Stalin George",
+      "Vishnu Raj",
+      "Anandhu Krishna",
+      "Gokul Krishna",
+      "P. Kumar",
+      "Vishnu Dev",
+      "Nihal Mohammad",
+      "Hariprasad",
+      "Noufal Salim",
+    ],
+  },
+];
 export const Top_Malayalam_Movies = [
   {
     id: "kumbalangi-nights",
@@ -7,24 +543,14 @@ export const Top_Malayalam_Movies = [
     genre: "Drama / Family",
     language: "Malayalam",
     duration: "135 min",
+    rating: 8.5,
     description:
       "Four brothers living in Kumbalangi navigate love, family conflicts, and personal growth while discovering the true meaning of home and relationships.",
     youtube:
       "https://www.youtube.com/watch?v=bNyKd0PUx04&list=PLtfg_o4HEN_N-G709GXFoVt-Iw1MMSQ64&index=2",
+    trailer: "https://www.youtube.com/watch?v=bNyKd0PUx04&t=10s",
     link: "/movies/kumbalangi-nights",
-  },
-  {
-    id: "premam",
-    image: "/thumbnails/oremam.jpg",
-    title: "Premam",
-    year: "2015",
-    genre: "Romance / Drama",
-    language: "Malayalam",
-    duration: "156 min",
-    description:
-      "George experiences different stages of love from his teenage years to adulthood.",
-    youtube: "https://www.youtube.com/watch?v=yjaFvFuQ-QM",
-    link: "/movies/premam",
+    mainActors: ["Fahadh Faasil ", "Soubin Shahir ", "Shane Nigam"],
   },
 
   {
@@ -35,11 +561,14 @@ export const Top_Malayalam_Movies = [
     genre: "Crime / Thriller",
     language: "Malayalam",
     duration: "138 min",
+    rating: 8.0,
     description:
       "A retired police officer investigates a mysterious death that uncovers a series of shocking crimes.",
     youtube:
       "https://www.youtube.com/watch?v=Zhrau8ZfEr0&list=PLtfg_o4HEN_N-G709GXFoVt-Iw1MMSQ64",
+    trailer: "https://www.youtube.com/watch?v=_TZ2SECFkKU",
     link: "/movies/joseph",
+    mainActors: ["Joju George", "Muthumani", "Dileesh Pothan"],
   },
   {
     id: "android-kunjappan",
@@ -49,10 +578,13 @@ export const Top_Malayalam_Movies = [
     genre: "Comedy / Drama / Sci-Fi",
     language: "Malayalam",
     duration: "140 min",
+    rating: 8.0,
     description:
       "A stubborn elderly man unexpectedly forms a close bond with a humanoid robot brought home by his son.",
     youtube: "https://www.youtube.com/watch?v=i-d771eWwcA",
+    trailer: "https://www.youtube.com/watch?v=ZO5MN0Ws0Hc",
     link: "/movies/android-kunjappan",
+    mainActors: ["Suraj Venjaramoodu ", " Soubin Shahir", " Seema Pahwa"],
   },
   {
     id: "helen",
@@ -62,10 +594,13 @@ export const Top_Malayalam_Movies = [
     genre: "Survival / Thriller",
     language: "Malayalam",
     duration: "117 min",
+    rating: 7.7,
     description:
       "A young woman accidentally gets trapped inside a freezer and struggles to survive the freezing night.",
     youtube: "https://www.youtube.com/watch?v=VQtZqe4r2nU",
+    trailer: "https://www.youtube.com/watch?v=Z12zJCpj95w",
     link: "/movies/helen",
+    mainActors: ["Anna Ben", " Bhagath Manuel"],
   },
   {
     id: "ee-ma-yau",
@@ -75,54 +610,56 @@ export const Top_Malayalam_Movies = [
     genre: "Drama / Dark Comedy",
     language: "Malayalam",
     duration: "120 min",
+    rating: 8.2,
     description:
       "A son's desperate attempts to fulfill his late father's final wish lead to a series of unexpected and darkly humorous events.",
     youtube:
       "https://www.youtube.com/results?search_query=Ee.Ma.Yau+Malayalam+full+movie",
+    trailer: "https://www.youtube.com/watch?v=b8WZa0GvNYs",
     link: "/movies/ee-ma-yau",
-  },
-  {
-    id: "uyare",
-    image: "/thumbnails/uyare.jpg",
-    title: "Uyare",
-    year: "2019",
-    genre: "Drama",
-    language: "Malayalam",
-    duration: "125 min",
-    description:
-      "An aspiring pilot rebuilds her life after surviving an acid attack.",
-    youtube: "https://www.youtube.com/watch?v=TSDwS8f8rI8",
-    link: "/movies/uyare",
+    mainActors: ["Tovino Thomas ", " Parvathy Thiruvothu"],
   },
 
   {
-    id: "forensic",
-    image: "/thumbnails/forensic.jpg",
-    title: "Forensic",
-    year: "2020",
-    genre: "Crime / Mystery / Thriller",
+    id: "chathur-mukham",
+    image: "/thumbnails/chathur-mukham.jpg",
+    title: "Chathur Mukham",
+    year: "2021",
+    genre: "Techno Horror / Thriller",
     language: "Malayalam",
-    duration: "134 min",
+    duration: "129 min",
+    rating: 6.1,
     description:
-      "A forensic expert joins forces with the police to track down a dangerous serial killer.",
-    youtube: "https://www.youtube.com/watch?v=DiKXCkx8Srw",
-    link: "/movies/forensic",
+      "A social media influencer's life turns into a nightmare after she receives a mysterious smartphone. As terrifying supernatural events begin to unfold, she teams up with a cyber expert to uncover the truth behind the cursed device.",
+    youtube: "https://www.youtube.com/watch?v=UvIBJU6x1sk",
+    trailer: "https://www.youtube.com/watch?v=k3whTKQ3XDQ",
+    link: "/movies/chathur-mukham",
+    mainActors: [
+      "Manju Warrier",
+      "Sunny Wayne",
+      "Alencier Ley Lopez",
+      "Niranjana Anoop",
+      "Shyamaprasad",
+    ],
   },
   {
-    id: "home",
-    image: "/thumbnails/home.jpg",
-    title: "Home",
-    year: "2021",
-    genre: "Family / Drama",
+    id: "premam",
+    image: "/thumbnails/oremam.jpg",
+    title: "Premam",
+    year: "2015",
+    genre: "Romance / Drama",
     language: "Malayalam",
-    duration: "158 min",
+    duration: "156 min",
+    rating: 8.3,
     description:
-      "A loving father struggles to connect with his tech-savvy sons while trying to keep his family united.",
-    youtube:
-      "https://www.youtube.com/results?search_query=Home+Malayalam+full+movie+official",
-    link: "/movies/home",
+      "George experiences different stages of love from his teenage years to adulthood.",
+    youtube: "https://www.youtube.com/watch?v=yjaFvFuQ-QM",
+    trailer: "https://www.youtube.com/watch?v=pbgvTikmIMk",
+    link: "/movies/premam",
+    mainActors: ["Nivin Pauly ", " Madonna Sebastian", " Anupama Parameswaran"],
   },
 ];
+
 export const New_Release_Malayalam_Movies = [
   {
     id: "kappela",
@@ -136,7 +673,10 @@ export const New_Release_Malayalam_Movies = [
       "A young woman's unexpected phone friendship leads her into a gripping journey filled with twists, danger, and self-discovery.",
     youtube:
       "https://www.youtube.com/watch?v=oF4bboKCJf8&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=7",
+    trailer: "https://www.youtube.com/watch?v=ZS9OU-NXlmg",
     link: "/movies/kappela",
+    rating: 8.2,
+    mainActors: ["Anna Ben"],
   },
   {
     id: "ayyappanum-koshiyum",
@@ -150,7 +690,10 @@ export const New_Release_Malayalam_Movies = [
       "A powerful clash of ego and pride unfolds between a retired army officer and an uncompromising police officer in a rural village.",
     youtube:
       "https://www.youtube.com/watch?v=Z-bIQY2loEk&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=9",
+    trailer: "https://www.youtube.com/watch?v=8Wx3dAQ8pr4",
     link: "/movies/ayyappanum-koshiyum",
+    rating: 8.5,
+    mainActors: ["Biju Menon ", " Prithviraj Sukumaran"],
   },
   {
     id: "trance",
@@ -164,7 +707,10 @@ export const New_Release_Malayalam_Movies = [
       "A motivational speaker's life changes dramatically as he rises to fame in the world of faith healing, exposing manipulation and ambition.",
     youtube:
       "https://www.youtube.com/watch?v=idwRqmXn1kc&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=27",
+    trailer: "https://www.youtube.com/watch?v=uSudz8zb2I8",
     link: "/movies/trance",
+    rating: 7.9,
+    mainActors: ["Fahad Fasil ", " Soubin Shahir"],
   },
   {
     id: "jana-gana-mana",
@@ -178,7 +724,10 @@ export const New_Release_Malayalam_Movies = [
       "An intense courtroom and investigative thriller that explores justice, politics, media influence, and the pursuit of truth.",
     youtube:
       "https://www.youtube.com/watch?v=Wf9JIaHlU7w&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=6",
+    trailer: "https://www.youtube.com/watch?v=oN3tz-UetKw",
     link: "/movies/jana-gana-mana",
+    rating: 8.0,
+    mainActors: ["Prithviraj Sukumaran ", " Suraj Venjaramoodu"],
   },
   {
     id: "mr-fraud",
@@ -192,7 +741,10 @@ export const New_Release_Malayalam_Movies = [
       "A clever con artist becomes entangled in a dangerous game of deception, hidden treasures, and powerful enemies.",
     youtube:
       "https://www.youtube.com/watch?v=Ci3c-4S55b4&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=18",
+    trailer: "https://www.youtube.com/watch?v=URZkb9AxkQI",
     link: "/movies/mr-fraud",
+    rating: 6.8,
+    mainActors: ["Siddique ", " Mohanlal"],
   },
   {
     id: "ullozhukku",
@@ -206,7 +758,10 @@ export const New_Release_Malayalam_Movies = [
       "A deeply emotional family drama that follows two women as hidden truths, grief, and complex relationships surface during a time of loss.",
     youtube:
       "https://www.youtube.com/watch?v=7axyeqFZSU8&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=1",
+    trailer: "https://www.youtube.com/watch?v=iElmR97W024",
     link: "/movies/ullozhukku",
+    rating: 7.5,
+    mainActors: ["Parvathy Thiruvothu ", " Shanthi Krishna"],
   },
   {
     id: "rdx-robert-dony-xavier",
@@ -220,9 +775,15 @@ export const New_Release_Malayalam_Movies = [
       "Three friends reunite to protect their loved ones, delivering explosive action, emotional moments, and high-energy fight sequences.",
     youtube:
       "https://www.youtube.com/watch?v=OLQsFON9yrk&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=32",
+    trailer: "https://www.youtube.com/watch?v=NJjDRnE-5_4",
     link: "/movies/rdx-robert-dony-xavier",
+    rating: 7.3,
+    mainActors: [
+      "Shane Nigam , Antony Varghese , Neeraj Madhav , Mahima Nambiar , Aima Rosmy Sebastian , Babu Antony ,",
+    ],
   },
 ];
+
 export const Malayalam_Dubbed_Movies = [
   {
     id: "miss-shetty-mr-polishetty",
@@ -237,6 +798,9 @@ export const Malayalam_Dubbed_Movies = [
     youtube:
       "https://www.youtube.com/watch?v=TrJ5sIKxgcI&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=8",
     link: "/movies/miss-shetty-mr-polishetty",
+    rating: 7.8,
+    trailer: "https://www.youtube.com/watch?v=Q19-mmuM6Z0",
+    mainActors: ["Anushka Shetty ", " Naveen Polishetty"],
   },
   {
     id: "dasara",
@@ -250,7 +814,10 @@ export const Malayalam_Dubbed_Movies = [
       "Set in a coal mining village, a fearless young man rises against injustice, political rivalry, and violence while protecting the people he loves.",
     youtube:
       "https://www.youtube.com/watch?v=ouj8DRWnskk&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=55",
+    trailer: "https://www.youtube.com/watch?v=WxVz6A77tQU",
     link: "/movies/dasara",
+    rating: 8.1,
+    mainActors: ["Nani", " Keerthy Suresh"],
   },
   {
     id: "vaathi",
@@ -264,7 +831,10 @@ export const Malayalam_Dubbed_Movies = [
       "A passionate teacher fights against the commercialization of education while inspiring students to achieve their dreams through knowledge and determination.",
     youtube:
       "https://www.youtube.com/watch?v=FK6JWb4Cj9w&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=22",
+    trailer: "https://www.youtube.com/watch?v=FOEtbqbwS50",
     link: "/movies/vaathi",
+    rating: 7.9,
+    mainActors: ["Dhanush ", " Samyuktha Menon"],
   },
   {
     id: "lucky-the-racer",
@@ -278,7 +848,10 @@ export const Malayalam_Dubbed_Movies = [
       "A carefree young man unexpectedly becomes involved in a dangerous conflict, leading to action-packed adventures, family drama, and comedy.",
     youtube:
       "https://www.youtube.com/watch?v=nAyyhGSo1bM&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=33",
+    trailer: "https://www.youtube.com/watch?v=Ptlyk0N0F-o",
     link: "/movies/lucky-the-racer",
+    rating: 6.9,
+    mainActors: ["Allu Arjun ", " Shruti Haasan"],
   },
   {
     id: "mersal",
@@ -292,9 +865,17 @@ export const Malayalam_Dubbed_Movies = [
       "A skilled doctor and a mysterious magician become entangled in a gripping tale of corruption, justice, and revenge against a powerful medical mafia.",
     youtube:
       "https://www.youtube.com/watch?v=-qAQM1_i-Ew&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=38",
+    trailer: "https://www.youtube.com/watch?v=gQDo5QuZTaw",
     link: "/movies/mersal",
+    rating: 7.7,
+    mainActors: [
+      "Vijay ",
+      "S. J. Suryah ",
+      "Samantha Ruth Prabhu ",
+      "Kajal Aggarwal ",
+      "Nithya Menen ",
+    ],
   },
-
   {
     id: "gajapokkiri",
     image: "/thumbnails/gajapokkiri.jpg",
@@ -307,7 +888,10 @@ export const Malayalam_Dubbed_Movies = [
       "A fearless police officer takes on ruthless criminals while balancing family relationships, romance, and plenty of action-packed comedy.",
     youtube:
       "https://www.youtube.com/watch?v=7LRjIlODUMo&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=49",
+    trailer: "https://www.youtube.com/watch?v=jxYa6VkL4Oc",
     link: "/movies/gajapokkiri",
+    rating: 7.2,
+    mainActors: ["Allu Arjun ", " Hansika Motwani"],
   },
   {
     id: "valimai",
@@ -321,9 +905,11 @@ export const Malayalam_Dubbed_Movies = [
       "A determined police officer investigates a dangerous biker gang involved in a series of brutal crimes while battling personal challenges and powerful enemies.",
     youtube:
       "https://www.youtube.com/watch?v=mJrp-1Pz7uE&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=53",
+    trailer: "https://www.youtube.com/watch?v=9KoMc1R4b3k",
     link: "/movies/valimai",
+    rating: 6.5,
+    mainActors: ["Ajith Kumar", "Huma Qureshi", "Kartikeya Gummakonda"],
   },
-
   {
     id: "aadhavan",
     image: "/thumbnails/aadhavan2.jpg",
@@ -336,9 +922,13 @@ export const Malayalam_Dubbed_Movies = [
       "A fearless professional assassin finds his life turned upside down when he falls in love while completing a dangerous mission involving a powerful family.",
     youtube:
       "https://www.youtube.com/watch?v=52RfzjR18Ro&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=42",
+    trailer: "https://www.youtube.com/watch?v=Y7lOmdYd0Vo",
     link: "/movies/aadhavan",
+    rating: 7.0,
+    mainActors: ["Suriya", "Nayanthara"],
   },
 ];
+
 export const Malayalam_Romantic_Movies = [
   {
     id: "thattathin-marayathu",
@@ -351,9 +941,11 @@ export const Malayalam_Romantic_Movies = [
     description:
       "A young Hindu man's heartfelt love for a Muslim girl leads him through emotional challenges, family traditions, and unforgettable moments.",
     youtube: "https://www.youtube.com/watch?v=BNVAgg0zltM",
+    trailer: "https://www.youtube.com/watch?v=hdwWZdGP8WI",
     link: "/movies/thattathin-marayathu",
+    rating: 8.3,
+    mainActors: ["Nivin Pauly ", " Isha Talwar"],
   },
-
   {
     id: "mandharam",
     image: "/thumbnails/mandharam.jpg",
@@ -365,7 +957,10 @@ export const Malayalam_Romantic_Movies = [
     description:
       "A touching love story that follows a young man's journey through heartbreak, hope, and the changing seasons of life.",
     youtube: "https://www.youtube.com/watch?v=0VK2tLWwDaQ",
+    trailer: "https://www.youtube.com/watch?v=TkvQPNdGAKc",
     link: "/movies/mandharam",
+    rating: 7.7,
+    mainActors: ["Asif Ali ", " Varsha Bollamma"],
   },
   {
     id: "bobby",
@@ -378,7 +973,10 @@ export const Malayalam_Romantic_Movies = [
     description:
       "A romantic drama that follows a carefree young man's emotional journey as he discovers love, friendship, and responsibility.",
     youtube: "https://www.youtube.com/watch?v=eidg7BDYUYc",
+    trailer: "https://www.youtube.com/watch?v=UBf3JKdcoEo",
     link: "/movies/bobby",
+    rating: 7.6,
+    mainActors: ["Miya George ", " Niranjan Nair"],
   },
   {
     id: "paippin-chuvattile-pranayam",
@@ -391,7 +989,10 @@ export const Malayalam_Romantic_Movies = [
     description:
       "A delightful romantic comedy that revolves around friendship, love, and the colorful lives of youngsters in a small town.",
     youtube: "https://www.youtube.com/watch?v=Sa31GsUdtq0",
+    trailer: "https://www.youtube.com/watch?v=Pp8uurxhrBg",
     link: "/movies/paippin-chuvattile-pranayam",
+    rating: 7.4,
+    mainActors: ["Neeraj Madhav ", " Reba Monica John"],
   },
   {
     id: "narayaneente-moonnaanmakkal",
@@ -404,7 +1005,10 @@ export const Malayalam_Romantic_Movies = [
     description:
       "A family drama that follows three siblings as they reunite to face long-buried emotions, conflicts, and the enduring strength of family bonds.",
     youtube: "https://www.youtube.com/watch?v=pfNV33U03hI",
+    trailer: "https://www.youtube.com/watch?v=iGa2x1DgsNk",
     link: "/movies/narayaneente-moonnaanmakkal",
+    rating: 8.0,
+    mainActors: ["Joju George ", " Suraj Venjaramoodu ", " Alencier Ley Lopez"],
   },
   {
     id: "anuragam",
@@ -417,20 +1021,15 @@ export const Malayalam_Romantic_Movies = [
     description:
       "An emotional romantic drama that beautifully explores love across generations, family bonds, and meaningful relationships.",
     youtube: "https://www.youtube.com/watch?v=fOfjs171JDg",
+    trailer: "https://www.youtube.com/watch?v=qW7gaUL3Es0",
     link: "/movies/anuragam",
-  },
-  {
-    id: "hey-jude",
-    image: "/thumbnails/hey-jude.jpg",
-    title: "Hey Jude",
-    year: "2018",
-    genre: "Romance / Drama",
-    language: "Malayalam",
-    duration: "146 min",
-    description:
-      "A socially awkward young man finds new hope and confidence after meeting a free-spirited woman who changes his perspective on life.",
-    youtube: "https://www.youtube.com/watch?v=99LEGcE-_yA",
-    link: "/movies/hey-jude",
+    rating: 7.8,
+    mainActors: [
+      "Aswin Jose ",
+      " Gouri G. Kishan",
+      " Johny Antony",
+      " Devayani",
+    ],
   },
 
   {
@@ -444,7 +1043,10 @@ export const Malayalam_Romantic_Movies = [
     description:
       "A fun-filled spin-off from the Honey Bee series that follows friendship, romance, and humorous adventures among a lively group of youngsters.",
     youtube: "https://www.youtube.com/watch?v=114-DIhKHMM",
+    trailer: "https://www.youtube.com/watch?v=US9nQjiCDZk",
     link: "/movies/honey-bee-2-5",
+    rating: 6.9,
+    mainActors: ["Askar Al ", " Lijomol Jose"],
   },
   {
     id: "pranaya-vilasam",
@@ -457,22 +1059,34 @@ export const Malayalam_Romantic_Movies = [
     description:
       "A heartwarming romantic drama that explores love, family relationships, and second chances through multiple generations.",
     youtube: "https://www.youtube.com/watch?v=BB2JvmkCEt8",
+    trailer: "https://www.youtube.com/watch?v=H7aKvMAfRUw",
     link: "/movies/pranaya-vilasam",
+    rating: 7.5,
+    mainActors: [
+      "Arjun Ashokan ",
+      " Anaswara Rajan ",
+      " Mamitha Baiju ",
+      " Miya George",
+    ],
   },
   {
-    id: "mr-and-miss",
-    image: "/thumbnails/mr-and-miss.jpg",
-    title: "Mr & Miss",
-    year: "2023",
-    genre: "Romance / Comedy",
+    id: "hey-jude",
+    image: "/thumbnails/hey-jude.jpg",
+    title: "Hey Jude",
+    year: "2018",
+    genre: "Romance / Drama",
     language: "Malayalam",
-    duration: "121 min",
+    duration: "146 min",
     description:
-      "Two individuals with contrasting personalities unexpectedly cross paths, leading to romance, comedy, and life-changing experiences.",
-    youtube: "https://www.youtube.com/watch?v=2SgZmNhTTVc",
-    link: "/movies/mr-and-miss",
+      "A socially awkward young man finds new hope and confidence after meeting a free-spirited woman who changes his perspective on life.",
+    youtube: "https://www.youtube.com/watch?v=99LEGcE-_yA",
+    trailer: "https://www.youtube.com/watch?v=fAB6XlQSojY",
+    link: "/movies/hey-jude",
+    rating: 7.2,
+    mainActors: ["Nivin Pauly ", " Trisha Krishnan"],
   },
 ];
+
 export const Malayalam_Comedy_Movies = [
   {
     id: "bharathanatyam",
@@ -485,11 +1099,14 @@ export const Malayalam_Comedy_Movies = [
     description:
       "A fun-filled family entertainer that follows a young man whose life turns upside down when long-hidden family secrets create a series of hilarious and emotional situations.",
     youtube: "https://www.youtube.com/watch?v=f6aOMUH2Pqg&t=6618s",
+    trailer: "https://www.youtube.com/watch?v=lVnHxwWftxw",
     link: "/movies/bharathanatyam",
+    rating: 7.8,
+    mainActors: ["Saiju Kurup", "Saikumar", "Kalaranjini", "Sreeja Ravi"],
   },
   {
     id: "madhura-manohara-moham",
-    image: "/thumbnails/madhura-manohara-moham.jpg",
+    image: "/thumbnails/madhura-manohara-moham2.jpg",
     title: "Madhura Manohara Moham",
     year: "2023",
     genre: "Comedy / Family",
@@ -498,7 +1115,15 @@ export const Malayalam_Comedy_Movies = [
     description:
       "A light-hearted family comedy where a wedding celebration takes an unexpected turn, leading to hilarious misunderstandings and emotional moments.",
     youtube: "https://www.youtube.com/watch?v=9ozjpYQdSTE",
+    trailer: "https://www.youtube.com/watch?v=HTbCOp1NSqA",
     link: "/movies/madhura-manohara-moham",
+    rating: 6.9,
+    mainActors: [
+      "Sharafudheen",
+      "Rajisha Vijayan",
+      "Bindu Panicker",
+      "Saiju Kurup",
+    ],
   },
   {
     id: "oru-marubhoomikkadha",
@@ -510,10 +1135,12 @@ export const Malayalam_Comedy_Movies = [
     duration: "150 min",
     description:
       "A carefree young man working in the Middle East gets caught in a series of humorous adventures after meeting a spirited young woman.",
-    youtube: "https://www.youtube.com/watch?v=OifxZ3Xg258 ",
+    youtube: "https://www.youtube.com/watch?v=OifxZ3Xg258",
+    trailer: "https://www.youtube.com/watch?v=RcjTeZ4UB0M",
     link: "/movies/oru-marubhoomikkadha",
+    rating: 7.2,
+    mainActors: ["Mohanlal", "Mukesh", "Lakshmi Rai", "Bhavana"],
   },
-
   {
     id: "kallan-dsouza",
     image: "/thumbnails/kallan-dsouza.jpg",
@@ -525,7 +1152,15 @@ export const Malayalam_Comedy_Movies = [
     description:
       "A small-time thief's life takes an unexpected turn when he becomes entangled in a mysterious crime filled with twists, humor, and suspense.",
     youtube: "https://www.youtube.com/watch?v=B02dLwAI0Sw",
+    trailer: "https://www.youtube.com/watch?v=OkGgfTrKWUw",
     link: "/movies/kallan-dsouza",
+    rating: 6.5,
+    mainActors: [
+      "Soubin Shahir",
+      "Dileesh Pothan",
+      "Surabhi Lakshmi",
+      "Hareesh Kanaran",
+    ],
   },
   {
     id: "anpodu-kanmani",
@@ -538,7 +1173,10 @@ export const Malayalam_Comedy_Movies = [
     description:
       "A heartwarming family drama that explores love, relationships, and the emotional bonds that bring people together through life's challenges.",
     youtube: "https://www.youtube.com/watch?v=JmBgmhReR1Q",
+    trailer: "https://www.youtube.com/watch?v=sUxfZp39D-Q",
     link: "/movies/anpodu-kanmani",
+    rating: 6.7,
+    mainActors: ["Arjun Ashokan", "Anagha Narayanan"],
   },
   {
     id: "oru-yamandan-premakadha",
@@ -551,7 +1189,10 @@ export const Malayalam_Comedy_Movies = [
     description:
       "A carefree young man finds himself caught between love, family expectations, and hilarious misunderstandings in this entertaining romantic comedy.",
     youtube: "https://www.youtube.com/watch?v=DgjfZyz0HIM",
+    trailer: "https://www.youtube.com/watch?v=qV9de8pJCPw",
     link: "/movies/oru-yamandan-premakadha",
+    rating: 6.4,
+    mainActors: ["Dulquer Salmaan", "Nikhila Vimal", "Samyuktha Menon"],
   },
   {
     id: "ulsaha-committee",
@@ -564,7 +1205,33 @@ export const Malayalam_Comedy_Movies = [
     description:
       "A group of enthusiastic villagers forms a local committee, leading to a series of humorous events, friendships, and unexpected adventures.",
     youtube: "https://www.youtube.com/watch?v=qHB75CwPCDA",
+    trailer: "https://www.youtube.com/watch?v=5Q_BTZeKEis",
     link: "/movies/ulsaha-committee",
+    rating: 6.2,
+    mainActors: ["JayaRam", "Sheela", "Lal", "Baburaj"],
+  },
+];
+export const Malayalam_Comedy_Movies2 = [
+  {
+    id: "mariyam-vannu-vilakkoothi",
+    image: "/thumbnails/mariyam-vannu-vilakkoothi.jpg",
+    title: "Mariyam Vannu Vilakkoothi",
+    year: "2020",
+    genre: "Comedy",
+    language: "Malayalam",
+    duration: "123 min",
+    description:
+      "Three friends find themselves trapped in a hilarious situation after an unexpected incident turns an ordinary day into complete chaos.",
+    youtube: "https://www.youtube.com/watch?v=MOyGnDmzJG4",
+    trailer: "https://www.youtube.com/watch?v=m4ABVlLikEk",
+    link: "/movies/mariyam-vannu-vilakkoothi",
+    rating: 6.5,
+    mainActors: [
+      "Siju Wilson",
+      "Sminu Sijo",
+      "Shabareesh Varma",
+      "Krishna Shankar",
+    ],
   },
   {
     id: "thanneer-mathan-dinangal",
@@ -577,20 +1244,10 @@ export const Malayalam_Comedy_Movies = [
     description:
       "A charming coming-of-age story that follows school students as they experience friendship, first love, and unforgettable teenage memories.",
     youtube: "https://www.youtube.com/watch?v=asffbk9CSI8",
+    trailer: "https://www.youtube.com/watch?v=t1ngLjiOrJw",
     link: "/movies/thanneer-mathan-dinangal",
-  },
-  {
-    id: "mariyam-vannu-vilakkoothi",
-    image: "/thumbnails/mariyam-vannu-vilakkoothi.jpg",
-    title: "Mariyam Vannu Vilakkoothi",
-    year: "2020",
-    genre: "Comedy",
-    language: "Malayalam",
-    duration: "123 min",
-    description:
-      "Three friends find themselves trapped in a hilarious situation after an unexpected incident turns an ordinary day into complete chaos.",
-    youtube: "https://www.youtube.com/watch?v=MOyGnDmzJG4",
-    link: "/movies/mariyam-vannu-vilakkoothi",
+    rating: 8.0,
+    mainActors: ["Mathew Thomas", "Anaswara Rajan", "Vineeth Sreenivasan"],
   },
   {
     id: "jo-and-jo",
@@ -603,21 +1260,17 @@ export const Malayalam_Comedy_Movies = [
     description:
       "A fun-filled family comedy that revolves around siblings, friendships, and the humorous challenges of everyday life during lockdown.",
     youtube: "https://www.youtube.com/watch?v=HpSdp56GWh8",
+    trailer: "https://www.youtube.com/watch?v=95ADPYoSRPc",
     link: "/movies/jo-and-jo",
+    rating: 6.9,
+    mainActors: [
+      "Mathew Thomas",
+      "Naslen K. Gafoor",
+      "Nikhila Vimal",
+      "Melvin G. Babu",
+    ],
   },
-  {
-    id: "pullipulikalum-attinkuttiyum",
-    image: "/thumbnails/pullipulikalum-attinkuttiyum.jpg",
-    title: "Pullipulikalum Attinkuttiyum",
-    year: "2013",
-    genre: "Comedy / Family",
-    language: "Malayalam",
-    duration: "155 min",
-    description:
-      "A light-hearted village entertainer that follows the amusing lives, romances, and rivalries of a group of friends.",
-    youtube: "https://www.youtube.com/watch?v=P9JdCi3bhK0",
-    link: "/movies/pullipulikalum-attinkuttiyum",
-  },
+
   {
     id: "oru-vadakkan-selfie",
     image: "/thumbnails/oru-vadakkan-selfie.jpg",
@@ -629,7 +1282,15 @@ export const Malayalam_Comedy_Movies = [
     description:
       "A college graduate's life takes an unexpected turn after a selfie goes viral, leading to an adventurous and hilarious journey.",
     youtube: "https://www.youtube.com/watch?v=Wea0yLSdyGM",
+    trailer: "https://www.youtube.com/watch?v=44CSk7OY0Eg",
     link: "/movies/oru-vadakkan-selfie",
+    rating: 6.7,
+    mainActors: [
+      "Nivin Pauly",
+      "Manjima Mohan",
+      "Aju Varghese",
+      "Vineeth Sreenivasan",
+    ],
   },
   {
     id: "upacharapoorvam-gunda-jayan",
@@ -642,9 +1303,39 @@ export const Malayalam_Comedy_Movies = [
     description:
       "A lovable local goon unexpectedly becomes the center of attention, resulting in a series of hilarious misunderstandings and heartwarming moments.",
     youtube: "https://www.youtube.com/watch?v=c1t9UfvQp3s",
+    trailer: "https://www.youtube.com/watch?v=yEpPUp7IWp4",
     link: "/movies/upacharapoorvam-gunda-jayan",
+    rating: 6.4,
+    mainActors: [
+      "Saiju Kurup",
+      "Shabareesh Varma",
+      "Siju Wilson",
+      "Sabumon Abdusamad",
+    ],
+  },
+  {
+    id: "pullipulikalum-attinkuttiyum",
+    image: "/thumbnails/pullipulikalum-attinkuttiyum.jpg",
+    title: "Pullipulikalum Attinkuttiyum",
+    year: "2013",
+    genre: "Comedy / Family",
+    language: "Malayalam",
+    duration: "155 min",
+    description:
+      "A light-hearted village entertainer that follows the amusing lives, romances, and rivalries of a group of friends.",
+    youtube: "https://www.youtube.com/watch?v=P9JdCi3bhK0",
+    trailer: "https://www.youtube.com/watch?v=PMi4RBDha7c",
+    link: "/movies/pullipulikalum-attinkuttiyum",
+    rating: 6.3,
+    mainActors: [
+      "Kunchacko Boban",
+      "Namitha Pramod",
+      "Suraj Venjaramoodu",
+      "Joju George",
+    ],
   },
 ];
+
 export const Trending_Movies = [
   {
     id: "kettyolaanu-ente-malakha",
@@ -657,7 +1348,10 @@ export const Trending_Movies = [
     description:
       "A timid bachelor marries a confident young woman, and their relationship challenges his traditional views about marriage, masculinity, and love.",
     youtube: "https://www.youtube.com/watch?v=NT4hNdADHgU",
+    trailer: "https://www.youtube.com/watch?v=wxyi6zkC1G4",
     link: "/movies/kettyolaanu-ente-malakha",
+    rating: 7.5,
+    mainActors: ["Asif Ali", "Veena Nandakumar"],
   },
   {
     id: "ezra",
@@ -670,7 +1364,10 @@ export const Trending_Movies = [
     description:
       "A mysterious antique box unleashes terrifying supernatural events in a newly married couple's life.",
     youtube: "https://www.youtube.com/watch?v=3C5aMGoevuw",
+    trailer: "https://www.youtube.com/watch?v=4ecn22XHqHc",
     link: "/movies/ezra",
+    rating: 6.8,
+    mainActors: ["Prithviraj Sukumaran", "Priya Anand", "Tovino Thomas"],
   },
   {
     id: "nalla-nilavulla-rathri",
@@ -684,7 +1381,10 @@ export const Trending_Movies = [
       "A group of close friends reunite for a trip that takes a dark turn, forcing them to confront hidden secrets, betrayal, and a dangerous fight for survival.",
     youtube:
       "https://www.youtube.com/results?search_query=Nalla+Nilavulla+Rathri+Malayalam+full+movie",
+    trailer: "https://www.youtube.com/watch?v=wmuj8cICFxY",
     link: "/movies/nalla-nilavulla-rathri",
+    rating: 6.2,
+    mainActors: ["Chemban Vinod Jose", "Binu Pappu", "Jinu Joseph", "Baburaj"],
   },
   {
     id: "operation-java",
@@ -697,12 +1397,19 @@ export const Trending_Movies = [
     description:
       "Two engineering graduates assist the cybercrime police in solving complex criminal investigations.",
     youtube: "https://www.youtube.com/watch?v=a1oJIFH6rmM",
+    trailer: "https://www.youtube.com/watch?v=vf0xwUbZqeo",
     link: "/movies/operation-java",
+    rating: 6.7,
+    mainActors: [
+      "Balu Varghese",
+      "Lukman Avaran",
+      "Irshad Ali",
+      "Shine Tom Chacko",
+    ],
   },
-
   {
     id: "aadu-2",
-    image: "/thumbnails/aadu-2.jpg",
+    image: "/thumbnails/aaadu22.jpg",
     title: "Aadu 2",
     year: "2017",
     genre: "Comedy / Action",
@@ -711,7 +1418,10 @@ export const Trending_Movies = [
     description:
       "Shaji Pappan returns with another hilarious adventure full of unexpected twists and chaos.",
     youtube: "https://www.youtube.com/watch?v=ibw3-fIrgbY",
+    trailer: "https://www.youtube.com/watch?v=_jlVhEs75Fo",
     link: "/movies/aadu-2",
+    rating: 6.9,
+    mainActors: ["Jayasurya", "Saiju Kurup", "Vinayakan", "Sunny Wayne"],
   },
   {
     id: "memories",
@@ -724,12 +1434,19 @@ export const Trending_Movies = [
     description:
       "Sam Alex, a police officer who drowns his personal tragedies in alcohol after losing his wife and daughter, is pulled back into duty to crack the case of a serial killer haunting the city.",
     youtube: "https://www.youtube.com/watch?v=SzwStt19vtw",
+    trailer: "https://www.youtube.com/watch?v=hpmYen6t_WE",
     link: "/movies/memories",
+    rating: 7.0,
+    mainActors: [
+      "Prithviraj Sukumaran",
+      "Meghna Raj",
+      "Vijayaraghavan",
+      "Miya George",
+    ],
   },
-
   {
     id: "kali",
-    image: "/thumbnails/kali.jpg",
+    image: "/thumbnails/kali2.jpg",
     title: "Kali",
     year: "2016",
     genre: "Thriller / Drama",
@@ -738,7 +1455,15 @@ export const Trending_Movies = [
     description:
       "A man's uncontrollable anger places him and his wife in a life-threatening situation.",
     youtube: "https://www.youtube.com/watch?v=xEuRPDECjnk",
+    trailer: "https://www.youtube.com/watch?v=yeVaL2R0008",
     link: "/movies/kali",
+    rating: 6.4,
+    mainActors: [
+      "Dulquer Salmaan",
+      "Sai Pallavi",
+      "Chemban Vinod Jose",
+      "Vinayakan",
+    ],
   },
 ];
 
@@ -754,9 +1479,11 @@ export const Classic_malayalam_Movies = [
     description:
       "The troubled relationship between a strict father and his rebellious son leads to a life of violence and redemption.",
     youtube: "https://www.youtube.com/watch?v=349z-tk5RUM",
+    trailer: "https://www.youtube.com/watch?v=QKsjcae4IWg",
     link: "/movies/spadikam",
+    rating: 8.5,
+    mainActors: ["Mohanlal", "Thilakan", "Urvashi", "K. P. A. C. Lalitha"],
   },
-
   {
     id: "manichitrathazhu",
     image: "/thumbnails/manichitrathazhu.jpg",
@@ -768,7 +1495,10 @@ export const Classic_malayalam_Movies = [
     description:
       "A married couple moves into an ancestral mansion where mysterious supernatural events begin to unfold.",
     youtube: "https://www.youtube.com/watch?v=MLmT2Bbu1d0",
+    trailer: "https://www.youtube.com/watch?v=D5SSyk_jaSE",
     link: "/movies/manichitrathazhu",
+    rating: 8.9,
+    mainActors: ["Mohanlal", "Shobana", "Suresh Gopi", "Nedumudi Venu"],
   },
   {
     id: "devasuram",
@@ -781,7 +1511,10 @@ export const Classic_malayalam_Movies = [
     description:
       "A powerful feudal lord transforms himself after falling in love and confronting his own flaws.",
     youtube: "https://www.youtube.com/watch?v=F7Tkih49SGw",
+    trailer: "https://www.youtube.com/watch?v=tUB-rwqwWjQ",
     link: "/movies/devasuram",
+    rating: 8.8,
+    mainActors: ["Mohanlal", "Revathi", "Napoleon", "Nedumudi Venu"],
   },
   {
     id: "commissioner",
@@ -794,7 +1527,10 @@ export const Classic_malayalam_Movies = [
     description:
       "An honest police commissioner wages war against corruption, crime, and political power.",
     youtube: "https://www.youtube.com/watch?v=DhWOt5ZI7kY",
+    trailer: "https://www.youtube.com/watch?v=JjCjXzuanFE",
     link: "/movies/commissioner",
+    rating: 8.2,
+    mainActors: ["Suresh Gopi", "Ratheesh", "Vijayaraghavan", "Shobana"],
   },
   {
     id: "thenmavin-kombath",
@@ -807,9 +1543,11 @@ export const Classic_malayalam_Movies = [
     description:
       "Two men fall in love with the same woman, leading to a heartfelt and humorous rivalry.",
     youtube: "https://www.youtube.com/watch?v=IrXWUs-coIg",
+    trailer: "https://www.youtube.com/watch?v=g4YQCBfRu3U",
     link: "/movies/thenmavin-kombath",
+    rating: 8.7,
+    mainActors: ["Mohanlal", "Shobana", "Nedumudi Venu", "Sreenivasan"],
   },
-
   {
     id: "ramji-rao-speaking",
     image: "/thumbnails/ramji-rao-speaking.jpg",
@@ -821,7 +1559,10 @@ export const Classic_malayalam_Movies = [
     description:
       "Three unemployed men become involved in a hilarious kidnapping mix-up after receiving a wrong phone call.",
     youtube: "https://www.youtube.com/watch?v=aUgN8AZQoPo",
+    trailer: "https://www.youtube.com/watch?v=ef9MPezisXU",
     link: "/movies/ramji-rao-speaking",
+    rating: 8.4,
+    mainActors: ["Mukesh", "Sai Kumar", "Innocent", "Rekha"],
   },
   {
     id: "kireedam",
@@ -834,9 +1575,13 @@ export const Classic_malayalam_Movies = [
     description:
       "A young man's dream of becoming a police officer is shattered after an unexpected act of bravery changes his life.",
     youtube: "https://www.youtube.com/watch?v=KnHPMjv2ajM",
+    trailer: "https://www.youtube.com/watch?v=NUlrq4k-40A",
     link: "/movies/kireedam",
+    rating: 8.6,
+    mainActors: ["Mohanlal", "Parvathy", "Thilakan", "Kaviyoor Ponnamma"],
   },
 ];
+
 export const Popular_Malayalam_movies = [
   {
     id: "narasimham",
@@ -849,7 +1594,10 @@ export const Popular_Malayalam_movies = [
     description:
       "A fearless professor with a troubled past returns to his village to confront powerful enemies and protect his family.",
     youtube: "https://www.youtube.com/watch?v=Z3g5qGQK7eI",
+    trailer: "https://www.youtube.com/watch?v=UQNSn51FTi4",
     link: "/movies/narasimham",
+    rating: 8.4,
+    mainActors: ["Mohanlal", "Aishwarya Bhaskaran", "Kanaka", "Thilakan"],
   },
   {
     id: "ravanaprabhu",
@@ -862,7 +1610,10 @@ export const Popular_Malayalam_movies = [
     description:
       "The son of a respected feudal lord returns to restore his family's honor and fight injustice.",
     youtube: "https://www.youtube.com/watch?v=Bdq8_o0Wk2c",
+    trailer: "https://www.youtube.com/watch?v=OU56qHGKvB0",
     link: "/movies/ravanaprabhu",
+    rating: 8.2,
+    mainActors: ["Mohanlal", "Vasundhara Das", "Siddique", "Napoleon"],
   },
   {
     id: "meesha-madhavan",
@@ -875,7 +1626,15 @@ export const Popular_Malayalam_movies = [
     description:
       "A lovable village thief falls in love while getting caught in humorous adventures.",
     youtube: "https://www.youtube.com/watch?v=6U89t0c5TBQ",
+    trailer: "https://www.youtube.com/watch?v=oH6OsN7ePXQ",
     link: "/movies/meesha-madhavan",
+    rating: 7.9,
+    mainActors: [
+      "Dileep",
+      "Kavya Madhavan",
+      "Jagathy Sreekumar",
+      "Indrajith Sukumaran",
+    ],
   },
   {
     id: "vettam",
@@ -888,9 +1647,11 @@ export const Popular_Malayalam_movies = [
     description:
       "Gopi, a small-time thief on the run after stealing a precious chain, crosses paths with Veena, a girl chasing down her lover's wedding, and their reluctant journey together turns into an unexpected love story.",
     youtube: "https://www.youtube.com/watch?v=40nfhLC7i84",
+    trailer: "https://www.youtube.com/watch?v=wqEtSx8F6dI",
     link: "/movies/vettam",
+    rating: 8.0,
+    mainActors: ["Dileep", "Bhavna Pani", "Kalabhavan Mani", "Innocent"],
   },
-
   {
     id: "balettan",
     image: "/thumbnails/balettan.jpg",
@@ -902,9 +1663,11 @@ export const Popular_Malayalam_movies = [
     description:
       "A devoted elder brother struggles to keep his family united while facing unexpected challenges.",
     youtube: "https://www.youtube.com/watch?v=7_SAVpD1t4I",
+    trailer: "https://www.youtube.com/watch?v=qOZYTcAbyQs",
     link: "/movies/balettan",
+    rating: 7.8,
+    mainActors: ["Mohanlal", "Devayani", "Nedumudi Venu", "Jagathy Sreekumar"],
   },
-
   {
     id: "classmates",
     image: "/thumbnails/classmate2.jpg",
@@ -916,234 +1679,290 @@ export const Popular_Malayalam_movies = [
     description:
       "Old college friends reunite years later, bringing back memories, love, and long-buried secrets.",
     youtube: "https://www.youtube.com/watch?v=xuQOJtrkiZU",
+    trailer: "https://www.youtube.com/watch?v=ayXaaxSeOqM",
     link: "/movies/classmates",
+    rating: 8.1,
+    mainActors: [
+      "Prithviraj Sukumaran",
+      "Indrajith Sukumaran",
+      "Kavya Madhavan",
+      "Narain",
+    ],
   },
 ];
-export const Top_Tamil_Movies = [
-  {
-    id: "96",
-    image: "/thumbnails/96.jpg",
-    title: "96",
-    year: "2018",
-    genre: "Romance / Drama",
-    language: "Tamil",
-    duration: "158 min",
-    description:
-      "Ram, a travel photographer, and Jaanu, his high school sweetheart, reunite twenty-two years after graduation at a school reunion, revisiting the love they never got to complete.",
-    youtube: "https://www.youtube.com/watch?v=HDLh5kEGB_w",
-    link: "/movies/96",
-  },
-  {
-    id: "paiyaa",
-    image: "/thumbnails/paiyaa.jpg",
-    title: "Paiyaa",
-    year: "2010",
-    genre: "Action / Romance",
-    language: "Tamil",
-    duration: "146 min",
-    description:
-      "Shiva, a carefree jobless young man, falls for a girl he spots at a bus stop and offers to drive her from Bangalore to Mumbai, turning their road trip into a romance while a gang of goons trails them.",
-    youtube: "https://www.youtube.com/watch?v=0QkDdt1xjl4",
-    link: "/movies/paiyaa",
-  },
-  {
-    id: "vaaranam-aayiram",
-    image: "/thumbnails/vaaranam-aayiram.jpg",
-    title: "Vaaranam Aayiram",
-    year: "2008",
-    genre: "Drama / Romance",
-    language: "Tamil",
-    duration: "169 min",
-    description:
-      "Major Suriya, on a rescue mission when he learns of his father Krishnan's death, reminisces about their bond and the moments that shaped his life, from his father's own love story to his own journey through heartbreak and self-discovery.",
-    youtube: "https://www.youtube.com/watch?v=ViXzw0xrtoU",
-    link: "/movies/vaaranam-aayiram",
-  },
-  {
-    id: "sketch",
-    image: "/thumbnails/sketch.jpg",
-    title: "Sketch",
-    year: "2018",
-    genre: "Action / Thriller",
-    language: "Tamil",
-    duration: "138 min",
-    description:
-      "Jeeva, aka Sketch, a vehicle repo man working for a local loan shark in North Chennai, lands in serious trouble after seizing a car belonging to a dangerous gangster.",
-    youtube: "https://www.youtube.com/watch?v=JiVLSWeiIFs",
-    link: "/movies/sketch",
-  },
-  {
-    id: "imaikkaa-nodigal",
-    image: "/thumbnails/imaikkaa-nodigal.jpg",
-    title: "Imaikkaa Nodigal",
-    year: "2018",
-    genre: "Action / Thriller",
-    language: "Tamil",
-    duration: "170 min",
-    description:
-      "CBI officer Anjali races against time to catch Rudra, a notorious serial killer thought to have died five years ago, as the cat-and-mouse hunt pulls in an unlikely cast of allies and suspects.",
-    youtube: "https://www.youtube.com/watch?v=IlQXD3ABVpw",
-    link: "/movies/imaikkaa-nodigal",
-  },
-
-  {
-    id: "aadhavan",
-    image: "/thumbnails/aadhavan2.jpg",
-    title: "Aadhavan",
-    year: "2009",
-    genre: "Action / Comedy",
-    language: "Tamil",
-    duration: "168 min",
-    description:
-      "A skilled assassin falls in love while trying to complete a dangerous mission against powerful enemies.",
-    youtube: "https://www.youtube.com/watch?v=ooY-SMww3-0",
-    link: "/movies/aadhavan",
-  },
-  {
-    id: "sathuranga-vettai",
-    image: "/thumbnails/sathuranga-vettai2.jpg",
-    title: "Sathuranga Vettai",
-    year: "2014",
-    genre: "Crime / Thriller",
-    language: "Tamil",
-    duration: "145 min",
-    description:
-      "A clever con artist carries out sophisticated scams before finding himself trapped in his own game.",
-    youtube: "outube.com/watch?v=3QGzJr_137I",
-    link: "/movies/sathuranga-vettai",
-  },
-  {
-    id: "thalaivaa",
-    image: "/thumbnails/thalaivaa.jpg",
-    title: "Thalaivaa",
-    year: "2013",
-    genre: "Action / Drama",
-    language: "Tamil",
-    duration: "182 min",
-    description:
-      "Vishwa, a carefree dancer in Australia, travels to Mumbai to visit his estranged father, only to discover he is a powerful crime boss, and after his father's death, steps into his shoes to become 'Thalaivaa,' the new leader.",
-    youtube: "https://www.youtube.com/watch?v=b-ucI0du180",
-    link: "/movies/thalaivaa",
-  },
-  {
-    id: "anjaan",
-    image: "/thumbnails/anjaan.jpg",
-    title: "Anjaan",
-    year: "2014",
-    genre: "Action / Crime",
-    language: "Tamil",
-    duration: "166 min",
-    description:
-      "Krishna, a disabled man, arrives in Mumbai from Kanyakumari searching for his elder brother Raju, a feared gangster, and uncovers the dark truth behind his disappearance amid the city's criminal underworld.",
-    youtube: "https://www.youtube.com/watch?v=fSPMq94D6rA",
-    link: "/movies/anjaan",
-  },
-];
-
-export const Top_Hindi_Movies = [
-  {
-    id: "cocktail",
-    image: "/thumbnails/cocktail.jpg",
-    title: "Cocktail",
-    year: "2012",
-    genre: "Romance / Comedy",
-    language: "Hindi",
-    duration: "144 min",
-    description:
-      "Gautam, an incorrigible flirt in London, finds himself torn between Veronica, a free-spirited party girl, and Meera, a traditional girl finding her footing abroad, as friendship and love collide among the three.",
-    youtube: "https://www.youtube.com/watch?v=cD-TLEshy5g",
-    link: "/movies/cocktail",
-  },
-  {
-    id: "hindi-medium",
-    image: "/thumbnails/hindi-medium.jpg",
-    title: "Hindi Medium",
-    year: "2017",
-    genre: "Comedy / Drama",
-    language: "Hindi",
-    duration: "132 min",
-    description:
-      "Raj and Mita Batra, an affluent couple from Delhi's Chandni Chowk who studied in Hindi-medium schools, go to increasingly desperate lengths to get their young daughter admitted into one of the city's top English-medium schools.",
-    youtube: "https://www.youtube.com/watch?v=6M191qGTZA4",
-    link: "/movies/hindi-medium",
-  },
-  {
-    id: "ki-and-ka",
-    image: "/thumbnails/ki-and-ka.jpg",
-    title: "Ki & Ka",
-    year: "2016",
-    genre: "Comedy / Romance",
-    language: "Hindi",
-    duration: "126 min",
-    description:
-      "Kabir, content being a stay-at-home husband, and Kia, an ambitious career woman chasing the corner office, build a marriage on reversed gender roles, only to find society and their own insecurities putting it to the test.",
-    youtube: "https://www.youtube.com/watch?v=svJaA8NhjCg",
-    link: "/movies/ki-and-ka",
-  },
-  {
-    id: "raabta",
-    image: "/thumbnails/raabta.jpg",
-    title: "Raabta",
-    year: "2017",
-    genre: "Romance / Fantasy",
-    language: "Hindi",
-    duration: "148 min",
-    description:
-      "Shiv and Saira are drawn to each other like long-lost lovers in Budapest, only to discover their bond stretches back centuries, as a mysterious stranger claiming to be Saira's reincarnated lover threatens to tear them apart.",
-    youtube: "https://www.youtube.com/watch?v=wRKh0-BoyTA",
-    link: "/movies/raabta",
-  },
-  {
-    id: "yeh-jawaani-hai-deewani",
-    image: "/thumbnails/yeh-jawaani-hai-deewani.jpg",
-    title: "Yeh Jawaani Hai Deewani",
-    year: "2013",
-    genre: "Romance / Comedy",
-    language: "Hindi",
-    duration: "160 min",
-    description:
-      "Naina, a shy medical student, falls for Bunny, a free-spirited adventurer, during a college trek, but their paths diverge as he chases his dreams around the world, only to reunite years later at a friend's wedding.",
-    youtube: "https://www.youtube.com/watch?v=TVB920h0u4g",
-    link: "/movies/yeh-jawaani-hai-deewani",
-  },
-  {
-    id: "ajab-prem-ki-ghazab-kahani",
-    image: "/thumbnails/ajab-prem-ki-ghazab-kahani.jpg",
-    title: "Ajab Prem Ki Ghazab Kahani",
-    year: "2009",
-    genre: "Comedy / Romance",
-    language: "Hindi",
-    duration: "155 min",
-    description:
-      "Prem, a happy-go-lucky small-town guy, falls head over heels for Jenny, but she's already in love with someone else, so he selflessly sets out to help her win the man of her dreams instead.",
-    youtube: "https://www.youtube.com/watch?v=dbTkItiju1w",
-    link: "/movies/ajab-prem-ki-ghazab-kahani",
-  },
-
-  {
-    id: "housefull",
-    image: "/thumbnails/housefull.jpg",
-    title: "Housefull",
-    year: "2010",
-    genre: "Comedy / Drama",
-    language: "Hindi",
-    duration: "144 min",
-    description:
-      "Aarush, a self-proclaimed jinx who believes true love is his only cure, moves in with his best friend Bob in London, and one lie about his love life spirals into a web of mistaken identities and total chaos.",
-    youtube: "https://www.youtube.com/watch?v=iCtWBMzEGsU",
-    link: "/movies/housefull",
-  },
-  {
-    id: "ready",
-    image: "/thumbnails/ready.jpg",
-    title: "Ready",
-    year: "2011",
-    genre: "Action / Comedy",
-    language: "Hindi",
-    duration: "145 min",
-    description:
-      "Prem, a carefree heir to his family's business empire, falls for Sanjana, a runaway bride fleeing her greedy uncles who are scheming to seize her inheritance, leading to a chaotic battle between the two families.",
-    youtube: "https://www.youtube.com/watch?v=BQ7qwFkvIMQ",
-    link: "/movies/ready",
-  },
-];
+// export const Top_Tamil_Movies = [
+//   {
+//     id: "96",
+//     image: "/thumbnails/96.jpg",
+//     title: "96",
+//     year: "2018",
+//     genre: "Romance / Drama",
+//     language: "Tamil",
+//     duration: "158 min",
+//     description:
+//       "Ram, a travel photographer, and Jaanu, his high school sweetheart, reunite twenty-two years after graduation at a school reunion, revisiting the love they never got to complete.",
+//     youtube: "https://www.youtube.com/watch?v=HDLh5kEGB_w",
+//     trailer: "https://www.youtube.com/watch?v=HDLh5kEGB_w",
+//     link: "/movies/96",
+//     rating: 8.5,
+//     mainActors: ["Vijay Sethupathi", "Trisha Krishnan"],
+//   },
+//   {
+//     id: "paiyaa",
+//     image: "/thumbnails/paiyaa.jpg",
+//     title: "Paiyaa",
+//     year: "2010",
+//     genre: "Action / Romance",
+//     language: "Tamil",
+//     duration: "146 min",
+//     description:
+//       "Shiva, a carefree jobless young man, falls for a girl he spots at a bus stop and offers to drive her from Bangalore to Mumbai, turning their road trip into a romance while a gang of goons trails them.",
+//     youtube: "https://www.youtube.com/watch?v=0QkDdt1xjl4",
+//     trailer: "https://www.youtube.com/watch?v=0QkDdt1xjl4",
+//     link: "/movies/paiyaa",
+//     rating: 7.2,
+//     mainActors: ["Karthi", "Tamannaah Bhatia"],
+//   },
+//   {
+//     id: "vaaranam-aayiram",
+//     image: "/thumbnails/vaaranam-aayiram.jpg",
+//     title: "Vaaranam Aayiram",
+//     year: "2008",
+//     genre: "Drama / Romance",
+//     language: "Tamil",
+//     duration: "169 min",
+//     description:
+//       "Major Suriya, on a rescue mission when he learns of his father Krishnan's death, reminisces about their bond and the moments that shaped his life, from his father's own love story to his own journey through heartbreak and self-discovery.",
+//     youtube: "https://www.youtube.com/watch?v=ViXzw0xrtoU",
+//     trailer: "https://www.youtube.com/watch?v=ViXzw0xrtoU",
+//     link: "/movies/vaaranam-aayiram",
+//     rating: 8.3,
+//     mainActors: ["Sivakarthikeyan", "Simran"],
+//   },
+//   {
+//     id: "sketch",
+//     image: "/thumbnails/sketch.jpg",
+//     title: "Sketch",
+//     year: "2018",
+//     genre: "Action / Thriller",
+//     language: "Tamil",
+//     duration: "138 min",
+//     description:
+//       "Jeeva, aka Sketch, a vehicle repo man working for a local loan shark in North Chennai, lands in serious trouble after seizing a car belonging to a dangerous gangster.",
+//     youtube: "https://www.youtube.com/watch?v=JiVLSWeiIFs",
+//     trailer: "https://www.youtube.com/watch?v=JiVLSWeiIFs",
+//     link: "/movies/sketch",
+//     rating: 6.9,
+//     mainActors: ["Vikram", "Nayanthara"],
+//   },
+//   {
+//     id: "imaikkaa-nodigal",
+//     image: "/thumbnails/imaikkaa-nodigal.jpg",
+//     title: "Imaikkaa Nodigal",
+//     year: "2018",
+//     genre: "Action / Thriller",
+//     language: "Tamil",
+//     duration: "170 min",
+//     description:
+//       "CBI officer Anjali races against time to catch Rudra, a notorious serial killer thought to have died five years ago, as the cat-and-mouse hunt pulls in an unlikely cast of allies and suspects.",
+//     youtube: "https://www.youtube.com/watch?v=IlQXD3ABVpw",
+//     trailer: "https://www.youtube.com/watch?v=IlQXD3ABVpw",
+//     link: "/movies/imaikkaa-nodigal",
+//     rating: 8.0,
+//     mainActors: ["Nayanthara", "Nithya Menen"],
+//   },
+//   {
+//     id: "aadhavan",
+//     image: "/thumbnails/aadhavan2.jpg",
+//     title: "Aadhavan",
+//     year: "2009",
+//     genre: "Action / Comedy",
+//     language: "Tamil",
+//     duration: "168 min",
+//     description:
+//       "A skilled assassin falls in love while trying to complete a dangerous mission against powerful enemies.",
+//     youtube: "https://www.youtube.com/watch?v=ooY-SMww3-0",
+//     trailer: "https://www.youtube.com/watch?v=ooY-SMww3-0",
+//     link: "/movies/aadhavan",
+//     rating: 7.4,
+//     mainActors: ["Surya", "Sameera Reddy"],
+//   },
+//   {
+//     id: "sathuranga-vettai",
+//     image: "/thumbnails/sathuranga-vettai2.jpg",
+//     title: "Sathuranga Vettai",
+//     year: "2014",
+//     genre: "Crime / Thriller",
+//     language: "Tamil",
+//     duration: "145 min",
+//     description:
+//       "A clever con artist carries out sophisticated scams before finding himself trapped in his own game.",
+//     youtube: "https://www.youtube.com/watch?v=3QGzJr_137I",
+//     trailer: "https://www.youtube.com/watch?v=3QGzJr_137I",
+//     link: "/movies/sathuranga-vettai",
+//     rating: 8.1,
+//     mainActors: ["Nassar", "Vijay Sethupathi"],
+//   },
+//   {
+//     id: "thalaivaa",
+//     image: "/thumbnails/thalaivaa.jpg",
+//     title: "Thalaivaa",
+//     year: "2013",
+//     genre: "Action / Drama",
+//     language: "Tamil",
+//     duration: "182 min",
+//     description:
+//       "Vishwa, a carefree dancer in Australia, travels to Mumbai to visit his estranged father, only to discover he is a powerful crime boss, and after his father's death, steps into his shoes to become 'Thalaivaa,' the new leader.",
+//     youtube: "https://www.youtube.com/watch?v=b-ucI0du180",
+//     trailer: "https://www.youtube.com/watch?v=b-ucI0du180",
+//     link: "/movies/thalaivaa",
+//     rating: 7.9,
+//     mainActors: ["Vijay", "Amala Paul"],
+//   },
+//   {
+//     id: "anjaan",
+//     image: "/thumbnails/anjaan.jpg",
+//     title: "Anjaan",
+//     year: "2014",
+//     genre: "Action / Crime",
+//     language: "Tamil",
+//     duration: "166 min",
+//     description:
+//       "Krishna, a disabled man, arrives in Mumbai from Kanyakumari searching for his elder brother Raju, a feared gangster, and uncovers the dark truth behind his disappearance amid the city's criminal underworld.",
+//     youtube: "https://www.youtube.com/watch?v=fSPMq94D6rA",
+//     trailer: "https://www.youtube.com/watch?v=fSPMq94D6rA",
+//     link: "/movies/anjaan",
+//     rating: 6.8,
+//     mainActors: ["Sivakarthikeyan", "Vidyut Jammwal"],
+//   },
+// ];
+// export const Top_Hindi_Movies = [
+//   {
+//     id: "cocktail",
+//     image: "/thumbnails/cocktail.jpg",
+//     title: "Cocktail",
+//     year: "2012",
+//     genre: "Romance / Comedy",
+//     language: "Hindi",
+//     duration: "144 min",
+//     description:
+//       "Gautam, an incorrigible flirt in London, finds himself torn between Veronica, a free-spirited party girl, and Meera, a traditional girl finding her footing abroad, as friendship and love collide among the three.",
+//     youtube: "https://www.youtube.com/watch?v=cD-TLEshy5g",
+//     trailer: "https://www.youtube.com/watch?v=cD-TLEshy5g",
+//     link: "/movies/cocktail",
+//     rating: 6.7,
+//     mainActors: ["Saif Ali Khan", "Diana Penty", "Dimple Kapadia"],
+//   },
+//   {
+//     id: "hindi-medium",
+//     image: "/thumbnails/hindi-medium.jpg",
+//     title: "Hindi Medium",
+//     year: "2017",
+//     genre: "Comedy / Drama",
+//     language: "Hindi",
+//     duration: "132 min",
+//     description:
+//       "Raj and Mita Batra, an affluent couple from Delhi's Chandni Chowk who studied in Hindi-medium schools, go to increasingly desperate lengths to get their young daughter admitted into one of the city's top English-medium schools.",
+//     youtube: "https://www.youtube.com/watch?v=6M191qGTZA4",
+//     trailer: "https://www.youtube.com/watch?v=6M191qGTZA4",
+//     link: "/movies/hindi-medium",
+//     rating: 7.3,
+//     mainActors: ["Irrfan Khan", "Saba Qamar"],
+//   },
+//   {
+//     id: "ki-and-ka",
+//     image: "/thumbnails/ki-and-ka.jpg",
+//     title: "Ki & Ka",
+//     year: "2016",
+//     genre: "Comedy / Romance",
+//     language: "Hindi",
+//     duration: "126 min",
+//     description:
+//       "Kabir, content being a stay-at-home husband, and Kia, an ambitious career woman chasing the corner office, build a marriage on reversed gender roles, only to find society and their own insecurities putting it to the test.",
+//     youtube: "https://www.youtube.com/watch?v=svJaA8NhjCg",
+//     trailer: "https://www.youtube.com/watch?v=svJaA8NhjCg",
+//     link: "/movies/ki-and-ka",
+//     rating: 6.8,
+//     mainActors: ["Arjun Kapoor", "Kriti Sanon"],
+//   },
+//   {
+//     id: "raabta",
+//     image: "/thumbnails/raabta.jpg",
+//     title: "Raabta",
+//     year: "2017",
+//     genre: "Romance / Fantasy",
+//     language: "Hindi",
+//     duration: "148 min",
+//     description:
+//       "Shiv and Saira are drawn to each other like long-lost lovers in Budapest, only to discover their bond stretches back centuries, as a mysterious stranger claiming to be Saira's reincarnated lover threatens to tear them apart.",
+//     youtube: "https://www.youtube.com/watch?v=wRKh0-BoyTA",
+//     trailer: "https://www.youtube.com/watch?v=wRKh0-BoyTA",
+//     link: "/movies/raabta",
+//     rating: 6.5,
+//     mainActors: ["Sushant Singh Rajput", "Kriti Sanon"],
+//   },
+//   {
+//     id: "yeh-jawaani-hai-deewani",
+//     image: "/thumbnails/yeh-jawaani-hai-deewani.jpg",
+//     title: "Yeh Jawaani Hai Deewani",
+//     year: "2013",
+//     genre: "Romance / Comedy",
+//     language: "Hindi",
+//     duration: "160 min",
+//     description:
+//       "Naina, a shy medical student, falls for Bunny, a free-spirited adventurer, during a college trek, but their paths diverge as he chases his dreams around the world, only to reunite years later at a friend's wedding.",
+//     youtube: "https://www.youtube.com/watch?v=TVB920h0u4g",
+//     trailer: "https://www.youtube.com/watch?v=TVB920h0u4g",
+//     link: "/movies/yeh-jawaani-hai-deewani",
+//     rating: 7.4,
+//     mainActors: ["Ranbir Kapoor", "Deepika Padukone"],
+//   },
+//   {
+//     id: "ajab-prem-ki-ghazab-kahani",
+//     image: "/thumbnails/ajab-prem-ki-ghazab-kahani.jpg",
+//     title: "Ajab Prem Ki Ghazab Kahani",
+//     year: "2009",
+//     genre: "Comedy / Romance",
+//     language: "Hindi",
+//     duration: "155 min",
+//     description:
+//       "Prem, a happy-go-lucky small-town guy, falls head over heels for Jenny, but she's already in love with someone else, so he selflessly sets out to help her win the man of her dreams instead.",
+//     youtube: "https://www.youtube.com/watch?v=dbTkItiju1w",
+//     trailer: "https://www.youtube.com/watch?v=dbTkItiju1w",
+//     link: "/movies/ajab-prem-ki-ghazab-kahani",
+//     rating: 6.9,
+//     mainActors: ["Ranbir Kapoor", "Katrina Kaif"],
+//   },
+//   {
+//     id: "housefull",
+//     image: "/thumbnails/housefull.jpg",
+//     title: "Housefull",
+//     year: "2010",
+//     genre: "Comedy / Drama",
+//     language: "Hindi",
+//     duration: "144 min",
+//     description:
+//       "Aarush, a self-proclaimed jinx who believes true love is his only cure, moves in with his best friend Bob in London, and one lie about his love life spirals into a web of mistaken identities and total chaos.",
+//     youtube: "https://www.youtube.com/watch?v=iCtWBMzEGsU",
+//     trailer: "https://www.youtube.com/watch?v=iCtWBMzEGsU",
+//     link: "/movies/housefull",
+//     rating: 5.8,
+//     mainActors: ["Akshay Kumar", "Ritiesh Deshmukh"],
+//   },
+//   {
+//     id: "ready",
+//     image: "/thumbnails/ready.jpg",
+//     title: "Ready",
+//     year: "2011",
+//     genre: "Action / Comedy",
+//     language: "Hindi",
+//     duration: "145 min",
+//     description:
+//       "Prem, a carefree heir to his family's business empire, falls for Sanjana, a runaway bride fleeing her greedy uncles who are scheming to seize her inheritance, leading to a chaotic battle between the two families.",
+//     youtube: "https://www.youtube.com/watch?v=BQ7qwFkvIMQ",
+//     trailer: "https://www.youtube.com/watch?v=BQ7qwFkvIMQ",
+//     link: "/movies/ready",
+//     rating: 6.4,
+//     mainActors: ["Salman Khan", "Asin"],
+//   },
+// ];

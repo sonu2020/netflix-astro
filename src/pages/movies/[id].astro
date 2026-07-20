@@ -1,31 +1,24 @@
 ---
+export const prerender = true;
+
+import "../../styles/details.css";
+import { Icon } from "astro-icon/components";
 import {
   Top_Malayalam_Movies,
   Trending_Movies,
   Classic_malayalam_Movies,
   Popular_Malayalam_movies,
-  Top_Tamil_Movies,
-  Top_Hindi_Movies,
+  // Top_Tamil_Movies,
+  // Top_Hindi_Movies,
   New_Release_Malayalam_Movies,
   Malayalam_Dubbed_Movies,
   Malayalam_Comedy_Movies,
+  Malayalam_Comedy_Movies2,
   Malayalam_Romantic_Movies,
+  Malayalam_Short_Movies,
+  New_movies,
+  New_movies2,
 } from "../../data/movies";
-import "../../styles/global.css";
-import { Clapperboard } from "lucide-react";
-
-const allMovies = [
-  ...Top_Malayalam_Movies,
-  ...Trending_Movies,
-  ...Classic_malayalam_Movies,
-  ...Popular_Malayalam_movies,
-  ...Top_Tamil_Movies,
-  ...Top_Hindi_Movies,
-  ...New_Release_Malayalam_Movies,
-  ...Malayalam_Dubbed_Movies,
-  ...Malayalam_Comedy_Movies,
-  ...Malayalam_Romantic_Movies,
-];
 
 export async function getStaticPaths() {
   const allMovies = [
@@ -33,42 +26,59 @@ export async function getStaticPaths() {
     ...Trending_Movies,
     ...Classic_malayalam_Movies,
     ...Popular_Malayalam_movies,
-    ...Top_Tamil_Movies,
-    ...Top_Hindi_Movies,
+    // ...Top_Tamil_Movies,
+    // ...Top_Hindi_Movies,
     ...New_Release_Malayalam_Movies,
     ...Malayalam_Dubbed_Movies,
     ...Malayalam_Comedy_Movies,
+    ...Malayalam_Comedy_Movies2,
     ...Malayalam_Romantic_Movies,
+    ...Malayalam_Short_Movies,
+    ...New_movies,
+    ...New_movies2,
   ];
+
   return allMovies.map((movie) => ({
     params: {
-      id: movie.id,
+      id: movie.id.toString(),
     },
     props: {
       movie,
     },
   }));
 }
+
 const { movie } = Astro.props;
 ---
 
 <div class="movie-details">
   <img class="movie-poster" src={movie.image} alt={movie.title} />
+
   <div class="movie-info">
     <h1>{movie.title}</h1>
-    <p><strong>Year:</strong> {movie.year}</p>
-    <p><strong>Genre:</strong> {movie.genre}</p>
-    <p><strong>Language:</strong> {movie.language}</p>
-    <p><strong>Duration:</strong> {movie.duration}</p>
-    <p class="description">
-      {movie.description}
-    </p>
 
+    <div class="movie-card01">
+      <p><strong>Year:</strong> {movie.year}</p>
+      <p><strong>Genre:</strong> {movie.genre}</p>
+      <p><strong>Language:</strong> {movie.language}</p>
+      <p><strong>Duration:</strong> {movie.duration}</p>
+      <p><strong>Rating:</strong> {movie.rating}/10</p>
+      <p><strong>Actors:</strong> {movie.mainActors}</p>
+      <p>{movie.description}</p>
+    </div>
+    <a
+      href={movie.trailer}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="btn"
+    >
+      Watch Trailer
+    </a>
     <a
       href={movie.youtube}
       target="_blank"
       rel="noopener noreferrer"
-      class="about-btn"
+      class="btn"
     >
       Watch Movie
     </a>
