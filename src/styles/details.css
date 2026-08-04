@@ -37,6 +37,7 @@ body {
 
 .movie-details {
   max-width: 1220px;
+
   margin: clamp(20px, 5vw, 64px) auto;
   display: grid;
   grid-template-columns: minmax(240px, 360px) minmax(0, 1fr);
@@ -70,6 +71,15 @@ body {
 .movie-cards {
   display: flex;
   gap: 30px;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.92) 0%,
+      rgba(0, 0, 0, 0.58) 46%,
+      rgba(0, 0, 0, 0.18) 100%
+    ),
+    linear-gradient(0deg, #050505 0%, rgba(5, 5, 5, 0.15) 40%),
+    url("/thumbnails/logo.jpg") center / cover no-repeat;
 }
 
 .movie-card01 {
