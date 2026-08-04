@@ -1,5 +1,5 @@
 ---
-const { image, title, year, link } = Astro.props;
+const { image, title, year, link, channelName } = Astro.props;
 ---
 
 <a href={link} target="_blank" rel="noopener noreferrer">
@@ -7,6 +7,7 @@ const { image, title, year, link } = Astro.props;
 
   <div class="body">
     <h3 class="movie-card__title">{title}</h3>
+    {channelName && <p class="movie-card__channel">{channelName}</p>}
     <p class="movie-card__year">{year}</p>
   </div>
 </a>

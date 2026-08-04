@@ -7,7 +7,7 @@ import { Popular_Malayalam_movies } from "../data/movies";
 import { New_Release_Malayalam_Movies } from "../data/movies";
 import { Malayalam_Dubbed_Movies } from "../data/movies";
 import { Malayalam_Comedy_Movies } from "../data/movies";
-import { Malayalam_Comedy_Movies2 } from "../data/movies";
+// import { Malayalam_Comedy_Movies2 } from "../data/movies";
 
 import { Malayalam_Romantic_Movies } from "../data/movies";
 import { New_movies } from "../data/movies";
@@ -23,7 +23,7 @@ const allMovies = [
   ...New_Release_Malayalam_Movies,
   ...Malayalam_Dubbed_Movies,
   ...Malayalam_Comedy_Movies,
-  ...Malayalam_Comedy_Movies2,
+  // ...Malayalam_Comedy_Movies2,
   ...Malayalam_Romantic_Movies,
   ...New_movies,
   ...New_movies2,
@@ -35,14 +35,14 @@ const allMovies = [
   <h2 class="footer-logo">MALLUFLIX</h2>
 
   <MovieSearchBar movies={allMovies} client:load />
-  <div>
+  <nav class="nav-actions" aria-label="Main navigation">
     <!-- <a href="/shortfilims" class="btn">Short Filims</a> -->
 
-    <a href="/news" class="btn">Movie Updates</a>
+    <!-- <a href="/news" class="btn">Movie Updates</a>
 
-    <a href="/trending" class="btn">Trending Movies</a>
-
-    <a href="/about" class="btn">About</a>
-    <a href="/" class="btn">Home</a>
-  </div>
+    <a href="/trending" class="btn">Trending Movies</a> -->
+    <!-- 
+    <a href="/about" class="btn btn-ghost">About</a>
+    <a href="/" class="btn btn-primary active-link">Home</a> -->
+  </nav>
 </div>

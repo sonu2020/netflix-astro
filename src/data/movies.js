@@ -11,6 +11,7 @@ export const New_movies2 = [
     description:
       "Ayyappan, a passionate politician, falls in love with Irene, an educated young woman from a different background. As their relationship blossoms, they must overcome cultural differences, family expectations, and personal challenges.",
     youtube: "https://www.youtube.com/watch?v=i_6y1WExgSg",
+    channelName: "TVNXT Malayalam",
     trailer: "https://www.youtube.com/watch?v=OytK4yGAafw",
     link: "/movies/oru-indian-pranayakadha",
     mainActors: [
@@ -33,6 +34,7 @@ export const New_movies2 = [
     description:
       "Afsal, the owner of a mobile phone shop in Malappuram, falls in love with a customer. As misunderstandings, family conflicts, and humorous situations unfold, he must find a way to win her heart.",
     youtube: "https://www.youtube.com/watch?v=YALQwD5UEWE",
+    channelName: "TVNXT Malayalam",
     trailer: "https://www.youtube.com/watch?v=QDGu1I8FWWw",
     link: "/movies/salalah-mobiles",
     mainActors: [
@@ -55,6 +57,7 @@ export const New_movies2 = [
     description:
       "Kunjiraman's peaceful village life takes a hilarious turn when a long-standing family feud sparks a chain of misunderstandings, romance, and comic incidents that bring the entire village together.",
     youtube: "https://www.youtube.com/watch?v=axDSnoZ2zIM",
+    channelName: "TVNXT Malayalam",
     trailer: "https://www.youtube.com/watch?v=wIE1iBDU7II",
     link: "/movies/kunjiramayanam",
     mainActors: [
@@ -77,6 +80,7 @@ export const New_movies2 = [
     description:
       "Rahul, a young man from Kerala, travels to Spain to teach Hindi to a visually impaired woman named Paula. As they grow closer, cultural differences, family expectations, and emotional challenges shape their unique love story.",
     youtube: "https://www.youtube.com/watch?v=5wAYIvbcZxs",
+    channelName: "TVNXT Malayalam",
     trailer: "https://www.youtube.com/watch?v=torCGE71UD8",
     link: "/movies/spanish-masala",
     mainActors: [
@@ -99,6 +103,7 @@ export const New_movies2 = [
     description:
       "Thoma, the kind-hearted son of a wealthy rubber plantation owner, struggles with a speech impairment and constant ridicule from society. Despite the challenges, he proves his worth through courage, compassion, and determination while fighting for love and justice.",
     youtube: "https://www.youtube.com/watch?v=vw6Fj_gV74I",
+    channelName: "TVNXT Malayalam",
     trailer: "https://www.youtube.com/watch?v=-zVkD6AMPT8",
     link: "/movies/sound-thoma",
     mainActors: [
@@ -121,6 +126,7 @@ export const New_movies2 = [
     description:
       "Based on the life of Kerala Varma Pazhassi Raja, the film chronicles the legendary king's courageous resistance against the British East India Company in the late 18th century, leading his people in a fierce battle for freedom.",
     youtube: "https://www.youtube.com/watch?v=YzXKzYn3Sqc",
+    channelName: "TVNXT Malayalam",
     trailer: "https://www.youtube.com/watch?v=S1YQP7tQruI",
     link: "/movies/pazhassi-raja",
     mainActors: [
@@ -143,6 +149,7 @@ export const New_movies2 = [
     description:
       "Inspired by a true incident, the film follows an extraordinary mission to transport a donor heart across Kerala within a few hours. As police officers, doctors, and ordinary citizens race against time, their lives become unexpectedly intertwined.",
     youtube: "https://www.youtube.com/watch?v=5vNCGl7J4nk",
+    channelName: "TVNXT Malayalam",
     trailer: "https://www.youtube.com/watch?v=ByMiwLbBNxw",
     link: "/movies/traffic",
     mainActors: [
@@ -169,6 +176,7 @@ export const New_movies = [
     description:
       "Set in the 1950s, an idealistic jailer takes five hardened prisoners to a remote village as part of a bold rehabilitation experiment. As trust is tested and danger looms, he must prove that compassion can triumph over crime.",
     youtube: "https://www.youtube.com/watch?v=F-lTuxNXy5s",
+    channelName: "Millennium Audios",
     trailer: "https://www.youtube.com/watch?v=9dU8zW6q2nA",
     link: "/movies/jailer",
     mainActors: [
@@ -191,6 +199,7 @@ export const New_movies = [
     description:
       "Arun, a talented BMX cyclist, falls in love with Diya, a deaf and mute girl. As he faces challenges in sports, family, and relationships, he learns valuable lessons about love, determination, and overcoming life's obstacles.",
     youtube: "https://www.youtube.com/watch?v=r6AhlTn9w_M",
+    channelName: "Goodwill Cinemas",
     trailer: "https://www.youtube.com/watch?v=6xPtbmg2-WQ",
     link: "/movies/nonsense",
     mainActors: [
@@ -213,6 +222,7 @@ export const New_movies = [
     description:
       "Inspector Kalki arrives in the troubled village of Nanchenkotta to restore law and order after a series of violent crimes. Facing ruthless criminals and corruption, he wages a relentless fight for justice.",
     youtube: "https://www.youtube.com/watch?v=HTfTrB0M7BQ",
+    channelName: "Zee Movies Malayalam",
     trailer: "https://www.youtube.com/watch?v=m1F5nan9MFk",
     link: "/movies/kalki",
     mainActors: [
@@ -235,6 +245,7 @@ export const New_movies = [
     description:
       "Three friends visit a beach resort where they encounter mysterious supernatural events. They seek the help of a mentalist, who uncovers the truth behind a restless spirit and the secrets surrounding its past.",
     youtube: "https://www.youtube.com/watch?v=TE4oQELEZI8",
+    channelName: "TVNXT Malayalam",
     trailer: "https://www.youtube.com/watch?v=PEFHZCo83Fs",
     link: "/movies/pretham",
     mainActors: [
@@ -257,6 +268,7 @@ export const New_movies = [
     description:
       "Vineeth, a carefree writer, is forced to work with Deepa, a dedicated social worker and single mother. Their contrasting personalities gradually give way to mutual respect, friendship, and an inspiring journey of self-discovery.",
     youtube: "https://www.youtube.com/watch?v=yR0ffs_ea2Y",
+    channelName: "TVNXT Malayalam",
     trailer: "https://www.youtube.com/watch?v=bL5KBVY7lOw",
     link: "/movies/ennum-eppozhum",
     mainActors: [
@@ -279,6 +291,7 @@ export const New_movies = [
     description:
       "Jagannathan, an Indian political strategist, travels to the United States to manage the election campaign of a gubernatorial candidate. His unconventional methods lead to hilarious situations and unexpected political twists.",
     youtube: "https://www.youtube.com/watch?v=-hJLH1q4-lw",
+    channelName: "Amrita Movies",
     trailer: "https://www.youtube.com/watch?v=eDQna8i46vo",
     link: "/movies/peruchazhi",
     mainActors: [
@@ -301,6 +314,7 @@ export const New_movies = [
     description:
       "Raghunandan, a successful television personality struggling with alcoholism, undergoes a profound transformation after meeting ordinary people whose lives inspire him to overcome his addiction and rediscover the true meaning of life.",
     youtube: "https://www.youtube.com/watch?v=qnumRvim-sA",
+    channelName: "Aashirvad Cinemas",
     trailer: "https://www.youtube.com/watch?v=O7w9dplOtLk",
     link: "/movies/spirit",
     mainActors: [
@@ -324,6 +338,7 @@ export const New_movies = [
       "Prakashan has loved Ammukutty since childhood, but she remains unaware of his feelings. As another suitor enters her life, a humorous and emotional love triangle unfolds, testing friendship, love, and destiny.",
 
     youtube: "https://www.youtube.com/watch?v=LVFhJdYrLlg&t=7563s",
+    channelName: "Matinee Now",
     trailer: "https://www.youtube.com/watch?v=QBvMAnJg-YM",
 
     link: "/movies/premasoothram",
@@ -350,6 +365,7 @@ export const Malayalam_Short_Movies = [
     description:
       "A talented photographer meets Shalini during her sister's engagement ceremony, and their chance encounter blossoms into a beautiful love story filled with humor, emotions, and memorable moments.",
     youtube: "https://www.youtube.com/watch?v=j0uFcjHmxnY",
+    channelName: "Blockbuster Films",
     trailer: "https://www.youtube.com/watch?v=L42dMJS_27s",
     link: "/movies/colour-padam",
     mainActors: [
@@ -372,6 +388,7 @@ export const Malayalam_Short_Movies = [
     description:
       "A heartwarming Malayalam romantic short film that follows two young individuals whose unexpected encounter blossoms into an emotional journey of love, hope, and second chances, while exploring relationships and life's simple moments.",
     youtube: "https://www.youtube.com/watch?v=8u8fbIA2nmY",
+    channelName: "Blockbuster Films",
     trailer: "https://www.youtube.com/watch?v=dcErNfz1hSQ",
     link: "/movies/oppees-chollan-varatte",
     mainActors: [
@@ -396,6 +413,7 @@ export const Malayalam_Short_Movies = [
     description:
       "Three friends find themselves caught in an unexpected situation that tests their friendship, choices, and courage. As tension rises, every decision leads them deeper into uncertainty.",
     youtube: "https://www.youtube.com/watch?v=GzfqFm8_bG8",
+    channelName: "Padippist",
     trailer: "https://www.youtube.com/watch?v=mDKupqUB_so",
     link: "/movies/trail",
     mainActors: [
@@ -418,6 +436,7 @@ export const Malayalam_Short_Movies = [
     description:
       "A heartwarming Malayalam short film that blends humor and emotions while exploring relationships, family values, and everyday life through memorable characters.",
     youtube: "https://www.youtube.com/watch?v=L1E5x0NU0gc",
+    channelName: "Unknown Channel",
     trailer: "https://www.youtube.com/watch?v=SzJqSEeqAh8",
     link: "/movies/palapoo",
     mainActors: [
@@ -442,6 +461,7 @@ export const Malayalam_Short_Movies = [
     description:
       "A heartwarming coming-of-age romantic comedy that follows Prahaladhan and Bhagya, two youngsters from Kochi who unexpectedly connect through a dating app, leading to a charming journey of love, self-discovery, and modern relationships.",
     youtube: "https://www.youtube.com/watch?v=oHe_6-Q2MW4",
+    channelName: "Blockbuster Films",
     trailer: "https://www.youtube.com/watch?v=QQfwz1f1re8",
     link: "/movies/bumblinga",
     mainActors: [
@@ -465,6 +485,7 @@ export const Malayalam_Short_Movies = [
     description:
       "A Malayalam short film that follows Treasa as her life takes an unexpected turn, uncovering secrets, emotional conflicts, and difficult choices that challenge her resilience and relationships.",
     youtube: "https://www.youtube.com/watch?v=mGcxdHGauUc",
+    channelName: "Blockbuster Films",
     trailer: "https://www.youtube.com/watch?v=5Y_MEtIW0ec",
     link: "/movies/treasa",
     mainActors: ["Unni Lalu", "Claire C. John", "Chithra Pradeep"],
@@ -481,6 +502,7 @@ export const Malayalam_Short_Movies = [
     description:
       "A gripping Malayalam short film that follows ordinary lives thrown into extraordinary circumstances, where duty, sacrifice, and morality collide in an emotionally charged journey.",
     youtube: "https://www.youtube.com/watch?v=Z-jqK9rniiE",
+    channelName: "Blockbuster Films",
     trailer: "https://www.youtube.com/watch?v=aX_jZ6G656U",
     link: "/movies/ithikarthavya-maran",
     mainActors: [
@@ -503,6 +525,7 @@ export const Malayalam_Short_Movies = [
     description:
       "A light-hearted Malayalam comedy short film that follows a series of unexpected events surrounding a unique relationship, leading to humorous situations and heartwarming moments.",
     youtube: "https://www.youtube.com/watch?v=O60F2201Ld8",
+    channelName: "Blockbuster Films",
     trailer: "https://www.youtube.com/watch?v=hXjG5AAndU8",
     link: "/movies/kadamuri-mel-sambandham",
     mainActors: ["Raagu", "Zhinz Shan", "Sandra Nair"],
@@ -519,6 +542,7 @@ export const Malayalam_Short_Movies = [
     description:
       "A gripping Malayalam action thriller that follows a group of young men whose pride, loyalty, and survival are put to the ultimate test. As hidden truths unfold, every decision pushes them closer to a deadly confrontation.",
     youtube: "https://www.youtube.com/watch?v=IVnf2OOfUdE",
+    channelName: "Unknown Channel",
     trailer: "https://www.youtube.com/watch?v=9ZPLlH7-4ng",
     link: "/movies/kage-the-death-of-pride",
     mainActors: [
@@ -536,24 +560,6 @@ export const Malayalam_Short_Movies = [
 ];
 export const Top_Malayalam_Movies = [
   {
-    id: "kumbalangi-nights",
-    image: "/thumbnails/kumbalangi-nights.jpg",
-    title: "Kumbalangi Nights",
-    year: "2019",
-    genre: "Drama / Family",
-    language: "Malayalam",
-    duration: "135 min",
-    rating: 8.5,
-    description:
-      "Four brothers living in Kumbalangi navigate love, family conflicts, and personal growth while discovering the true meaning of home and relationships.",
-    youtube:
-      "https://www.youtube.com/watch?v=bNyKd0PUx04&list=PLtfg_o4HEN_N-G709GXFoVt-Iw1MMSQ64&index=2",
-    trailer: "https://www.youtube.com/watch?v=bNyKd0PUx04&t=10s",
-    link: "/movies/kumbalangi-nights",
-    mainActors: ["Fahadh Faasil ", "Soubin Shahir ", "Shane Nigam"],
-  },
-
-  {
     id: "joseph",
     image: "/thumbnails/joseph.jpg",
     title: "Joseph",
@@ -566,6 +572,7 @@ export const Top_Malayalam_Movies = [
       "A retired police officer investigates a mysterious death that uncovers a series of shocking crimes.",
     youtube:
       "https://www.youtube.com/watch?v=Zhrau8ZfEr0&list=PLtfg_o4HEN_N-G709GXFoVt-Iw1MMSQ64",
+    channelName: "BHAVANA STUDIOS",
     trailer: "https://www.youtube.com/watch?v=_TZ2SECFkKU",
     link: "/movies/joseph",
     mainActors: ["Joju George", "Muthumani", "Dileesh Pothan"],
@@ -582,6 +589,7 @@ export const Top_Malayalam_Movies = [
     description:
       "A stubborn elderly man unexpectedly forms a close bond with a humanoid robot brought home by his son.",
     youtube: "https://www.youtube.com/watch?v=i-d771eWwcA",
+    channelName: "Movie Reels",
     trailer: "https://www.youtube.com/watch?v=ZO5MN0Ws0Hc",
     link: "/movies/android-kunjappan",
     mainActors: ["Suraj Venjaramoodu ", " Soubin Shahir", " Seema Pahwa"],
@@ -598,6 +606,7 @@ export const Top_Malayalam_Movies = [
     description:
       "A young woman accidentally gets trapped inside a freezer and struggles to survive the freezing night.",
     youtube: "https://www.youtube.com/watch?v=VQtZqe4r2nU",
+    channelName: "TRP Entertainments",
     trailer: "https://www.youtube.com/watch?v=Z12zJCpj95w",
     link: "/movies/helen",
     mainActors: ["Anna Ben", " Bhagath Manuel"],
@@ -615,6 +624,7 @@ export const Top_Malayalam_Movies = [
       "A son's desperate attempts to fulfill his late father's final wish lead to a series of unexpected and darkly humorous events.",
     youtube:
       "https://www.youtube.com/results?search_query=Ee.Ma.Yau+Malayalam+full+movie",
+    channelName: "Unknown Channel",
     trailer: "https://www.youtube.com/watch?v=b8WZa0GvNYs",
     link: "/movies/ee-ma-yau",
     mainActors: ["Tovino Thomas ", " Parvathy Thiruvothu"],
@@ -632,6 +642,7 @@ export const Top_Malayalam_Movies = [
     description:
       "A social media influencer's life turns into a nightmare after she receives a mysterious smartphone. As terrifying supernatural events begin to unfold, she teams up with a cyber expert to uncover the truth behind the cursed device.",
     youtube: "https://www.youtube.com/watch?v=UvIBJU6x1sk",
+    channelName: "Zee Movies Malayalam",
     trailer: "https://www.youtube.com/watch?v=k3whTKQ3XDQ",
     link: "/movies/chathur-mukham",
     mainActors: [
@@ -654,9 +665,28 @@ export const Top_Malayalam_Movies = [
     description:
       "George experiences different stages of love from his teenage years to adulthood.",
     youtube: "https://www.youtube.com/watch?v=yjaFvFuQ-QM",
+    channelName: "TVNXT Malayalam",
     trailer: "https://www.youtube.com/watch?v=pbgvTikmIMk",
     link: "/movies/premam",
     mainActors: ["Nivin Pauly ", " Madonna Sebastian", " Anupama Parameswaran"],
+  },
+  {
+    id: "kumbalangi-nights",
+    image: "/thumbnails/kumbalangi-nights.jpg",
+    title: "Kumbalangi Nights",
+    year: "2019",
+    genre: "Drama / Family",
+    language: "Malayalam",
+    duration: "135 min",
+    rating: 8.5,
+    description:
+      "Four brothers living in Kumbalangi navigate love, family conflicts, and personal growth while discovering the true meaning of home and relationships.",
+    youtube:
+      "https://www.youtube.com/watch?v=bNyKd0PUx04&list=PLtfg_o4HEN_N-G709GXFoVt-Iw1MMSQ64&index=2",
+    channelName: "BHAVANA STUDIOS",
+    trailer: "https://www.youtube.com/watch?v=3P4BFBSafF0&t=1s",
+    link: "/movies/kumbalangi-nights",
+    mainActors: ["Fahadh Faasil ", "Soubin Shahir ", "Shane Nigam"],
   },
 ];
 
@@ -673,6 +703,7 @@ export const New_Release_Malayalam_Movies = [
       "A young woman's unexpected phone friendship leads her into a gripping journey filled with twists, danger, and self-discovery.",
     youtube:
       "https://www.youtube.com/watch?v=oF4bboKCJf8&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=7",
+    channelName: "TRP Entertainments",
     trailer: "https://www.youtube.com/watch?v=ZS9OU-NXlmg",
     link: "/movies/kappela",
     rating: 8.2,
@@ -690,6 +721,7 @@ export const New_Release_Malayalam_Movies = [
       "A powerful clash of ego and pride unfolds between a retired army officer and an uncompromising police officer in a rural village.",
     youtube:
       "https://www.youtube.com/watch?v=Z-bIQY2loEk&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=9",
+    channelName: "TRP Entertainments",
     trailer: "https://www.youtube.com/watch?v=8Wx3dAQ8pr4",
     link: "/movies/ayyappanum-koshiyum",
     rating: 8.5,
@@ -707,6 +739,7 @@ export const New_Release_Malayalam_Movies = [
       "A motivational speaker's life changes dramatically as he rises to fame in the world of faith healing, exposing manipulation and ambition.",
     youtube:
       "https://www.youtube.com/watch?v=idwRqmXn1kc&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=27",
+    channelName: "TRP Entertainments",
     trailer: "https://www.youtube.com/watch?v=uSudz8zb2I8",
     link: "/movies/trance",
     rating: 7.9,
@@ -724,6 +757,7 @@ export const New_Release_Malayalam_Movies = [
       "An intense courtroom and investigative thriller that explores justice, politics, media influence, and the pursuit of truth.",
     youtube:
       "https://www.youtube.com/watch?v=Wf9JIaHlU7w&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=6",
+    channelName: "TRP Entertainments",
     trailer: "https://www.youtube.com/watch?v=oN3tz-UetKw",
     link: "/movies/jana-gana-mana",
     rating: 8.0,
@@ -741,6 +775,7 @@ export const New_Release_Malayalam_Movies = [
       "A clever con artist becomes entangled in a dangerous game of deception, hidden treasures, and powerful enemies.",
     youtube:
       "https://www.youtube.com/watch?v=Ci3c-4S55b4&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=18",
+    channelName: "TRP Entertainments",
     trailer: "https://www.youtube.com/watch?v=URZkb9AxkQI",
     link: "/movies/mr-fraud",
     rating: 6.8,
@@ -758,6 +793,7 @@ export const New_Release_Malayalam_Movies = [
       "A deeply emotional family drama that follows two women as hidden truths, grief, and complex relationships surface during a time of loss.",
     youtube:
       "https://www.youtube.com/watch?v=7axyeqFZSU8&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=1",
+    channelName: "TRP Entertainments",
     trailer: "https://www.youtube.com/watch?v=iElmR97W024",
     link: "/movies/ullozhukku",
     rating: 7.5,
@@ -775,6 +811,7 @@ export const New_Release_Malayalam_Movies = [
       "Three friends reunite to protect their loved ones, delivering explosive action, emotional moments, and high-energy fight sequences.",
     youtube:
       "https://www.youtube.com/watch?v=OLQsFON9yrk&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=32",
+    channelName: "TRP Entertainments",
     trailer: "https://www.youtube.com/watch?v=NJjDRnE-5_4",
     link: "/movies/rdx-robert-dony-xavier",
     rating: 7.3,
@@ -797,6 +834,7 @@ export const Malayalam_Dubbed_Movies = [
       "A successful chef and an aspiring stand-up comedian form an unusual relationship that challenges their views on love, marriage, and family.",
     youtube:
       "https://www.youtube.com/watch?v=TrJ5sIKxgcI&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=8",
+    channelName: "TRP Entertainments",
     link: "/movies/miss-shetty-mr-polishetty",
     rating: 7.8,
     trailer: "https://www.youtube.com/watch?v=Q19-mmuM6Z0",
@@ -814,6 +852,7 @@ export const Malayalam_Dubbed_Movies = [
       "Set in a coal mining village, a fearless young man rises against injustice, political rivalry, and violence while protecting the people he loves.",
     youtube:
       "https://www.youtube.com/watch?v=ouj8DRWnskk&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=55",
+    channelName: "TRP Entertainments",
     trailer: "https://www.youtube.com/watch?v=WxVz6A77tQU",
     link: "/movies/dasara",
     rating: 8.1,
@@ -831,6 +870,7 @@ export const Malayalam_Dubbed_Movies = [
       "A passionate teacher fights against the commercialization of education while inspiring students to achieve their dreams through knowledge and determination.",
     youtube:
       "https://www.youtube.com/watch?v=FK6JWb4Cj9w&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=22",
+    channelName: "TRP Entertainments",
     trailer: "https://www.youtube.com/watch?v=FOEtbqbwS50",
     link: "/movies/vaathi",
     rating: 7.9,
@@ -848,6 +888,7 @@ export const Malayalam_Dubbed_Movies = [
       "A carefree young man unexpectedly becomes involved in a dangerous conflict, leading to action-packed adventures, family drama, and comedy.",
     youtube:
       "https://www.youtube.com/watch?v=nAyyhGSo1bM&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=33",
+    channelName: "TRP Entertainments",
     trailer: "https://www.youtube.com/watch?v=Ptlyk0N0F-o",
     link: "/movies/lucky-the-racer",
     rating: 6.9,
@@ -865,6 +906,7 @@ export const Malayalam_Dubbed_Movies = [
       "A skilled doctor and a mysterious magician become entangled in a gripping tale of corruption, justice, and revenge against a powerful medical mafia.",
     youtube:
       "https://www.youtube.com/watch?v=-qAQM1_i-Ew&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=38",
+    channelName: "TRP Entertainments",
     trailer: "https://www.youtube.com/watch?v=gQDo5QuZTaw",
     link: "/movies/mersal",
     rating: 7.7,
@@ -888,6 +930,7 @@ export const Malayalam_Dubbed_Movies = [
       "A fearless police officer takes on ruthless criminals while balancing family relationships, romance, and plenty of action-packed comedy.",
     youtube:
       "https://www.youtube.com/watch?v=7LRjIlODUMo&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=49",
+    channelName: "TRP Entertainments",
     trailer: "https://www.youtube.com/watch?v=jxYa6VkL4Oc",
     link: "/movies/gajapokkiri",
     rating: 7.2,
@@ -905,6 +948,7 @@ export const Malayalam_Dubbed_Movies = [
       "A determined police officer investigates a dangerous biker gang involved in a series of brutal crimes while battling personal challenges and powerful enemies.",
     youtube:
       "https://www.youtube.com/watch?v=mJrp-1Pz7uE&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=53",
+    channelName: "TRP Entertainments",
     trailer: "https://www.youtube.com/watch?v=9KoMc1R4b3k",
     link: "/movies/valimai",
     rating: 6.5,
@@ -922,6 +966,7 @@ export const Malayalam_Dubbed_Movies = [
       "A fearless professional assassin finds his life turned upside down when he falls in love while completing a dangerous mission involving a powerful family.",
     youtube:
       "https://www.youtube.com/watch?v=52RfzjR18Ro&list=PLtmr6FAWSnnuOQwabMtyva80QYr3rQ5MA&index=42",
+    channelName: "TRP Entertainments",
     trailer: "https://www.youtube.com/watch?v=Y7lOmdYd0Vo",
     link: "/movies/aadhavan",
     rating: 7.0,
@@ -941,6 +986,7 @@ export const Malayalam_Romantic_Movies = [
     description:
       "A young Hindu man's heartfelt love for a Muslim girl leads him through emotional challenges, family traditions, and unforgettable moments.",
     youtube: "https://www.youtube.com/watch?v=BNVAgg0zltM",
+    channelName: "Harmony Cinemas",
     trailer: "https://www.youtube.com/watch?v=hdwWZdGP8WI",
     link: "/movies/thattathin-marayathu",
     rating: 8.3,
@@ -957,6 +1003,7 @@ export const Malayalam_Romantic_Movies = [
     description:
       "A touching love story that follows a young man's journey through heartbreak, hope, and the changing seasons of life.",
     youtube: "https://www.youtube.com/watch?v=0VK2tLWwDaQ",
+    channelName: "Mollywood Rewind",
     trailer: "https://www.youtube.com/watch?v=TkvQPNdGAKc",
     link: "/movies/mandharam",
     rating: 7.7,
@@ -973,6 +1020,7 @@ export const Malayalam_Romantic_Movies = [
     description:
       "A romantic drama that follows a carefree young man's emotional journey as he discovers love, friendship, and responsibility.",
     youtube: "https://www.youtube.com/watch?v=eidg7BDYUYc",
+    channelName: "Eros Universe South",
     trailer: "https://www.youtube.com/watch?v=UBf3JKdcoEo",
     link: "/movies/bobby",
     rating: 7.6,
@@ -989,6 +1037,7 @@ export const Malayalam_Romantic_Movies = [
     description:
       "A delightful romantic comedy that revolves around friendship, love, and the colorful lives of youngsters in a small town.",
     youtube: "https://www.youtube.com/watch?v=Sa31GsUdtq0",
+    channelName: "Eros Universe South",
     trailer: "https://www.youtube.com/watch?v=Pp8uurxhrBg",
     link: "/movies/paippin-chuvattile-pranayam",
     rating: 7.4,
@@ -1005,6 +1054,7 @@ export const Malayalam_Romantic_Movies = [
     description:
       "A family drama that follows three siblings as they reunite to face long-buried emotions, conflicts, and the enduring strength of family bonds.",
     youtube: "https://www.youtube.com/watch?v=pfNV33U03hI",
+    channelName: "Goodwill Cinemas",
     trailer: "https://www.youtube.com/watch?v=iGa2x1DgsNk",
     link: "/movies/narayaneente-moonnaanmakkal",
     rating: 8.0,
@@ -1021,6 +1071,7 @@ export const Malayalam_Romantic_Movies = [
     description:
       "An emotional romantic drama that beautifully explores love across generations, family bonds, and meaningful relationships.",
     youtube: "https://www.youtube.com/watch?v=fOfjs171JDg",
+    channelName: "Satyam Movies",
     trailer: "https://www.youtube.com/watch?v=qW7gaUL3Es0",
     link: "/movies/anuragam",
     rating: 7.8,
@@ -1043,6 +1094,7 @@ export const Malayalam_Romantic_Movies = [
     description:
       "A fun-filled spin-off from the Honey Bee series that follows friendship, romance, and humorous adventures among a lively group of youngsters.",
     youtube: "https://www.youtube.com/watch?v=114-DIhKHMM",
+    channelName: "manoramaMAX",
     trailer: "https://www.youtube.com/watch?v=US9nQjiCDZk",
     link: "/movies/honey-bee-2-5",
     rating: 6.9,
@@ -1059,6 +1111,7 @@ export const Malayalam_Romantic_Movies = [
     description:
       "A heartwarming romantic drama that explores love, family relationships, and second chances through multiple generations.",
     youtube: "https://www.youtube.com/watch?v=BB2JvmkCEt8",
+    channelName: "TRP Entertainments",
     trailer: "https://www.youtube.com/watch?v=H7aKvMAfRUw",
     link: "/movies/pranaya-vilasam",
     rating: 7.5,
@@ -1080,6 +1133,7 @@ export const Malayalam_Romantic_Movies = [
     description:
       "A socially awkward young man finds new hope and confidence after meeting a free-spirited woman who changes his perspective on life.",
     youtube: "https://www.youtube.com/watch?v=99LEGcE-_yA",
+    channelName: "Zee Movies Malayalam",
     trailer: "https://www.youtube.com/watch?v=fAB6XlQSojY",
     link: "/movies/hey-jude",
     rating: 7.2,
@@ -1099,6 +1153,7 @@ export const Malayalam_Comedy_Movies = [
     description:
       "A fun-filled family entertainer that follows a young man whose life turns upside down when long-hidden family secrets create a series of hilarious and emotional situations.",
     youtube: "https://www.youtube.com/watch?v=f6aOMUH2Pqg&t=6618s",
+    channelName: "Speed Audio & Video",
     trailer: "https://www.youtube.com/watch?v=lVnHxwWftxw",
     link: "/movies/bharathanatyam",
     rating: 7.8,
@@ -1115,6 +1170,7 @@ export const Malayalam_Comedy_Movies = [
     description:
       "A light-hearted family comedy where a wedding celebration takes an unexpected turn, leading to hilarious misunderstandings and emotional moments.",
     youtube: "https://www.youtube.com/watch?v=9ozjpYQdSTE",
+    channelName: "Mollywood Clips",
     trailer: "https://www.youtube.com/watch?v=HTbCOp1NSqA",
     link: "/movies/madhura-manohara-moham",
     rating: 6.9,
@@ -1136,6 +1192,7 @@ export const Malayalam_Comedy_Movies = [
     description:
       "A carefree young man working in the Middle East gets caught in a series of humorous adventures after meeting a spirited young woman.",
     youtube: "https://www.youtube.com/watch?v=OifxZ3Xg258",
+    channelName: "Matinee Now",
     trailer: "https://www.youtube.com/watch?v=RcjTeZ4UB0M",
     link: "/movies/oru-marubhoomikkadha",
     rating: 7.2,
@@ -1152,6 +1209,7 @@ export const Malayalam_Comedy_Movies = [
     description:
       "A small-time thief's life takes an unexpected turn when he becomes entangled in a mysterious crime filled with twists, humor, and suspense.",
     youtube: "https://www.youtube.com/watch?v=B02dLwAI0Sw",
+    channelName: "Mazhavil Manorama",
     trailer: "https://www.youtube.com/watch?v=OkGgfTrKWUw",
     link: "/movies/kallan-dsouza",
     rating: 6.5,
@@ -1173,6 +1231,7 @@ export const Malayalam_Comedy_Movies = [
     description:
       "A heartwarming family drama that explores love, relationships, and the emotional bonds that bring people together through life's challenges.",
     youtube: "https://www.youtube.com/watch?v=JmBgmhReR1Q",
+    channelName: "Cinema Villa",
     trailer: "https://www.youtube.com/watch?v=sUxfZp39D-Q",
     link: "/movies/anpodu-kanmani",
     rating: 6.7,
@@ -1189,6 +1248,7 @@ export const Malayalam_Comedy_Movies = [
     description:
       "A carefree young man finds himself caught between love, family expectations, and hilarious misunderstandings in this entertaining romantic comedy.",
     youtube: "https://www.youtube.com/watch?v=DgjfZyz0HIM",
+    channelName: "Eros Universe South",
     trailer: "https://www.youtube.com/watch?v=qV9de8pJCPw",
     link: "/movies/oru-yamandan-premakadha",
     rating: 6.4,
@@ -1205,13 +1265,13 @@ export const Malayalam_Comedy_Movies = [
     description:
       "A group of enthusiastic villagers forms a local committee, leading to a series of humorous events, friendships, and unexpected adventures.",
     youtube: "https://www.youtube.com/watch?v=qHB75CwPCDA",
+    channelName: "Malayala Mantra",
     trailer: "https://www.youtube.com/watch?v=5Q_BTZeKEis",
     link: "/movies/ulsaha-committee",
     rating: 6.2,
     mainActors: ["JayaRam", "Sheela", "Lal", "Baburaj"],
   },
-];
-export const Malayalam_Comedy_Movies2 = [
+
   {
     id: "mariyam-vannu-vilakkoothi",
     image: "/thumbnails/mariyam-vannu-vilakkoothi.jpg",
@@ -1223,6 +1283,7 @@ export const Malayalam_Comedy_Movies2 = [
     description:
       "Three friends find themselves trapped in a hilarious situation after an unexpected incident turns an ordinary day into complete chaos.",
     youtube: "https://www.youtube.com/watch?v=MOyGnDmzJG4",
+    channelName: "Zee Music South",
     trailer: "https://www.youtube.com/watch?v=m4ABVlLikEk",
     link: "/movies/mariyam-vannu-vilakkoothi",
     rating: 6.5,
@@ -1244,6 +1305,7 @@ export const Malayalam_Comedy_Movies2 = [
     description:
       "A charming coming-of-age story that follows school students as they experience friendship, first love, and unforgettable teenage memories.",
     youtube: "https://www.youtube.com/watch?v=asffbk9CSI8",
+    channelName: "Eros Universe South",
     trailer: "https://www.youtube.com/watch?v=t1ngLjiOrJw",
     link: "/movies/thanneer-mathan-dinangal",
     rating: 8.0,
@@ -1260,6 +1322,7 @@ export const Malayalam_Comedy_Movies2 = [
     description:
       "A fun-filled family comedy that revolves around siblings, friendships, and the humorous challenges of everyday life during lockdown.",
     youtube: "https://www.youtube.com/watch?v=HpSdp56GWh8",
+    channelName: "TRP Entertainments",
     trailer: "https://www.youtube.com/watch?v=95ADPYoSRPc",
     link: "/movies/jo-and-jo",
     rating: 6.9,
@@ -1282,6 +1345,7 @@ export const Malayalam_Comedy_Movies2 = [
     description:
       "A college graduate's life takes an unexpected turn after a selfie goes viral, leading to an adventurous and hilarious journey.",
     youtube: "https://www.youtube.com/watch?v=Wea0yLSdyGM",
+    channelName: "TVNXT Malayalam",
     trailer: "https://www.youtube.com/watch?v=44CSk7OY0Eg",
     link: "/movies/oru-vadakkan-selfie",
     rating: 6.7,
@@ -1303,6 +1367,7 @@ export const Malayalam_Comedy_Movies2 = [
     description:
       "A lovable local goon unexpectedly becomes the center of attention, resulting in a series of hilarious misunderstandings and heartwarming moments.",
     youtube: "https://www.youtube.com/watch?v=c1t9UfvQp3s",
+    channelName: "Malayalam Movie Zone",
     trailer: "https://www.youtube.com/watch?v=yEpPUp7IWp4",
     link: "/movies/upacharapoorvam-gunda-jayan",
     rating: 6.4,
@@ -1324,6 +1389,7 @@ export const Malayalam_Comedy_Movies2 = [
     description:
       "A light-hearted village entertainer that follows the amusing lives, romances, and rivalries of a group of friends.",
     youtube: "https://www.youtube.com/watch?v=P9JdCi3bhK0",
+    channelName: "SME Malayalam Movies",
     trailer: "https://www.youtube.com/watch?v=PMi4RBDha7c",
     link: "/movies/pullipulikalum-attinkuttiyum",
     rating: 6.3,
@@ -1348,6 +1414,7 @@ export const Trending_Movies = [
     description:
       "A timid bachelor marries a confident young woman, and their relationship challenges his traditional views about marriage, masculinity, and love.",
     youtube: "https://www.youtube.com/watch?v=NT4hNdADHgU",
+    channelName: "Movie Reels",
     trailer: "https://www.youtube.com/watch?v=wxyi6zkC1G4",
     link: "/movies/kettyolaanu-ente-malakha",
     rating: 7.5,
@@ -1364,6 +1431,7 @@ export const Trending_Movies = [
     description:
       "A mysterious antique box unleashes terrifying supernatural events in a newly married couple's life.",
     youtube: "https://www.youtube.com/watch?v=3C5aMGoevuw",
+    channelName: "Amrita Movies",
     trailer: "https://www.youtube.com/watch?v=4ecn22XHqHc",
     link: "/movies/ezra",
     rating: 6.8,
@@ -1381,6 +1449,7 @@ export const Trending_Movies = [
       "A group of close friends reunite for a trip that takes a dark turn, forcing them to confront hidden secrets, betrayal, and a dangerous fight for survival.",
     youtube:
       "https://www.youtube.com/results?search_query=Nalla+Nilavulla+Rathri+Malayalam+full+movie",
+    channelName: "Unknown Channel",
     trailer: "https://www.youtube.com/watch?v=wmuj8cICFxY",
     link: "/movies/nalla-nilavulla-rathri",
     rating: 6.2,
@@ -1397,6 +1466,7 @@ export const Trending_Movies = [
     description:
       "Two engineering graduates assist the cybercrime police in solving complex criminal investigations.",
     youtube: "https://www.youtube.com/watch?v=a1oJIFH6rmM",
+    channelName: "TRP Entertainments",
     trailer: "https://www.youtube.com/watch?v=vf0xwUbZqeo",
     link: "/movies/operation-java",
     rating: 6.7,
@@ -1418,6 +1488,7 @@ export const Trending_Movies = [
     description:
       "Shaji Pappan returns with another hilarious adventure full of unexpected twists and chaos.",
     youtube: "https://www.youtube.com/watch?v=ibw3-fIrgbY",
+    channelName: "Friday Film House",
     trailer: "https://www.youtube.com/watch?v=_jlVhEs75Fo",
     link: "/movies/aadu-2",
     rating: 6.9,
@@ -1434,6 +1505,7 @@ export const Trending_Movies = [
     description:
       "Sam Alex, a police officer who drowns his personal tragedies in alcohol after losing his wife and daughter, is pulled back into duty to crack the case of a serial killer haunting the city.",
     youtube: "https://www.youtube.com/watch?v=SzwStt19vtw",
+    channelName: "TVNXT Malayalam",
     trailer: "https://www.youtube.com/watch?v=hpmYen6t_WE",
     link: "/movies/memories",
     rating: 7.0,
@@ -1455,6 +1527,7 @@ export const Trending_Movies = [
     description:
       "A man's uncontrollable anger places him and his wife in a life-threatening situation.",
     youtube: "https://www.youtube.com/watch?v=xEuRPDECjnk",
+    channelName: "TVNXT Malayalam",
     trailer: "https://www.youtube.com/watch?v=yeVaL2R0008",
     link: "/movies/kali",
     rating: 6.4,
@@ -1479,6 +1552,7 @@ export const Classic_malayalam_Movies = [
     description:
       "The troubled relationship between a strict father and his rebellious son leads to a life of violence and redemption.",
     youtube: "https://www.youtube.com/watch?v=349z-tk5RUM",
+    channelName: "Matinee Now",
     trailer: "https://www.youtube.com/watch?v=QKsjcae4IWg",
     link: "/movies/spadikam",
     rating: 8.5,
@@ -1495,6 +1569,7 @@ export const Classic_malayalam_Movies = [
     description:
       "A married couple moves into an ancestral mansion where mysterious supernatural events begin to unfold.",
     youtube: "https://www.youtube.com/watch?v=MLmT2Bbu1d0",
+    channelName: "Central Talkies",
     trailer: "https://www.youtube.com/watch?v=D5SSyk_jaSE",
     link: "/movies/manichitrathazhu",
     rating: 8.9,
@@ -1511,6 +1586,7 @@ export const Classic_malayalam_Movies = [
     description:
       "A powerful feudal lord transforms himself after falling in love and confronting his own flaws.",
     youtube: "https://www.youtube.com/watch?v=F7Tkih49SGw",
+    channelName: "Malayalam Full Movies",
     trailer: "https://www.youtube.com/watch?v=tUB-rwqwWjQ",
     link: "/movies/devasuram",
     rating: 8.8,
@@ -1527,6 +1603,7 @@ export const Classic_malayalam_Movies = [
     description:
       "An honest police commissioner wages war against corruption, crime, and political power.",
     youtube: "https://www.youtube.com/watch?v=DhWOt5ZI7kY",
+    channelName: "mollywood movies",
     trailer: "https://www.youtube.com/watch?v=JjCjXzuanFE",
     link: "/movies/commissioner",
     rating: 8.2,
@@ -1543,6 +1620,7 @@ export const Classic_malayalam_Movies = [
     description:
       "Two men fall in love with the same woman, leading to a heartfelt and humorous rivalry.",
     youtube: "https://www.youtube.com/watch?v=IrXWUs-coIg",
+    channelName: "Saina Movies",
     trailer: "https://www.youtube.com/watch?v=g4YQCBfRu3U",
     link: "/movies/thenmavin-kombath",
     rating: 8.7,
@@ -1559,6 +1637,7 @@ export const Classic_malayalam_Movies = [
     description:
       "Three unemployed men become involved in a hilarious kidnapping mix-up after receiving a wrong phone call.",
     youtube: "https://www.youtube.com/watch?v=aUgN8AZQoPo",
+    channelName: "mollywood movies",
     trailer: "https://www.youtube.com/watch?v=ef9MPezisXU",
     link: "/movies/ramji-rao-speaking",
     rating: 8.4,
@@ -1575,6 +1654,7 @@ export const Classic_malayalam_Movies = [
     description:
       "A young man's dream of becoming a police officer is shattered after an unexpected act of bravery changes his life.",
     youtube: "https://www.youtube.com/watch?v=KnHPMjv2ajM",
+    channelName: "Malayalam Movie House",
     trailer: "https://www.youtube.com/watch?v=NUlrq4k-40A",
     link: "/movies/kireedam",
     rating: 8.6,
@@ -1594,6 +1674,7 @@ export const Popular_Malayalam_movies = [
     description:
       "A fearless professor with a troubled past returns to his village to confront powerful enemies and protect his family.",
     youtube: "https://www.youtube.com/watch?v=Z3g5qGQK7eI",
+    channelName: "Aashirvad Cinemas",
     trailer: "https://www.youtube.com/watch?v=UQNSn51FTi4",
     link: "/movies/narasimham",
     rating: 8.4,
@@ -1610,6 +1691,7 @@ export const Popular_Malayalam_movies = [
     description:
       "The son of a respected feudal lord returns to restore his family's honor and fight injustice.",
     youtube: "https://www.youtube.com/watch?v=Bdq8_o0Wk2c",
+    channelName: "Central Talkies",
     trailer: "https://www.youtube.com/watch?v=OU56qHGKvB0",
     link: "/movies/ravanaprabhu",
     rating: 8.2,
@@ -1626,6 +1708,7 @@ export const Popular_Malayalam_movies = [
     description:
       "A lovable village thief falls in love while getting caught in humorous adventures.",
     youtube: "https://www.youtube.com/watch?v=6U89t0c5TBQ",
+    channelName: "Malayalam Latest Movies",
     trailer: "https://www.youtube.com/watch?v=oH6OsN7ePXQ",
     link: "/movies/meesha-madhavan",
     rating: 7.9,
@@ -1647,6 +1730,7 @@ export const Popular_Malayalam_movies = [
     description:
       "Gopi, a small-time thief on the run after stealing a precious chain, crosses paths with Veena, a girl chasing down her lover's wedding, and their reluctant journey together turns into an unexpected love story.",
     youtube: "https://www.youtube.com/watch?v=40nfhLC7i84",
+    channelName: "Matinee Now",
     trailer: "https://www.youtube.com/watch?v=wqEtSx8F6dI",
     link: "/movies/vettam",
     rating: 8.0,
@@ -1663,6 +1747,7 @@ export const Popular_Malayalam_movies = [
     description:
       "A devoted elder brother struggles to keep his family united while facing unexpected challenges.",
     youtube: "https://www.youtube.com/watch?v=7_SAVpD1t4I",
+    channelName: "Malayalam Comedy Movies",
     trailer: "https://www.youtube.com/watch?v=qOZYTcAbyQs",
     link: "/movies/balettan",
     rating: 7.8,
@@ -1679,6 +1764,7 @@ export const Popular_Malayalam_movies = [
     description:
       "Old college friends reunite years later, bringing back memories, love, and long-buried secrets.",
     youtube: "https://www.youtube.com/watch?v=xuQOJtrkiZU",
+    channelName: "Film World",
     trailer: "https://www.youtube.com/watch?v=ayXaaxSeOqM",
     link: "/movies/classmates",
     rating: 8.1,
@@ -1688,6 +1774,47 @@ export const Popular_Malayalam_movies = [
       "Kavya Madhavan",
       "Narain",
     ],
+  },
+  {
+    id: "drona-2010",
+    image: "/thumbnails/drona.jpg",
+    title: "Drona ",
+    year: "2010",
+    genre: "Horror / Thriller",
+    language: "Malayalam",
+    duration: "143 min",
+    description:
+      "A supernatural Malayalam thriller directed by Shaji Kailas, starring Mammootty in a story involving mystery, revenge, and events around a haunted ancestral mansion.",
+    youtube: "https://www.youtube.com/watch?v=6wjTwkvaM-M",
+    channelName: "Movie World Malayalam Full Movie",
+    trailer: "https://www.youtube.com/watch?v=kEyNo3sjhUI",
+    link: "/movies/drona-2010",
+    rating: 5.0,
+    mainActors: [
+      "Mammootty",
+      "Navya Nair",
+      "Kanika",
+      "Manoj K. Jayan",
+      "Thilakan",
+      "Dhanya Mary Varghese",
+    ],
+  },
+  {
+    id: "the-don",
+    image: "/thumbnails/don.jpg",
+    title: "The Don",
+    year: "2006",
+    genre: "Action / Crime / Drama",
+    language: "Malayalam",
+    duration: "133 min",
+    description:
+      "Unnikrishnan becomes the trusted right hand of Kasim Baba after saving him from goons. When Kasim is murdered, Unnikrishnan is accused of the crime and sets out to prove his innocence and avenge the betrayal.",
+    youtube: "https://www.youtube.com/watch?v=y3hRGKxLs_M",
+    channelName: "Malayalam Movie House",
+    trailer: "https://www.youtube.com/watch?v=y3hRGKxLs_M",
+    link: "/movies/the-don",
+    rating: 5.4,
+    mainActors: ["Dileep", "Lal", "Gopika", "Saikumar", "Bheeman Raghu"],
   },
 ];
 // export const Top_Tamil_Movies = [

@@ -22,7 +22,7 @@ import {
   Malayalam_Romantic_Movies,
   New_movies,
   New_movies2,
-  Malayalam_Comedy_Movies2,
+  // Malayalam_Comedy_Movies2,
 } from "../data/movies";
 ---
 
@@ -32,6 +32,21 @@ import {
     <title>MalluFlix</title>
   </head>
   <Header />
+
+  <section class="hero-section">
+    <div class="hero-content">
+      <p class="eyebrow">Free Premium Malayalam Streaming Picks</p>
+      <h1>Discover movies worth watching tonight.</h1>
+      <p>
+        Explore hand-picked Malayalam movies, comedy hits, romantic stories,
+        classics, short films, and trending favourites in one cinematic space.
+      </p>
+      <div class="hero-actions">
+        <a href="#top-movies" class="btn btn-primary">Start Watching</a>
+        <a href="/about" class="btn btn-ghost">About MalluFlix</a>
+      </div>
+    </div>
+  </section>
 
   <!-- <div class="movies">
     {
@@ -44,7 +59,7 @@ import {
     }
   </div> -->
 
-  <h1 class="title">Top Malayalam Movies &#xBB;</h1>
+  <h1 id="top-movies" class="title">Top Malayalam Movies &#xBB;</h1>
   <div class="movie-card">
     {
       Top_Malayalam_Movies.map((movie) => (
@@ -75,19 +90,6 @@ import {
   <div class="movie-card">
     {
       Malayalam_Comedy_Movies.map((movie) => (
-        <MovieCard
-          image={movie.image}
-          title={movie.title}
-          year={movie.year}
-          link={movie.link}
-        />
-      ))
-    }
-  </div>
-  <h1 class="title">Malayalam Comedy Movies &#xBB;</h1>
-  <div class="movie-card">
-    {
-      Malayalam_Comedy_Movies2.map((movie) => (
         <MovieCard
           image={movie.image}
           title={movie.title}
@@ -150,7 +152,7 @@ import {
       ))
     }
   </div>
-  <h1 class="title">Popular Malayalam movies &#xBB;</h1>
+  <h1 class="title">Evergreen Hit movies &#xBB;</h1>
 
   <div class="movie-card">
     {
@@ -165,7 +167,7 @@ import {
     }
   </div>
 
-  <h1 class="title">Old Hit Movies &#xBB;</h1>
+  <h1 class="title">Popular Hit Movies &#xBB;</h1>
   <div class="movie-card">
     {
       New_movies2.map((movie) => (
@@ -207,7 +209,6 @@ import {
   </div>
   <Footer />
 
-
   <!-- <h1 class="title">Top Tamil Movies &#xBB;</h1> -->
   <!-- 
   <div class="movie-card">
@@ -218,6 +219,7 @@ import {
           title={movie.title}
           year={movie.year}
           link={movie.link}
+          channelName={movie.channelName}
         />
       ))
     }
@@ -232,8 +234,11 @@ import {
           title={movie.title}
           year={movie.year}
           link={movie.link}
+          channelName={movie.channelName}
         />
       ))
     }
   </div> -->
+
+
 </html>
