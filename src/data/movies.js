@@ -684,7 +684,7 @@ export const Top_Malayalam_Movies = [
     youtube:
       "https://www.youtube.com/watch?v=bNyKd0PUx04&list=PLtfg_o4HEN_N-G709GXFoVt-Iw1MMSQ64&index=2",
     channelName: "BHAVANA STUDIOS",
-    trailer: "https://www.youtube.com/watch?v=3P4BFBSafF0&t=1s",
+    trailer: "https://www.youtube.com/watch?v=zpRKm_Mq-n8",
     link: "/movies/kumbalangi-nights",
     mainActors: ["Fahadh Faasil ", "Soubin Shahir ", "Shane Nigam"],
   },
