@@ -2,21 +2,15 @@
 export const prerender = true;
 
 import "../../styles/details.css";
-// import { movies } from "../data/movies.js";
-
-import { Icon } from "astro-icon/components";
 
 import {
   Top_Malayalam_Movies,
   Trending_Movies,
   Classic_malayalam_Movies,
   Popular_Malayalam_movies,
-  // Top_Tamil_Movies,
-  // Top_Hindi_Movies,
   New_Release_Malayalam_Movies,
   Malayalam_Dubbed_Movies,
   Malayalam_Comedy_Movies,
-  // Malayalam_Comedy_Movies2,
   Malayalam_Romantic_Movies,
   Malayalam_Short_Movies,
   New_movies,
@@ -29,12 +23,9 @@ export async function getStaticPaths() {
     ...Trending_Movies,
     ...Classic_malayalam_Movies,
     ...Popular_Malayalam_movies,
-    // ...Top_Tamil_Movies,
-    // ...Top_Hindi_Movies,
     ...New_Release_Malayalam_Movies,
     ...Malayalam_Dubbed_Movies,
     ...Malayalam_Comedy_Movies,
-    // ...Malayalam_Comedy_Movies2,
     ...Malayalam_Romantic_Movies,
     ...Malayalam_Short_Movies,
     ...New_movies,
@@ -46,48 +37,72 @@ export async function getStaticPaths() {
       id: movie.id.toString(),
     },
     props: {
-      movie,
+      movie: movie,
     },
   }));
 }
 
+/* THIS MUST BE HERE */
 const { movie } = Astro.props;
 ---
+<div class="movie-page">
 
-<div class="movie-details">
-  <img class="movie-poster" src={movie.image} alt={movie.title} />
+ 
 
-  <div class="movie-info">
-    <h1>{movie.title}</h1>
-    <div class="movie-cards">
-      <div class="movie-card01">
-        <p><strong>Description : </strong>{movie.description}</p>
-      </div>
-      <div class="movie-card01">
-        <p><strong>Year :</strong> {movie.year}</p>
-        <p><strong>Genre :</strong> {movie.genre}</p>
-        <p><strong>Language :</strong> {movie.language}</p>
-        <p><strong>Duration :</strong> {movie.duration}</p>
-        <p><strong>Rating :</strong> {movie.rating}/10</p>
-        <p><strong>Actors :</strong> {movie.mainActors}</p>
-        <p><strong>Channel Name :</strong> {movie.channelName}</p>
-      </div>
-    </div>
-
+  <!-- Trailer -->
+  <section class="trailer-section">
     <div class="trailer-container">
       <iframe
-        src={movie.trailer.replace("watch?v=", "embed/")}
+        src={`${movie.trailer.replace("watch?v=", "embed/")}?rel=0`}
         title={movie.title}
-        allowfullscreen></iframe>
+        allow="autoplay; encrypted-media; fullscreen"
+        allowfullscreen
+      ></iframe>
     </div>
-    <a
-      href={movie.youtube}
-      target="_blank"
-      rel="noopener noreferrer"
-      class="btn"
-      style="margin: 20px;"
-    >
-      Watch Full Movie
-    </a>
-  </div>
+  </section>
+
+  <!-- Movie details -->
+  <section class="movie-details">
+
+    <h1>{movie.title}</h1>
+
+    <div class="movie-meta">
+      <span>{movie.year}</span>
+      <span>{movie.genre}</span>
+      <span>{movie.language}</span>
+      <span>{movie.duration}</span>
+      <span>{movie.rating}/10</span>
+    </div>
+
+    <p class="description">
+      <strong>Description :</strong>
+      {movie.description}
+    </p>
+
+    <p>
+      <strong>Actors :</strong>
+      {movie.mainActors}
+    </p>
+
+    <p>
+      <strong>Channel Name :</strong>
+      {movie.channelName}
+    </p>
+<div class="button-group">
+  <a
+    href={movie.youtube}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="watch-button"
+  >
+    Watch Full Movie
+  </a>
+
+  <a href="/" class="home-button">
+    Home
+  </a>
+</div>
+
+  </section>
+
 </div>
