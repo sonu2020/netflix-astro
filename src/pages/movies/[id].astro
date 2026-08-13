@@ -1,7 +1,7 @@
 ---
 export const prerender = true;
 
-import "../../styles/details.css";
+import "../../styles/global.css";
 
 import {
   Top_Malayalam_Movies,
@@ -45,14 +45,16 @@ export async function getStaticPaths() {
 /* THIS MUST BE HERE */
 const { movie } = Astro.props;
 ---
-<div class="movie-page">
-
- 
-
+<div
+  class="min-h-screen bg-black bg-[linear-gradient(180deg,rgba(0,0,0,0.25)_40%,rgba(0,0,0,0.65)_80%,#000_100%),linear-gradient(90deg,rgba(0,0,0,0.95)_0%,rgba(0,0,0,0.45)_50%,rgba(0,0,0,0.9)_100%),url('/thumbnails/homepage.jpg')] bg-cover bg-fixed bg-top bg-no-repeat px-5 pb-20 pt-10 font-[Arial,Helvetica,sans-serif] text-white max-[700px]:bg-scroll max-[700px]:px-3 max-[700px]:pb-[60px] max-[700px]:pt-[25px]"
+>
   <!-- Trailer -->
-  <section class="trailer-section">
-    <div class="trailer-container">
+  <section class="mx-auto mt-[75px] w-full max-w-[1100px] max-[700px]:mt-[60px]">
+    <div
+      class="relative aspect-video w-full overflow-hidden rounded-lg border border-white/[0.08] bg-black shadow-[0_25px_70px_rgba(0,0,0,0.75),0_0_40px_rgba(0,0,0,0.4)]"
+    >
       <iframe
+        class="absolute inset-0 h-full w-full border-0"
         src={`${movie.trailer.replace("watch?v=", "embed/")}?rel=0`}
         title={movie.title}
         allow="autoplay; encrypted-media; fullscreen"
@@ -62,47 +64,54 @@ const { movie } = Astro.props;
   </section>
 
   <!-- Movie details -->
-  <section class="movie-details">
+  <section
+    class="mx-auto w-full max-w-[1100px] px-5 pb-[70px] pt-[55px] max-[700px]:px-2 max-[700px]:pb-[50px] max-[700px]:pt-[35px]"
+  >
+    <h1
+      class="mb-[30px] mt-0 text-[clamp(42px,5vw,70px)] font-extrabold leading-[1.05] tracking-[-2px] text-white max-[700px]:mb-[25px] max-[700px]:text-[40px] max-[700px]:tracking-[-1px]"
+    >
+      {movie.title}
+    </h1>
 
-    <h1>{movie.title}</h1>
-
-    <div class="movie-meta">
-      <span>{movie.year}</span>
-      <span>{movie.genre}</span>
-      <span>{movie.language}</span>
-      <span>{movie.duration}</span>
-      <span>{movie.rating}/10</span>
+    <div class="mb-[30px] flex flex-wrap gap-3">
+      <span class="rounded-full border border-white/[0.12] bg-white/[0.08] px-3.5 py-2 text-sm font-medium text-[#ddd]">{movie.year}</span>
+      <span class="rounded-full border border-white/[0.12] bg-white/[0.08] px-3.5 py-2 text-sm font-medium text-[#ddd]">{movie.genre}</span>
+      <span class="rounded-full border border-white/[0.12] bg-white/[0.08] px-3.5 py-2 text-sm font-medium text-[#ddd]">{movie.language}</span>
+      <span class="rounded-full border border-white/[0.12] bg-white/[0.08] px-3.5 py-2 text-sm font-medium text-[#ddd]">{movie.duration}</span>
+      <span class="rounded-full border border-white/[0.12] bg-white/[0.08] px-3.5 py-2 text-sm font-medium text-[#ddd]">{movie.rating}/10</span>
     </div>
 
-    <p class="description">
-      <strong>Description :</strong>
+    <p class="mb-8 mt-[18px] max-w-[800px] text-[19px] font-normal leading-[1.7] text-[#d2d2d2] max-[700px]:text-[17px]">
+      <strong class="font-extrabold text-white">Description :</strong>
       {movie.description}
     </p>
 
-    <p>
-      <strong>Actors :</strong>
+    <p class="my-[18px] max-w-[850px] text-lg font-normal leading-[1.7] text-[#d2d2d2] max-[700px]:text-base max-[700px]:leading-[1.6]">
+      <strong class="font-extrabold text-white">Actors :</strong>
       {movie.mainActors}
     </p>
 
-    <p>
-      <strong>Channel Name :</strong>
+    <p class="my-[18px] max-w-[850px] text-lg font-normal leading-[1.7] text-[#d2d2d2] max-[700px]:text-base max-[700px]:leading-[1.6]">
+      <strong class="font-extrabold text-white">Channel Name :</strong>
       {movie.channelName}
     </p>
-<div class="button-group">
-  <a
-    href={movie.youtube}
-    target="_blank"
-    rel="noopener noreferrer"
-    class="watch-button"
-  >
-    Watch Full Movie
-  </a>
 
-  <a href="/" class="home-button">
-    Home
-  </a>
-</div>
+    <div class="mt-[30px] flex items-center gap-3.5 max-[700px]:flex-col max-[700px]:items-start">
+      <a
+        href={movie.youtube}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center justify-center rounded-[30px] bg-[#e50914] px-[26px] py-3.5 text-base font-bold text-white no-underline shadow-[0_8px_25px_rgba(229,9,20,0.3)] transition duration-200 hover:-translate-y-0.5 hover:bg-[#f40612] max-[700px]:px-[23px] max-[700px]:py-[13px] max-[700px]:text-[15px]"
+      >
+        Watch Full Movie
+      </a>
 
+      <a
+        href="/"
+        class="inline-flex items-center justify-center rounded-[30px] border border-white/25 bg-white/10 px-[26px] py-3.5 text-base font-bold text-white no-underline backdrop-blur-[10px] transition duration-200 hover:-translate-y-0.5 hover:bg-white/20"
+      >
+        Home
+      </a>
+    </div>
   </section>
-
 </div>

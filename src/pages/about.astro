@@ -1,34 +1,53 @@
 ---
-import "../styles/about.css";
+import "../styles/global.css";
 ---
 
-<div class="about">
-  <h1 class="text-5xl font-bold text-red-600">About MalluFlix</h1>
+<div
+  class="mx-auto mb-20 mt-12 w-[min(860px,calc(100%-40px))] rounded-3xl border border-white/[0.12] bg-[linear-gradient(145deg,rgba(255,255,255,0.07),rgba(255,255,255,0.025))] p-[clamp(30px,5vw,60px)] shadow-[0_25px_80px_rgba(0,0,0,0.65),inset_0_1px_0_rgba(255,255,255,0.05)] max-[700px]:mb-[50px] max-[700px]:mt-[25px] max-[700px]:w-[calc(100%-24px)] max-[700px]:rounded-[18px] max-[700px]:px-6 max-[700px]:py-[30px]"
+>
+  <h1
+    class="relative mb-[45px] mt-0 text-[clamp(2.5rem,5vw,4.2rem)] font-extrabold leading-[1.05] tracking-[-2px] text-white after:mt-[22px] after:block after:h-[5px] after:w-[68px] after:rounded-[10px] after:bg-[#e50914] after:shadow-[0_4px_18px_rgba(229,9,20,0.35)] after:content-[''] max-[700px]:mb-[35px] max-[700px]:text-[2.5rem] max-[700px]:tracking-[-1px] max-[700px]:after:mt-[18px] max-[700px]:after:h-1 max-[700px]:after:w-[55px]"
+  >
+    About MalluFlix
+  </h1>
 
-  <p>MalluFlix is a Netflix-style movie website built using Astro.</p>
-  <h2>Technologies Used</h2>
-  <ul>
-    <li>Astro</li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-    <li>Git</li>
-    <li>GitHub</li>
-    <li>Netlify</li>
-    <li>Cloudflare Pages</li>
+  <p class="mb-[35px] mt-0 text-[17px] leading-[1.8] text-[#cfcfcf] max-[700px]:text-[15px] max-[700px]:leading-[1.7]">
+    MalluFlix is a Netflix-style movie website built using Astro.
+  </p>
+  <h2 class="mb-5 mt-[45px] text-[clamp(1.5rem,3vw,2rem)] font-bold leading-[1.2] tracking-[-0.5px] text-white max-[700px]:mt-[35px] max-[700px]:text-2xl">
+    Technologies Used
+  </h2>
+  <ul class="mb-[45px] mt-0 pl-7 marker:text-[#e50914] max-[700px]:pl-[22px]">
+    <li class="my-3.5 text-base leading-[1.6] text-[#cfcfcf] max-[700px]:text-[15px] max-[700px]:leading-[1.7]">Astro</li>
+    <li class="my-3.5 text-base leading-[1.6] text-[#cfcfcf] max-[700px]:text-[15px] max-[700px]:leading-[1.7]">HTML</li>
+    <li class="my-3.5 text-base leading-[1.6] text-[#cfcfcf] max-[700px]:text-[15px] max-[700px]:leading-[1.7]">CSS</li>
+    <li class="my-3.5 text-base leading-[1.6] text-[#cfcfcf] max-[700px]:text-[15px] max-[700px]:leading-[1.7]">JavaScript</li>
+    <li class="my-3.5 text-base leading-[1.6] text-[#cfcfcf] max-[700px]:text-[15px] max-[700px]:leading-[1.7]">Git</li>
+    <li class="my-3.5 text-base leading-[1.6] text-[#cfcfcf] max-[700px]:text-[15px] max-[700px]:leading-[1.7]">GitHub</li>
+    <li class="my-3.5 text-base leading-[1.6] text-[#cfcfcf] max-[700px]:text-[15px] max-[700px]:leading-[1.7]">Netlify</li>
+    <li class="my-3.5 text-base leading-[1.6] text-[#cfcfcf] max-[700px]:text-[15px] max-[700px]:leading-[1.7]">Tailwind</li>
+
+    <li class="my-3.5 text-base leading-[1.6] text-[#cfcfcf] max-[700px]:text-[15px] max-[700px]:leading-[1.7]">Cloudflare Pages</li>
   </ul>
 
-  <h2>Developer</h2>
-  <p>Sonu Ishan</p>
-  <p>Developer</p>
+  <h2 class="mb-5 mt-[45px] text-[clamp(1.5rem,3vw,2rem)] font-bold leading-[1.2] tracking-[-0.5px] text-white max-[700px]:mt-[35px] max-[700px]:text-2xl">
+    Developer
+  </h2>
+  <p class="mb-[35px] mt-0 text-[17px] leading-[1.8] text-[#cfcfcf] max-[700px]:text-[15px] max-[700px]:leading-[1.7]">Sonu Ishan</p>
+  <p class="mb-[35px] mt-0 text-[17px] leading-[1.8] text-[#cfcfcf] max-[700px]:text-[15px] max-[700px]:leading-[1.7]">Developer</p>
 
   <a
-    class="github-btn"
+    class="mr-2.5 inline-flex items-center justify-center rounded-[30px] border border-transparent bg-[linear-gradient(135deg,#e50914,#b20710)] px-[26px] py-3.5 font-[Arial,Helvetica,sans-serif] text-base font-bold text-white no-underline shadow-[0_10px_24px_rgba(229,9,20,0.22)] transition duration-200 hover:-translate-y-0.5 hover:bg-[linear-gradient(135deg,#f6121d,#c40811)] hover:shadow-[0_14px_30px_rgba(229,9,20,0.35)] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white max-[700px]:mb-3 max-[700px]:mr-0 max-[700px]:w-full"
     href="https://github.com/sonu2020"
     target="_blank"
     rel="noopener noreferrer"
   >
     Visit My GitHub
   </a>
-  <a href="/" class="home-button">Home</a>
+  <a
+    href="/"
+    class="inline-flex items-center justify-center rounded-[30px] border border-white/25 bg-white/10 px-[26px] py-3.5 font-[Arial,Helvetica,sans-serif] text-base font-bold text-white no-underline backdrop-blur-[10px] transition duration-200 hover:-translate-y-0.5 hover:bg-white/20 max-[700px]:mb-3 max-[700px]:w-full"
+  >
+    Home
+  </a>
 </div>

@@ -24,6 +24,15 @@ import {
   New_movies2,
   // Malayalam_Comedy_Movies2,
 } from "../data/movies";
+
+const sectionTitleClass =
+  "mx-auto mb-4 mt-[34px] max-w-[1440px] px-[clamp(16px,4vw,42px)] text-[clamp(1.35rem,3vw,2rem)] font-black tracking-[-0.03em] text-white";
+
+const movieGridClass =
+  "mx-auto grid h-auto max-w-[1440px] grid-cols-[repeat(auto-fit,minmax(160px,1fr))] gap-[clamp(14px,2vw,24px)] overflow-visible bg-transparent px-[clamp(16px,4vw,42px)] pb-[22px] whitespace-normal max-[600px]:grid-cols-2";
+
+const heroButtonClass =
+  "inline-flex min-h-[42px] items-center justify-center rounded-full border border-transparent px-5 py-[11px] text-center font-extrabold tracking-[0.01em] text-white no-underline shadow-[0_10px_24px_rgba(229,9,20,0.22)] transition duration-250 hover:-translate-y-0.5 hover:shadow-[0_0_28px_rgba(229,9,20,0.25)] focus-visible:outline-3 focus-visible:outline-offset-3 focus-visible:outline-[rgba(229,9,20,0.35)] max-[600px]:w-full";
 ---
 
 <html lang="en">
@@ -33,17 +42,39 @@ import {
   </head>
   <Header />
 
-  <section class="hero-section">
-    <div class="hero-content">
-      <p class="eyebrow">Free Premium Malayalam Streaming Picks</p>
-      <h1>Discover movies worth watching tonight.</h1>
-      <p>
+  <section
+    class="mb-3 flex min-h-[clamp(420px,58vw,680px)] items-end bg-[linear-gradient(90deg,rgba(0,0,0,0.92)_0%,rgba(0,0,0,0.58)_46%,rgba(0,0,0,0.18)_100%),linear-gradient(0deg,#050505_0%,rgba(5,5,5,0.15)_40%),url('/thumbnails/home.jpg')] bg-cover bg-center bg-no-repeat px-[clamp(16px,5vw,72px)] py-[clamp(28px,6vw,76px)] max-[600px]:min-h-[520px] max-[600px]:items-end max-[600px]:bg-center max-[600px]:pt-[90px]"
+  >
+    <div class="max-w-[760px]">
+      <p
+        class="mb-3 mt-0 text-[0.82rem] font-black uppercase tracking-[0.16em] text-[#ff3b45]"
+      >
+        Free Premium Malayalam Streaming Picks
+      </p>
+      <h1
+        class="mb-[18px] mt-0 text-[clamp(2.4rem,7vw,5.8rem)] leading-[0.95] tracking-[-0.06em]"
+      >
+        Discover movies worth watching tonight.
+      </h1>
+      <p
+        class="mb-[26px] mt-0 max-w-[650px] text-[clamp(1rem,2vw,1.2rem)] leading-[1.7] text-[#e1e1e8]"
+      >
         Explore hand-picked Malayalam movies, comedy hits, romantic stories,
         classics, short films, and trending favourites in one cinematic space.
       </p>
-      <div class="hero-actions">
-        <a href="#top-movies" class="btn btn-primary">Start Watching</a>
-        <a href="/about" class="btn btn-ghost">About MalluFlix</a>
+      <div class="flex flex-wrap gap-3">
+        <a
+          href="#top-movies"
+          class={`${heroButtonClass} bg-[linear-gradient(135deg,#e50914,#9f0710)] hover:bg-[linear-gradient(135deg,#ff3b45,#e50914)]`}
+        >
+          Start Watching
+        </a>
+        <a
+          href="/about"
+          class={`${heroButtonClass} border-white/10 bg-white/[0.08] shadow-none hover:border-white/[0.22] hover:bg-white/[0.14]`}
+        >
+          About MalluFlix
+        </a>
       </div>
     </div>
   </section>
@@ -59,8 +90,8 @@ import {
     }
   </div> -->
 
-  <h1 id="top-movies" class="title">Top Malayalam Movies &#xBB;</h1>
-  <div class="movie-card">
+  <h1 id="top-movies" class={sectionTitleClass}>Top Malayalam Movies &#xBB;</h1>
+  <div class={movieGridClass}>
     {
       Top_Malayalam_Movies.map((movie) => (
         <MovieCard
@@ -73,8 +104,8 @@ import {
     }
   </div>
 
-  <h1 class="title">Malayalam Romantic Movies &#xBB;</h1>
-  <div class="movie-card">
+  <h1 class={sectionTitleClass}>Malayalam Romantic Movies &#xBB;</h1>
+  <div class={movieGridClass}>
     {
       Malayalam_Romantic_Movies.map((movie) => (
         <MovieCard
@@ -86,8 +117,8 @@ import {
       ))
     }
   </div>
-  <h1 class="title">Malayalam Comedy Movies &#xBB;</h1>
-  <div class="movie-card">
+  <h1 class={sectionTitleClass}>Malayalam Comedy Movies &#xBB;</h1>
+  <div class={movieGridClass}>
     {
       Malayalam_Comedy_Movies.map((movie) => (
         <MovieCard
@@ -100,8 +131,8 @@ import {
     }
   </div>
 
-  <h1 class="title">Most Viewed Movies &#xBB;</h1>
-  <div class="movie-card">
+  <h1 class={sectionTitleClass}>Most Viewed Movies &#xBB;</h1>
+  <div class={movieGridClass}>
     {
       Trending_Movies.map((movie) => (
         <MovieCard
@@ -113,8 +144,8 @@ import {
       ))
     }
   </div>
-  <h1 class="title">New Release Malayalam Movies &#xBB;</h1>
-  <div class="movie-card">
+  <h1 class={sectionTitleClass}>New Release Malayalam Movies &#xBB;</h1>
+  <div class={movieGridClass}>
     {
       New_Release_Malayalam_Movies.map((movie) => (
         <MovieCard
@@ -126,8 +157,8 @@ import {
       ))
     }
   </div>
-  <h1 class="title">Malayalam Dubbed Movies &#xBB;</h1>
-  <div class="movie-card">
+  <h1 class={sectionTitleClass}>Malayalam Dubbed Movies &#xBB;</h1>
+  <div class={movieGridClass}>
     {
       Malayalam_Dubbed_Movies.map((movie) => (
         <MovieCard
@@ -139,8 +170,8 @@ import {
       ))
     }
   </div>
-  <h1 class="title">Classic Malayalam Movies &#xBB;</h1>
-  <div class="movie-card">
+  <h1 class={sectionTitleClass}>Classic Malayalam Movies &#xBB;</h1>
+  <div class={movieGridClass}>
     {
       Classic_malayalam_Movies.map((movie) => (
         <MovieCard
@@ -152,9 +183,9 @@ import {
       ))
     }
   </div>
-  <h1 class="title">Evergreen Hit movies &#xBB;</h1>
+  <h1 class={sectionTitleClass}>Evergreen Hit movies &#xBB;</h1>
 
-  <div class="movie-card">
+  <div class={movieGridClass}>
     {
       Popular_Malayalam_movies.map((movie) => (
         <MovieCard
@@ -167,8 +198,8 @@ import {
     }
   </div>
 
-  <h1 class="title">Popular Hit Movies &#xBB;</h1>
-  <div class="movie-card">
+  <h1 class={sectionTitleClass}>Popular Hit Movies &#xBB;</h1>
+  <div class={movieGridClass}>
     {
       New_movies2.map((movie) => (
         <MovieCard
@@ -180,8 +211,8 @@ import {
       ))
     }
   </div>
-  <h1 class="title">Malayalam Movies &#xBB;</h1>
-  <div class="movie-card">
+  <h1 class={sectionTitleClass}>Malayalam Movies &#xBB;</h1>
+  <div class={movieGridClass}>
     {
       New_movies.map((movie) => (
         <MovieCard
@@ -194,8 +225,8 @@ import {
     }
   </div>
 
-  <h1 class="title">Malayalam Short Filims &#xBB;</h1>
-  <div class="movie-card">
+  <h1 class={sectionTitleClass}>Malayalam Short Filims &#xBB;</h1>
+  <div class={movieGridClass}>
     {
       Malayalam_Short_Movies.map((movie) => (
         <MovieCard
@@ -209,9 +240,9 @@ import {
   </div>
   <Footer />
 
-  <!-- <h1 class="title">Top Tamil Movies &#xBB;</h1> -->
+  <!-- <h1 class={sectionTitleClass}>Top Tamil Movies &#xBB;</h1> -->
   <!-- 
-  <div class="movie-card">
+  <div class={movieGridClass}>
     {
       Top_Tamil_Movies.map((movie) => (
         <MovieCard
@@ -224,9 +255,9 @@ import {
       ))
     }
   </div>
-  <h1 class="title">Top Hindi Movies &#xBB;</h1> -->
+  <h1 class={sectionTitleClass}>Top Hindi Movies &#xBB;</h1> -->
 
-  <!-- <div class="movie-card">
+  <!-- <div class={movieGridClass}>
     {
       Top_Hindi_Movies.map((movie) => (
         <MovieCard

@@ -2,12 +2,31 @@
 const { image, title, year, link, channelName } = Astro.props;
 ---
 
-<a href={link} target="_blank" rel="noopener noreferrer">
-  <img class="movie-card__image" src={image} alt={title} />
+<a
+  href={link}
+  target="_blank"
+  rel="noopener noreferrer"
+  class="group relative m-0 block min-w-0 overflow-hidden rounded-[18px] border border-white/10 bg-[#121216] p-0 text-white no-underline shadow-[0_18px_45px_rgba(0,0,0,0.45)] transition duration-[280ms] after:pointer-events-none after:absolute after:inset-0 after:bg-[linear-gradient(180deg,transparent_35%,rgba(0,0,0,0.72)_100%)] after:opacity-0 after:transition-opacity after:duration-[280ms] hover:-translate-y-2 hover:scale-[1.02] hover:border-[rgba(229,9,20,0.45)] hover:shadow-[0_24px_60px_rgba(0,0,0,0.65),0_0_28px_rgba(229,9,20,0.25)] hover:after:opacity-100"
+>
+  <img
+    class="block aspect-[2/3] h-auto w-full rounded-none object-cover p-0 transition duration-300 group-hover:scale-105 group-hover:brightness-[0.78]"
+    src={image}
+    alt={title}
+  />
 
-  <div class="body">
-    <h3 class="movie-card__title">{title}</h3>
-    {channelName && <p class="movie-card__channel">{channelName}</p>}
-    <p class="movie-card__year">{year}</p>
+  <div class="relative z-[1] px-[13px] pb-3.5 pt-3">
+    <h3 class="mb-1.5 mt-0 text-left font-inherit text-[0.98rem] font-extrabold leading-tight text-white">
+      {title}
+    </h3>
+    {
+      channelName && (
+        <p class="m-0 text-left text-[0.86rem] font-semibold text-[#b8b8c2]">
+          {channelName}
+        </p>
+      )
+    }
+    <p class="m-0 text-left text-[0.86rem] font-semibold text-[#b8b8c2]">
+      {year}
+    </p>
   </div>
 </a>

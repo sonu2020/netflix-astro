@@ -1,29 +1,22 @@
 ---
 import "../styles/global.css";
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />;
+
 const { title = "Netflix Clone" } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" class="h-full scroll-smooth overflow-x-hidden">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" href="/favicon.ico" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro Basics</title>
+    <title>{title}</title>
   </head>
-  <body>
+  <body
+    class="m-0 h-full w-full overflow-x-hidden bg-[#050505] text-white font-[Inter,'Segoe_UI',system-ui,-apple-system,BlinkMacSystemFont,sans-serif] [background:radial-gradient(circle_at_top_left,rgba(229,9,20,0.18),transparent_32rem),radial-gradient(circle_at_top_right,rgba(255,255,255,0.06),transparent_26rem),linear-gradient(180deg,#030303_0%,#0b0b0f_45%,#050505_100%)]"
+  >
     <slot />
   </body>
 </html>
-
-<style>
-  html,
-  body {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-  }
-</style>

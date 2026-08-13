@@ -175,9 +175,9 @@ export const New_movies = [
     rating: 2.7,
     description:
       "Set in the 1950s, an idealistic jailer takes five hardened prisoners to a remote village as part of a bold rehabilitation experiment. As trust is tested and danger looms, he must prove that compassion can triumph over crime.",
-    youtube: "https://www.youtube.com/watch?v=F-lTuxNXy5s",
+    youtube: "https://www.youtube.com/watch?v=AaQpQJZTcak",
     channelName: "Millennium Audios",
-    trailer: "https://www.youtube.com/watch?v=9dU8zW6q2nA",
+    trailer: "https://www.youtube.com/watch?v=F-lTuxNXy5s",
     link: "/movies/jailer",
     mainActors: [
       "Dhyan Sreenivasan",

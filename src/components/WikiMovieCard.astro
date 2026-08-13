@@ -2,18 +2,20 @@
 const { movie } = Astro.props;
 ---
 
-<div class="movie-card01">
-  <h2>{movie.itemLabel}</h2>
-  <p>
-    <strong>Year:</strong>
+<div
+  class="rounded-[18px] border border-white/10 bg-[#121216] p-5 text-white shadow-[0_18px_45px_rgba(0,0,0,0.45)]"
+>
+  <h2 class="mb-3 mt-0 text-xl font-extrabold">{movie.itemLabel}</h2>
+  <p class="my-2 text-[#b8b8c2]">
+    <strong class="text-white">Year:</strong>
     {new Date(movie.pubdate).getFullYear()}
   </p>
-  <p>
-    <strong>Director:</strong>
+  <p class="my-2 text-[#b8b8c2]">
+    <strong class="text-white">Director:</strong>
     {movie.directorLabel}
   </p>
-  <p>
-    <strong>Cast:</strong>
+  <p class="my-2 text-[#b8b8c2]">
+    <strong class="text-white">Cast:</strong>
     {movie.actors}
   </p>
 </div>

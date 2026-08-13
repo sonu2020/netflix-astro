@@ -1,7 +1,7 @@
 ---
 import { getMovieNews } from "../scripts/newsapi";
 
-import "../styles/news.css";
+import "../styles/global.css";
 
 interface NewsArticle {
   title: string;
@@ -17,34 +17,51 @@ interface NewsArticle {
 const articles: NewsArticle[] = await getMovieNews();
 ---
 
-<div class="news-container">
-  <h1 class="news-title">Latest Movie News</h1>
+<div class="mx-auto max-w-[1320px] px-[clamp(14px,4vw,28px)] py-[clamp(24px,5vw,58px)]">
+  <h1
+    class="mb-[clamp(28px,5vw,56px)] mt-0 text-center text-[clamp(2.2rem,6vw,4.5rem)] leading-[0.98] tracking-[-0.055em] text-white after:mx-auto after:mt-5 after:block after:h-1 after:w-[92px] after:rounded-full after:bg-[linear-gradient(90deg,#e50914,#ff3b45)] after:content-['']"
+  >
+    Latest Movie News
+  </h1>
 
-  <div class="news-grid">
+  <div class="grid grid-cols-[repeat(auto-fit,minmax(min(100%,280px),1fr))] gap-[clamp(16px,2vw,26px)]">
     {
       articles.map((article) => (
-        <article class="card">
+        <article class="overflow-hidden rounded-[22px] border border-white/10 bg-[linear-gradient(180deg,rgba(255,255,255,0.07),rgba(255,255,255,0.035))] shadow-[0_18px_45px_rgba(0,0,0,0.45)] transition duration-[280ms] hover:-translate-y-2 hover:border-[rgba(229,9,20,0.4)] hover:shadow-[0_26px_70px_rgba(0,0,0,0.58),0_0_24px_rgba(229,9,20,0.16)]">
           {article.urlToImage && (
-            <img src={article.urlToImage} alt={article.title} />
+            <img
+              src={article.urlToImage}
+              alt={article.title}
+              class="block aspect-video h-auto w-full object-cover saturate-[1.06] contrast-[1.05]"
+            />
           )}
 
-          <div class="card-content">
-            <h2>{article.title}</h2>
+          <div class="p-5">
+            <h2 class="mb-2.5 mt-0 text-xl leading-[1.3] text-white">
+              {article.title}
+            </h2>
 
-            <p>{article.description}</p>
+            <p class="leading-[1.65] text-[#b8b8c2]">{article.description}</p>
 
-            <small>{article.source.name}</small>
+            <small class="text-[#858591]">{article.source.name}</small>
 
             <br />
 
-            <small>{new Date(article.publishedAt).toLocaleDateString()}</small>
+            <small class="text-[#858591]">
+              {new Date(article.publishedAt).toLocaleDateString()}
+            </small>
 
             <>
               <br />
               <br />
             </>
 
-            <a href={article.url} target="_blank">
+            <a
+              href={article.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="mt-[18px] inline-flex items-center justify-center rounded-full bg-[linear-gradient(135deg,#e50914,#9f0710)] px-[18px] py-[11px] font-extrabold text-white no-underline transition duration-250 hover:-translate-y-0.5 hover:bg-[linear-gradient(135deg,#ff3b45,#e50914)]"
+            >
               Read More
             </a>
           </div>
