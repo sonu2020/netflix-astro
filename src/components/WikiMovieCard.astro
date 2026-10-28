@@ -1,21 +1,45 @@
 ---
 const { movie } = Astro.props;
+
+const year = movie?.pubdate ? new Date(movie.pubdate).getFullYear() : null;
+const hasYear = Number.isFinite(year);
 ---
 
-<div
-  class="rounded-[18px] border border-white/10 bg-[#121216] p-5 text-white shadow-[0_18px_45px_rgba(0,0,0,0.45)]"
+<article
+  class="h-full min-w-0 rounded-xl border border-white/10 bg-[#121216] p-4 text-white shadow-[0_10px_28px_rgba(0,0,0,0.45)] sm:rounded-[18px] sm:p-5 sm:shadow-[0_18px_45px_rgba(0,0,0,0.45)]"
 >
-  <h2 class="mb-3 mt-0 text-xl font-extrabold">{movie.itemLabel}</h2>
-  <p class="my-2 text-[#b8b8c2]">
-    <strong class="text-white">Year:</strong>
-    {new Date(movie.pubdate).getFullYear()}
-  </p>
-  <p class="my-2 text-[#b8b8c2]">
-    <strong class="text-white">Director:</strong>
-    {movie.directorLabel}
-  </p>
-  <p class="my-2 text-[#b8b8c2]">
-    <strong class="text-white">Cast:</strong>
-    {movie.actors}
-  </p>
-</div>
+  <h2
+    class="mb-2 mt-0 break-words text-lg font-extrabold leading-tight sm:mb-3 sm:text-xl"
+  >
+    {movie?.itemLabel}
+  </h2>
+
+  <dl class="m-0 space-y-1.5 text-sm sm:space-y-2 sm:text-base">
+    {
+      hasYear && (
+        <div class="flex flex-wrap gap-x-1.5">
+          <dt class="font-bold text-white">Year:</dt>
+          <dd class="m-0 text-[#b8b8c2]">{year}</dd>
+        </div>
+      )
+    }
+    {
+      movie?.directorLabel && (
+        <div class="flex flex-wrap gap-x-1.5">
+          <dt class="font-bold text-white">Director:</dt>
+          <dd class="m-0 break-words text-[#b8b8c2]">{movie.directorLabel}</dd>
+        </div>
+      )
+    }
+    {
+      movie?.actors && (
+        <div class="flex flex-wrap gap-x-1.5">
+          <dt class="font-bold text-white">Cast:</dt>
+          <dd class="m-0 line-clamp-3 break-words text-[#b8b8c2]">
+            {movie.actors}
+          </dd>
+        </div>
+      )
+    }
+  </dl>
+</article>

@@ -4,9 +4,6 @@ import "../styles/global.css";
 import Header from "../components/Header.astro";
 import MovieCard from "../components/MovieCard.astro";
 import Footer from "../components/Footer.astro";
-import movies from "../data/movies.json";
-// import wikiMovies from "../data/movies.json";
-console.log(movies);
 
 import {
   Top_Malayalam_Movies,
@@ -14,262 +11,123 @@ import {
   Trending_Movies,
   Classic_malayalam_Movies,
   Popular_Malayalam_movies,
-  // Top_Tamil_Movies,
-  // Top_Hindi_Movies,
   New_Release_Malayalam_Movies,
   Malayalam_Dubbed_Movies,
   Malayalam_Comedy_Movies,
   Malayalam_Romantic_Movies,
   New_movies,
   New_movies2,
-  // Malayalam_Comedy_Movies2,
 } from "../data/movies";
 
+const sections = [
+  {
+    id: "top-movies",
+    title: "Top Malayalam Movies",
+    movies: Top_Malayalam_Movies,
+  },
+  { title: "Malayalam Romantic Movies", movies: Malayalam_Romantic_Movies },
+  { title: "Malayalam Comedy Movies", movies: Malayalam_Comedy_Movies },
+  { title: "Most Viewed Movies", movies: Trending_Movies },
+  {
+    title: "New Release Malayalam Movies",
+    movies: New_Release_Malayalam_Movies,
+  },
+  { title: "Malayalam Dubbed Movies", movies: Malayalam_Dubbed_Movies },
+  { title: "Classic Malayalam Movies", movies: Classic_malayalam_Movies },
+  { title: "Evergreen Hit Movies", movies: Popular_Malayalam_movies },
+  { title: "Popular Hit Movies", movies: New_movies2 },
+  { title: "Malayalam Movies", movies: New_movies },
+  { title: "Malayalam Short Films", movies: Malayalam_Short_Movies },
+];
+
 const sectionTitleClass =
-  "mx-auto mb-4 mt-[34px] max-w-[1440px] px-[clamp(16px,4vw,42px)] text-[clamp(1.35rem,3vw,2rem)] font-black tracking-[-0.03em] text-white";
+  "mx-auto mb-3 mt-8 max-w-[1440px] px-4 text-[clamp(1.25rem,3vw,2rem)] font-black tracking-[-0.03em] text-white sm:mb-4 sm:mt-10 sm:px-6 lg:px-10";
 
 const movieGridClass =
-  "mx-auto grid h-auto max-w-[1440px] grid-cols-[repeat(auto-fit,minmax(160px,1fr))] gap-[clamp(14px,2vw,24px)] overflow-visible bg-transparent px-[clamp(16px,4vw,42px)] pb-[22px] whitespace-normal max-[600px]:grid-cols-2";
+  "mx-auto grid max-w-[1440px] grid-cols-2 gap-3 px-4 pb-4 sm:grid-cols-3 sm:gap-4 sm:px-6 md:grid-cols-4 lg:grid-cols-5 lg:gap-5 lg:px-10 xl:grid-cols-6";
 
 const heroButtonClass =
-  "inline-flex min-h-[42px] items-center justify-center rounded-full border border-transparent px-5 py-[11px] text-center font-extrabold tracking-[0.01em] text-white no-underline shadow-[0_10px_24px_rgba(229,9,20,0.22)] transition duration-250 hover:-translate-y-0.5 hover:shadow-[0_0_28px_rgba(229,9,20,0.25)] focus-visible:outline-3 focus-visible:outline-offset-3 focus-visible:outline-[rgba(229,9,20,0.35)] max-[600px]:w-full";
+  "inline-flex min-h-[44px] w-full items-center justify-center rounded-full border border-transparent px-6 py-3 text-center font-extrabold tracking-[0.01em] text-white no-underline transition duration-300 hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[rgba(229,9,20,0.6)] sm:w-auto";
 ---
 
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta
+      name="description"
+      content="Hand-picked Malayalam movies: comedy, romance, classics, short films and trending favourites."
+    />
     <title>MalluFlix</title>
   </head>
-  <Header />
 
-  <section
-    class="mb-3 flex min-h-[clamp(420px,58vw,680px)] items-end bg-[linear-gradient(90deg,rgba(0,0,0,0.92)_0%,rgba(0,0,0,0.58)_46%,rgba(0,0,0,0.18)_100%),linear-gradient(0deg,#050505_0%,rgba(5,5,5,0.15)_40%),url('/thumbnails/home.jpg')] bg-cover bg-center bg-no-repeat px-[clamp(16px,5vw,72px)] py-[clamp(28px,6vw,76px)] max-[600px]:min-h-[520px] max-[600px]:items-end max-[600px]:bg-center max-[600px]:pt-[90px]"
-  >
-    <div class="max-w-[760px]">
-      <p
-        class="mb-3 mt-0 text-[0.82rem] font-black uppercase tracking-[0.16em] text-[#ff3b45]"
-      >
-        Free Premium Malayalam Streaming Picks
-      </p>
-      <h1
-        class="mb-[18px] mt-0 text-[clamp(2.4rem,7vw,5.8rem)] leading-[0.95] tracking-[-0.06em]"
-      >
-        Discover movies worth watching tonight.
-      </h1>
-      <p
-        class="mb-[26px] mt-0 max-w-[650px] text-[clamp(1rem,2vw,1.2rem)] leading-[1.7] text-[#e1e1e8]"
-      >
-        Explore hand-picked Malayalam movies, comedy hits, romantic stories,
-        classics, short films, and trending favourites in one cinematic space.
-      </p>
-      <div class="flex flex-wrap gap-3">
-        <a
-          href="#top-movies"
-          class={`${heroButtonClass} bg-[linear-gradient(135deg,#e50914,#9f0710)] hover:bg-[linear-gradient(135deg,#ff3b45,#e50914)]`}
-        >
-          Start Watching
-        </a>
-        <a
-          href="/about"
-          class={`${heroButtonClass} border-white/10 bg-white/[0.08] shadow-none hover:border-white/[0.22] hover:bg-white/[0.14]`}
-        >
-          About MalluFlix
-        </a>
-      </div>
-    </div>
-  </section>
+  <body class="bg-[#050505] text-white antialiased">
+    <Header />
 
-  <!-- <div class="movies">
-    {
-      movies.map((movie) => (
-        <div class="card">
-          <h2>{movie.itemLabel}</h2>
-          <p>{movie.pubdate}</p>
+    <main>
+      <!-- Hero -->
+      <section
+        class="flex min-h-[70svh] items-end bg-[linear-gradient(0deg,#050505_0%,rgba(5,5,5,0.7)_55%,rgba(0,0,0,0.35)_100%),url('/thumbnails/home.jpg')] bg-cover bg-center bg-no-repeat px-4 pb-10 pt-24 sm:min-h-[clamp(460px,58vw,680px)] sm:bg-[linear-gradient(90deg,rgba(0,0,0,0.92)_0%,rgba(0,0,0,0.58)_46%,rgba(0,0,0,0.18)_100%),linear-gradient(0deg,#050505_0%,rgba(5,5,5,0.15)_40%),url('/thumbnails/home.jpg')] sm:px-8 sm:pb-16 lg:px-[72px] lg:pb-[76px]"
+      >
+        <div class="w-full max-w-[760px]">
+          <p
+            class="mb-3 text-xs font-black uppercase tracking-[0.16em] text-[#ff3b45] sm:text-[0.82rem]"
+          >
+            Free Premium Malayalam Streaming Picks
+          </p>
+          <h1
+            class="mb-4 text-[clamp(2.2rem,7vw,5.8rem)] font-black leading-[0.98] tracking-[-0.05em]"
+          >
+            Discover movies worth watching tonight.
+          </h1>
+          <p
+            class="mb-6 max-w-[650px] text-[clamp(0.95rem,2vw,1.2rem)] leading-relaxed text-[#e1e1e8]"
+          >
+            Explore hand-picked Malayalam movies, comedy hits, romantic stories,
+            classics, short films, and trending favourites in one cinematic
+            space.
+          </p>
+          <div class="flex flex-col gap-3 sm:flex-row">
+            <a
+              href="#top-movies"
+              class={`${heroButtonClass} bg-[linear-gradient(135deg,#e50914,#9f0710)] shadow-[0_10px_24px_rgba(229,9,20,0.22)] hover:bg-[linear-gradient(135deg,#ff3b45,#e50914)] hover:shadow-[0_0_28px_rgba(229,9,20,0.25)]`}
+            >
+              Start Watching
+            </a>
+            <a
+              href="/about"
+              class={`${heroButtonClass} border-white/10 bg-white/[0.08] hover:border-white/[0.22] hover:bg-white/[0.14]`}
+            >
+              About MalluFlix
+            </a>
+          </div>
         </div>
-      ))
-    }
-  </div> -->
+      </section>
 
-  <h1 id="top-movies" class={sectionTitleClass}>Top Malayalam Movies &#xBB;</h1>
-  <div class={movieGridClass}>
-    {
-      Top_Malayalam_Movies.map((movie) => (
-        <MovieCard
-          image={movie.image}
-          title={movie.title}
-          year={movie.year}
-          link={movie.link}
-        />
-      ))
-    }
-  </div>
+      <!-- Movie sections -->
+      {
+        sections.map((section) => (
+          <section id={section.id} class="scroll-mt-24">
+            <h2 class={sectionTitleClass}>{section.title} &raquo;</h2>
+            <div class={movieGridClass}>
+              {section.movies.map((movie) => (
+                <MovieCard
+                  image={movie.image}
+                  title={movie.title}
+                  year={movie.year}
+                  link={movie.link}
+                />
+              ))}
+            </div>
+          </section>
+        ))
+      }
+    </main>
 
-  <h1 class={sectionTitleClass}>Malayalam Romantic Movies &#xBB;</h1>
-  <div class={movieGridClass}>
-    {
-      Malayalam_Romantic_Movies.map((movie) => (
-        <MovieCard
-          image={movie.image}
-          title={movie.title}
-          year={movie.year}
-          link={movie.link}
-        />
-      ))
-    }
-  </div>
-  <h1 class={sectionTitleClass}>Malayalam Comedy Movies &#xBB;</h1>
-  <div class={movieGridClass}>
-    {
-      Malayalam_Comedy_Movies.map((movie) => (
-        <MovieCard
-          image={movie.image}
-          title={movie.title}
-          year={movie.year}
-          link={movie.link}
-        />
-      ))
-    }
-  </div>
-
-  <h1 class={sectionTitleClass}>Most Viewed Movies &#xBB;</h1>
-  <div class={movieGridClass}>
-    {
-      Trending_Movies.map((movie) => (
-        <MovieCard
-          image={movie.image}
-          title={movie.title}
-          year={movie.year}
-          link={movie.link}
-        />
-      ))
-    }
-  </div>
-  <h1 class={sectionTitleClass}>New Release Malayalam Movies &#xBB;</h1>
-  <div class={movieGridClass}>
-    {
-      New_Release_Malayalam_Movies.map((movie) => (
-        <MovieCard
-          image={movie.image}
-          title={movie.title}
-          year={movie.year}
-          link={movie.link}
-        />
-      ))
-    }
-  </div>
-  <h1 class={sectionTitleClass}>Malayalam Dubbed Movies &#xBB;</h1>
-  <div class={movieGridClass}>
-    {
-      Malayalam_Dubbed_Movies.map((movie) => (
-        <MovieCard
-          image={movie.image}
-          title={movie.title}
-          year={movie.year}
-          link={movie.link}
-        />
-      ))
-    }
-  </div>
-  <h1 class={sectionTitleClass}>Classic Malayalam Movies &#xBB;</h1>
-  <div class={movieGridClass}>
-    {
-      Classic_malayalam_Movies.map((movie) => (
-        <MovieCard
-          image={movie.image}
-          title={movie.title}
-          year={movie.year}
-          link={movie.link}
-        />
-      ))
-    }
-  </div>
-  <h1 class={sectionTitleClass}>Evergreen Hit movies &#xBB;</h1>
-
-  <div class={movieGridClass}>
-    {
-      Popular_Malayalam_movies.map((movie) => (
-        <MovieCard
-          image={movie.image}
-          title={movie.title}
-          year={movie.year}
-          link={movie.link}
-        />
-      ))
-    }
-  </div>
-
-  <h1 class={sectionTitleClass}>Popular Hit Movies &#xBB;</h1>
-  <div class={movieGridClass}>
-    {
-      New_movies2.map((movie) => (
-        <MovieCard
-          image={movie.image}
-          title={movie.title}
-          year={movie.year}
-          link={movie.link}
-        />
-      ))
-    }
-  </div>
-  <h1 class={sectionTitleClass}>Malayalam Movies &#xBB;</h1>
-  <div class={movieGridClass}>
-    {
-      New_movies.map((movie) => (
-        <MovieCard
-          image={movie.image}
-          title={movie.title}
-          year={movie.year}
-          link={movie.link}
-        />
-      ))
-    }
-  </div>
-
-  <h1 class={sectionTitleClass}>Malayalam Short Filims &#xBB;</h1>
-  <div class={movieGridClass}>
-    {
-      Malayalam_Short_Movies.map((movie) => (
-        <MovieCard
-          image={movie.image}
-          title={movie.title}
-          year={movie.year}
-          link={movie.link}
-        />
-      ))
-    }
-  </div>
-  <Footer />
-
-  <!-- <h1 class={sectionTitleClass}>Top Tamil Movies &#xBB;</h1> -->
-  <!-- 
-  <div class={movieGridClass}>
-    {
-      Top_Tamil_Movies.map((movie) => (
-        <MovieCard
-          image={movie.image}
-          title={movie.title}
-          year={movie.year}
-          link={movie.link}
-          channelName={movie.channelName}
-        />
-      ))
-    }
-  </div>
-  <h1 class={sectionTitleClass}>Top Hindi Movies &#xBB;</h1> -->
-
-  <!-- <div class={movieGridClass}>
-    {
-      Top_Hindi_Movies.map((movie) => (
-        <MovieCard
-          image={movie.image}
-          title={movie.title}
-          year={movie.year}
-          link={movie.link}
-          channelName={movie.channelName}
-        />
-      ))
-    }
-  </div> -->
-
-
+    <Footer />
+  </body>
 </html>
