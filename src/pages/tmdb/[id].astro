@@ -1,6 +1,6 @@
 ---
 export const prerender = false;
-import "../../styles/trendingDetails.css";
+import "../../styles/global.css";
 
 import { getMovieDetails } from "../../scripts/tmdb";
 
@@ -10,31 +10,38 @@ const movie = await getMovieDetails(id);
 const image = `https://image.tmdb.org/t/p/w500${movie.poster_path}`;
 ---
 
-<link rel="stylesheet" href="/styles/trendig.css" />
+<div
+  class="mx-auto grid max-w-[1200px] grid-cols-[minmax(240px,360px)_minmax(0,1fr)] gap-[clamp(24px,5vw,48px)] rounded-[26px] border border-white/10 bg-[linear-gradient(180deg,rgba(255,255,255,0.07),rgba(255,255,255,0.035))] p-[clamp(18px,4vw,34px)] shadow-[0_24px_70px_rgba(0,0,0,0.55)] my-[clamp(20px,5vw,64px)] max-[780px]:mx-3 max-[780px]:grid-cols-1"
+>
+  <img
+    src={image}
+    alt={movie.title}
+    class="aspect-[2/3] w-full rounded-[22px] object-cover shadow-[0_18px_50px_rgba(0,0,0,0.55)] max-[780px]:mx-auto max-[780px]:max-w-[340px]"
+  />
 
-<div class="details-container">
-  <img src={image} alt={movie.title} class="poster" />
+  <div class="min-w-0">
+    <h1
+      class="mb-[18px] mt-0 text-[clamp(2.2rem,6vw,4.6rem)] leading-[0.98] tracking-[-0.055em] max-[780px]:text-center"
+    >
+      {movie.title}
+    </h1>
 
-  <div class="info">
-    <h1>{movie.title}</h1>
-
-    <div class="meta">
-      <span>Rating : {movie.vote_average.toFixed(1)}</span>
-      <span>Release Date :{movie.release_date}</span>
-      <span>Run Time :{movie.runtime} min</span>
+    <div class="mb-[22px] flex flex-wrap gap-3 text-[0.96rem] text-[#b8b8c2] max-[780px]:justify-center">
+      <span class="rounded-full border border-white/10 bg-white/[0.08] px-[13px] py-2">Rating : {movie.vote_average.toFixed(1)}</span>
+      <span class="rounded-full border border-white/10 bg-white/[0.08] px-[13px] py-2">Release Date :{movie.release_date}</span>
+      <span class="rounded-full border border-white/10 bg-white/[0.08] px-[13px] py-2">Run Time :{movie.runtime} min</span>
     </div>
-    <!-- 
-    <div class="genres">
-      {movie.genres.map((genre) => <span class="genre">{genre.name}</span>)}
-    </div> -->
 
-    <p class="overview">{movie.overview}</p>
+    <p class="mb-[35px] text-[1.05rem] leading-[1.8] text-[#b8b8c2]">
+      {movie.overview}
+    </p>
 
-    <div class="buttons">
+    <div class="flex flex-wrap gap-[15px] max-[780px]:justify-center">
       <a
         href={`https://www.themoviedb.org/movie/${movie.id}`}
         target="_blank"
-        class="btn"
+        rel="noopener noreferrer"
+        class="inline-flex items-center justify-center rounded-full bg-[linear-gradient(135deg,#e50914,#9f0710)] px-6 py-[13px] font-black text-white no-underline shadow-[0_14px_30px_rgba(229,9,20,0.25)] transition duration-250 hover:-translate-y-0.5 hover:bg-[linear-gradient(135deg,#ff3b45,#e50914)] max-[780px]:w-full"
       >
         View on TMDB
       </a>

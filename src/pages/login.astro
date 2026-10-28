@@ -6,87 +6,58 @@ import "../styles/global.css";
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
-<link rel="stylesheet" href="styles/indexstyle.css" />
 
-<style>
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(thumbnails/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-pre.jpg);
-    object-fit: fill;
-  }
-  .login-box {
-    background: rgb(0, 0, 0);
-    box-shadow: 20px 30px 40px;
-    margin-top: 280px;
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    width: 320px;
-    height: 355px;
-  }
-  input {
-    width: 100%;
-    background-color: rgb(221, 221, 221);
-    padding: 8px 40px 12px 15px;
-    border-radius: 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 0.5px solid;
-  }
-  button {
-    padding: 10px;
-    margin-top: 10px;
-    width: 80px;
-    background-color: rgb(255, 255, 255);
-    height: 40px;
-    cursor: pointer;
-    border: 1px solid;
-    border-radius: 10px;
-  }
-  .buttons {
-    display: flex;
-    font-size: bold;
-    justify-content: space-between;
-  }
-  .title {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 18px;
-    color: rgb(210, 0, 0);
-  }
-  .text {
-    font-size: 12px;
-    color: white;
-    font-family: "Times New Roman", Times, serif;
-    margin-top: 20px;
-  }
-  .button:active {
-    opacity: 0.3;
-  }
-  .logo {
-    width: 100%;
-    height: 100px;
-  }
-</style>
-
-<div class="login-box">
-  <img class="logo" src="thumbnails//malluflixlog.png" />
-  <h2 class="title">Log In</h2>
-  <input type="text" id="username" placeholder="Username" />
-  <input type="password" id="password" placeholder="Password" />
-  <!-- <div class="remember-forgot">
+<div
+  class="flex min-h-screen items-center justify-center bg-[linear-gradient(90deg,rgba(0,0,0,0.92),rgba(0,0,0,0.55)),url('/thumbnails/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-pre.jpg')] bg-cover bg-center bg-no-repeat p-6 text-white"
+>
+  <div
+    class="w-[min(100%,390px)] rounded-[26px] border border-white/10 bg-[rgba(8,8,11,0.88)] p-7 text-center shadow-[0_28px_80px_rgba(0,0,0,0.68)] backdrop-blur-2xl max-[460px]:p-5"
+  >
+    <img
+      class="h-auto max-h-[100px] w-full object-contain"
+      src="/thumbnails/malluflixlog.png"
+      alt="MalluFlix"
+    />
+    <h2 class="mb-3.5 mt-2 text-[1.35rem] font-bold text-[#ff3b45]">Log In</h2>
+    <input
+      class="my-2 w-full rounded-full border border-white/[0.12] bg-white/[0.08] px-4 py-[13px] text-white outline-none transition duration-250 placeholder:text-[#9b9ba5] focus:border-[rgba(229,9,20,0.75)] focus:shadow-[0_0_0_4px_rgba(229,9,20,0.16)]"
+      type="text"
+      id="username"
+      placeholder="Username"
+    />
+    <input
+      class="my-2 w-full rounded-full border border-white/[0.12] bg-white/[0.08] px-4 py-[13px] text-white outline-none transition duration-250 placeholder:text-[#9b9ba5] focus:border-[rgba(229,9,20,0.75)] focus:shadow-[0_0_0_4px_rgba(229,9,20,0.16)]"
+      type="password"
+      id="password"
+      placeholder="Password"
+    />
+    <!-- <div class="remember-forgot">
         <label><input type="checkbox" />Remember Me</label>
         <a href="#">Forgot password</a>
       </div> -->
-  <div class="register-link">
-    <h3 class="text">Don't have an account? <a href="#">Register</a></h3>
-  </div>
-  <div class="buttons">
-    <button type="button" onclick="login()">Login</button>
-    <button onclick="exitForm()">Exit</button>
+    <div class="register-link">
+      <h3 class="mt-5 text-[0.9rem] font-bold text-[#b8b8c2]">
+        Don't have an account? <a class="text-[#ff3b45]" href="#">Register</a>
+      </h3>
+    </div>
+    <div class="flex justify-between gap-3">
+      <button
+        class="mt-2.5 min-h-11 flex-1 cursor-pointer rounded-full border-0 bg-[linear-gradient(135deg,#e50914,#9f0710)] px-[18px] py-2.5 font-black text-white transition duration-250 hover:-translate-y-0.5 hover:shadow-[0_0_28px_rgba(229,9,20,0.28)] active:scale-98"
+        type="button"
+        onclick="login()"
+      >
+        Login
+      </button>
+      <button
+        class="mt-2.5 min-h-11 flex-1 cursor-pointer rounded-full border-0 bg-[linear-gradient(135deg,#e50914,#9f0710)] px-[18px] py-2.5 font-black text-white transition duration-250 hover:-translate-y-0.5 hover:shadow-[0_0_28px_rgba(229,9,20,0.28)] active:scale-98"
+        onclick="exitForm()"
+      >
+        Exit
+      </button>
+    </div>
   </div>
 </div>
+
 <script>
   // function login() {
   // //   let username = document.getElementById("username").value.trim();

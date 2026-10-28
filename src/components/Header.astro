@@ -1,35 +1,51 @@
 ---
 import MovieSearchBar from "./MovieSearchBar.jsx";
-import { Classic_malayalam_Movies } from "../data/movies";
-import { Popular_Malayalam_movies } from "../data/movies";
-import { Top_Tamil_Movies } from "../data/movies";
-import { Top_Hindi_Movies } from "../data/movies";
-import { New_Release_Malayalam_Movies } from "../data/movies";
-import { Malayalam_Dubbed_Movies } from "../data/movies";
-import { Malayalam_Comedy_Movies } from "../data/movies";
-import { Malayalam_Romantic_Movies } from "../data/movies";
-import { Info } from "lucide-react";
+import {
+  Classic_malayalam_Movies,
+  Popular_Malayalam_movies,
+  New_Release_Malayalam_Movies,
+  Malayalam_Dubbed_Movies,
+  Malayalam_Comedy_Movies,
+  Malayalam_Romantic_Movies,
+  New_movies,
+  New_movies2,
+  Malayalam_Short_Movies,
+} from "../data/movies";
+
 const allMovies = [
   ...Classic_malayalam_Movies,
   ...Popular_Malayalam_movies,
-  ...Top_Tamil_Movies,
-  ...Top_Hindi_Movies,
   ...New_Release_Malayalam_Movies,
   ...Malayalam_Dubbed_Movies,
   ...Malayalam_Comedy_Movies,
   ...Malayalam_Romantic_Movies,
+  ...New_movies,
+  ...New_movies2,
+  ...Malayalam_Short_Movies,
 ];
 ---
 
-<div class="navbar">
-  <h2 class="footer-logo">MALLUFLIX</h2>
+<header
+  class="sticky top-0 z-[1000] border-b border-white/10 bg-[rgba(5,5,7,0.78)] shadow-[0_10px_35px_rgba(0,0,0,0.35)] backdrop-blur-[18px]"
+>
+  <div
+    class="mx-auto flex max-w-[1600px] flex-col items-center gap-3 px-3 py-3
+           pl-[max(0.75rem,env(safe-area-inset-left))] pr-[max(0.75rem,env(safe-area-inset-right))]
+           sm:flex-row sm:justify-between sm:gap-4 sm:px-6 sm:py-3.5
+           lg:px-12"
+  >
+    <!-- Logo -->
+    <a
+      href="/"
+      class="shrink-0 text-[clamp(24px,6vw,40px)] font-black leading-none tracking-[-1px] text-[#e50914] no-underline [text-shadow:0_0_24px_rgba(229,9,20,0.25)]"
+      aria-label="MALLUFLIX home"
+    >
+      MALLUFLIX
+    </a>
 
-  <MovieSearchBar movies={allMovies} client:load />
-  <div>
-    <a href="/news" class="btn">Movie Updates</a>
-
-    <a href="/trending" class="btn">Trending Movies</a>
-
-    <a href="/about" class="btn">About</a>
+    <!-- Search: full width on mobile, flexible on larger screens -->
+    <div class="w-full min-w-0 sm:max-w-md sm:flex-1 lg:max-w-lg">
+      <MovieSearchBar movies={allMovies} client:load />
+    </div>
   </div>
-</div>
+</header>
